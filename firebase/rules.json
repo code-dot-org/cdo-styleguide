@@ -1,0 +1,96 @@
+{
+  "rules": {
+    "v3": {
+      "config": {
+        ".read": "auth.uid != null"
+      },
+      "channels": {
+        "$channelId": {
+          ".read": "auth.uid != null",
+          "serverTime": {
+            "$user_id": {
+              ".validate": "newData.isNumber()",
+              ".write": "auth.uid == $user_id"
+            }
+          },
+          "counters": {
+            ".validate": "newData.hasChildren(['limits'])",
+            "limits": {
+              "15": {
+                ".validate": "(newData.hasChildren() || newData.val() == null) && ((newData.parent().parent().parent().child('counters').child('limits').child(15 + '').child('lastResetTime').val() == null ? 0 : newData.parent().parent().parent().child('counters').child('limits').child(15 + '').child('lastResetTime').val()) == (data.parent().parent().parent().child('counters').child('limits').child(15 + '').child('lastResetTime').val() == null ? 0 : data.parent().parent().parent().child('counters').child('limits').child(15 + '').child('lastResetTime').val()) && (newData.parent().parent().parent().child('counters').child('limits').child(15 + '').child('writeCount').val() == null ? 0 : newData.parent().parent().parent().child('counters').child('limits').child(15 + '').child('writeCount').val()) > (data.parent().parent().parent().child('counters').child('limits').child(15 + '').child('writeCount').val() == null ? 0 : data.parent().parent().parent().child('counters').child('limits').child(15 + '').child('writeCount').val()) && newData.parent().parent().parent().child('counters').child('limits').child(15 + '').child('writeCount').val() <= newData.parent().parent().parent().parent().parent().parent().child('v3').child('config').child('channels').child('limits').child('15').val() || newData.parent().parent().parent().child('counters').child('limits').child(15 + '').child('lastResetTime').val() == now && (newData.parent().parent().parent().child('counters').child('limits').child(15 + '').child('lastResetTime').val() == null ? 0 : newData.parent().parent().parent().child('counters').child('limits').child(15 + '').child('lastResetTime').val()) >= (data.parent().parent().parent().child('counters').child('limits').child(15 + '').child('lastResetTime').val() == null ? 0 : data.parent().parent().parent().child('counters').child('limits').child(15 + '').child('lastResetTime').val()) + 15 * 1000 && newData.parent().parent().parent().child('counters').child('limits').child(15 + '').child('writeCount').val() == 1)",
+                "lastResetTime": {
+                  ".validate": "newData.isNumber() || newData.val() == null"
+                },
+                "writeCount": {
+                  ".validate": "newData.isNumber() || newData.val() == null"
+                },
+                "$other": {
+                  ".validate": "false"
+                }
+              },
+              "60": {
+                ".validate": "(newData.hasChildren() || newData.val() == null) && ((newData.parent().parent().parent().child('counters').child('limits').child(60 + '').child('lastResetTime').val() == null ? 0 : newData.parent().parent().parent().child('counters').child('limits').child(60 + '').child('lastResetTime').val()) == (data.parent().parent().parent().child('counters').child('limits').child(60 + '').child('lastResetTime').val() == null ? 0 : data.parent().parent().parent().child('counters').child('limits').child(60 + '').child('lastResetTime').val()) && (newData.parent().parent().parent().child('counters').child('limits').child(60 + '').child('writeCount').val() == null ? 0 : newData.parent().parent().parent().child('counters').child('limits').child(60 + '').child('writeCount').val()) > (data.parent().parent().parent().child('counters').child('limits').child(60 + '').child('writeCount').val() == null ? 0 : data.parent().parent().parent().child('counters').child('limits').child(60 + '').child('writeCount').val()) && newData.parent().parent().parent().child('counters').child('limits').child(60 + '').child('writeCount').val() <= newData.parent().parent().parent().parent().parent().parent().child('v3').child('config').child('channels').child('limits').child('60').val() || newData.parent().parent().parent().child('counters').child('limits').child(60 + '').child('lastResetTime').val() == now && (newData.parent().parent().parent().child('counters').child('limits').child(60 + '').child('lastResetTime').val() == null ? 0 : newData.parent().parent().parent().child('counters').child('limits').child(60 + '').child('lastResetTime').val()) >= (data.parent().parent().parent().child('counters').child('limits').child(60 + '').child('lastResetTime').val() == null ? 0 : data.parent().parent().parent().child('counters').child('limits').child(60 + '').child('lastResetTime').val()) + 60 * 1000 && newData.parent().parent().parent().child('counters').child('limits').child(60 + '').child('writeCount').val() == 1)",
+                "lastResetTime": {
+                  ".validate": "newData.isNumber() || newData.val() == null"
+                },
+                "writeCount": {
+                  ".validate": "newData.isNumber() || newData.val() == null"
+                },
+                "$other": {
+                  ".validate": "false"
+                }
+              },
+              ".validate": "newData.hasChildren()",
+              "$other": {
+                ".validate": "false"
+              }
+            },
+            "tables": {
+              "$key1": {
+                ".validate": "newData.hasChildren() && newData.child('lastId').val() >= (data.child('lastId').val() == null ? 0 : data.child('lastId').val()) && newData.child('rowCount').val() >= 0 && newData.child('rowCount').val() <= newData.parent().parent().parent().parent().parent().parent().child('v3').child('config').child('channels').child('maxTableRows').val()",
+                "lastId": {
+                  ".validate": "newData.isNumber() || newData.val() == null"
+                },
+                "rowCount": {
+                  ".validate": "newData.isNumber() || newData.val() == null"
+                },
+                "$other": {
+                  ".validate": "false"
+                }
+              }
+            },
+            "$other": {
+              ".validate": "false"
+            },
+            ".write": "auth.uid != null"
+          },
+          "storage": {
+            ".validate": "newData.hasChildren()",
+            "tables": {
+              "$key2": {
+                ".validate": "newData.hasChildren()",
+                "records": {
+                  "$key3": {
+                    ".validate": "newData.isString() && newData.val().length <= newData.parent().parent().parent().parent().parent().parent().parent().parent().child('v3').child('config').child('channels').child('maxRecordSize').val()"
+                  }
+                },
+                "$other": {
+                  ".validate": "false"
+                }
+              }
+            },
+            "keys": {
+              "$key4": {
+                ".validate": "newData.isString() && newData.val().length <= newData.parent().parent().parent().parent().parent().parent().child('v3').child('config').child('channels').child('maxPropertySize').val()"
+              }
+            },
+            "$other": {
+              ".validate": "false"
+            },
+            ".write": "auth.uid != null"
+          }
+        }
+      }
+    }
+  }
+}
