@@ -1,4 +1,4 @@
-var common_locale = {lc:{"en":function(n){return n===1?"one":"other"},"no":function(n){return n===1?"one":"other"},"ar":function(n){
+var common_locale = {lc:{"ar":function(n){
   if (n === 0) {
     return 'zero';
   }
@@ -15,7 +15,7 @@ var common_locale = {lc:{"en":function(n){return n===1?"one":"other"},"no":funct
     return 'many';
   }
   return 'other';
-},"bg":function(n){return n===1?"one":"other"},"bn":function(n){return n===1?"one":"other"},"ca":function(n){return n===1?"one":"other"},"cs":function(n){
+},"en":function(n){return n===1?"one":"other"},"bg":function(n){return n===1?"one":"other"},"bn":function(n){return n===1?"one":"other"},"ca":function(n){return n===1?"one":"other"},"cs":function(n){
   if (n == 1) {
     return 'one';
   }
@@ -66,7 +66,7 @@ var common_locale = {lc:{"en":function(n){return n===1?"one":"other"},"no":funct
     return 'many';
   }
   return 'other';
-},"nl":function(n){return n===1?"one":"other"},"pl":function(n){
+},"nl":function(n){return n===1?"one":"other"},"no":function(n){return n===1?"one":"other"},"pl":function(n){
   if (n == 1) {
     return 'one';
   }
@@ -307,6 +307,7 @@ s:function(d,k,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "generatedCodeInfo":function(d){return "Even top universities teach block-based coding (e.g., "+common_locale.v(d,"berkeleyLink")+", "+common_locale.v(d,"harvardLink")+"). But under the hood, the blocks you have assembled can also be shown in JavaScript, the world's most widely used coding language:"},
 "hashError":function(d){return "Sorry, '%1' doesn't correspond with any saved program."},
 "help":function(d){return "Help"},
+"hide":function(d){return "Hide"},
 "hideToolbox":function(d){return "(Hide)"},
 "hintHeader":function(d){return "Here's a tip:"},
 "hintPrompt":function(d){return "Need help?"},
@@ -321,7 +322,6 @@ s:function(d,k,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "jump":function(d){return "jump"},
 "keepPlaying":function(d){return "Keep playing"},
 "keyValuePairLink":function(d){return "Key/value pairs"},
-"less":function(d){return "Less"},
 "levelIncompleteError":function(d){return "Keep coding! Something's not quite right yet."},
 "listVariable":function(d){return "list"},
 "makeYourOwnFlappy":function(d){return "Make Your Own Flappy Game"},
@@ -339,7 +339,6 @@ s:function(d,k,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "numLinesOfCodeWritten":function(d){return "You just wrote "+common_locale.p(d,"numLines",0,"en",{"one":"1 line","other":common_locale.n(d,"numLines")+" lines"})+" of code!"},
 "openWorkspace":function(d){return "How It Works"},
 "orientationLock":function(d){return "Turn off orientation lock in device settings."},
-"pairingNavigatorWarning":function(d){return "This puzzle was completed while pairing with "+common_locale.v(d,"driver")+". Look at this puzzle on their account to view the solution you created as a team."},
 "pause":function(d){return "Break"},
 "play":function(d){return "play"},
 "print":function(d){return "Print"},

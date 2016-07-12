@@ -12211,22 +12211,26 @@ body.pin_bottom {
 h1 {
   font-family: "Gotham 7r", sans-serif;
   font-weight: normal;
+  font-size: 32px;
   color: #7665a0;
 }
 
-/* line 75, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 76, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 h2 {
   font-family: "Gotham 5r", sans-serif;
   font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #00adbc;
 }
 
-/* line 80, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 84, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 hr {
   border-color: #00adbc;
   border-bottom: none;
 }
 
-/* line 85, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 89, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 th {
   background-color: #5b6770;
   color: white;
@@ -12238,80 +12242,80 @@ th {
   padding: 5px;
 }
 
-/* line 96, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 100, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 strong {
   font-family: "Gotham 7r", sans-serif;
   font-weight: normal;
 }
 
-/* line 101, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 105, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 em {
   font-family: "Gotham 4i", sans-serif;
   font-style: normal;
 }
 
-/* line 106, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 110, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 strong em,
 em strong {
   font-family: "Gotham 7i";
 }
 
-/* line 111, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 115, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 a.video_link {
   /* IE9 CSS hack */
   max-width: 100% \9;
 }
 
-/* line 116, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 120, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 img.video_thumbnail {
   width: 183px;
 }
 
-/* line 120, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 124, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 125, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 129, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .clear {
   clear: both;
 }
 
-/* line 129, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 133, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .navbar {
   margin-bottom: 30px;
 }
 
-/* line 133, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 137, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .trophy_gold {
   background-color: gold;
 }
 
-/* line 137, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 141, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .trophy_silver {
   background-color: silver;
 }
 
-/* line 141, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 145, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .trophy_bronze {
   background-color: darkgoldenrod;
 }
 
-/* line 145, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 149, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .report_cell {
   text-align: center;
   color: white;
   border: 1px solid black;
 }
 
-/* line 151, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 155, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .report_row {
   height: 26px;
   border-top: 1px solid black;
 }
 
-/* line 156, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 160, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .report_key {
   height: 16px;
   border-radius: 5px;
@@ -12324,37 +12328,37 @@ img.video_thumbnail {
   vertical-align: middle;
 }
 
-/* line 168, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 172, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .report_key_cell {
   padding: 3px;
   visibility: middle;
 }
 
-/* line 173, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 177, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .report_tall_row {
   height: 35px;
 }
 
-/* line 177, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 181, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header-wrapper {
   padding-top: 15px;
   min-height: 70px;
   position: relative;
 }
-/* line 182, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 186, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header-wrapper #progresswarning {
   position: absolute;
   font-size: 10px;
   top: -1px;
   left: 97px;
 }
-/* line 188, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 192, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header-wrapper #progresswarning .learnmore {
   font-family: 'Gotham 7r', sans-serif;
   font-weight: normal;
 }
 
-/* line 195, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 199, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header {
   padding-top: 0;
   padding-bottom: 0;
@@ -12362,42 +12366,42 @@ img.video_thumbnail {
   background-color: #00adbc;
   color: white;
 }
-/* line 201, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 205, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header a:link {
   color: white;
 }
-/* line 204, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 208, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header a:visited {
   color: white;
 }
 @media screen and (max-width: 1024px) {
-  /* line 208, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 212, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .header .small_font_on_tablet {
     font-size: 13px;
   }
 }
 
 @media screen and (max-device-width: 500px) {
-  /* line 215, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 219, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .header.hide_on_mobile,
   .header-wrapper.hide_on_mobile {
     display: none;
   }
 }
 
-/* line 222, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 226, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .sign_in.show_only_on_mobile {
   float: right;
   margin-bottom: 10px;
 }
 @media screen and (min-device-width: 501px) {
-  /* line 222, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 226, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .sign_in.show_only_on_mobile {
     display: none;
   }
 }
 
-/* line 231, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 235, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_status_bar {
   background-color: #7665a0;
   border-radius: 5px;
@@ -12407,18 +12411,18 @@ img.video_thumbnail {
   display: inline-block;
 }
 
-/* line 240, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 244, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 a.header_status_bar:hover {
   background-color: #ffa400;
 }
 
-/* line 244, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 248, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_text {
   font-size: 16px;
   display: inline-block;
 }
 
-/* line 249, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 253, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #betainfo {
   position: absolute;
   font-size: 10px;
@@ -12426,23 +12430,23 @@ a.header_status_bar:hover {
   right: 33px;
 }
 
-/* line 256, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 260, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .main {
   padding: 10px;
 }
-/* line 258, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 262, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .main a:link {
   font-family: "Gotham 7r", sans-serif;
   font-weight: normal;
   color: #7665a0;
 }
-/* line 263, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 267, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .main a:visited {
   font-family: "Gotham 7r", sans-serif;
   font-weight: normal;
   color: #7665a0;
 }
-/* line 268, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 272, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .main a:hover {
   font-family: "Gotham 7r", sans-serif;
   font-weight: normal;
@@ -12450,47 +12454,47 @@ a.header_status_bar:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-/* line 275, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 279, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .main a:active {
   font-family: "Gotham 7r", sans-serif;
   font-weight: normal;
   color: #7665a0;
   background-color: transparent;
 }
-/* line 281, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 285, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .main a.fa:link, .main a.fa:visited, .main a.fa:hover, .main a.fa:active {
   font-family: FontAwesome;
 }
 
 /* This styling helps to push the footer to the bottom of a page. */
-/* line 291, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 295, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html, body {
   height: 100%;
 }
 
-/* line 294, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 298, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .wrapper {
   min-height: 100%;
   margin-bottom: -205px;
   /* This is the same as the height of .push. */
 }
-/* line 297, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 301, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .legacy-share-view .wrapper {
   position: relative;
 }
 
-/* line 301, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 305, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .push {
   height: 205px;
   /* This is the same as the height of .footer once its padding is included. */
 }
 
-/* line 304, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 308, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .legacy-share-view .push {
   display: none;
 }
 
-/* line 308, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 312, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer {
   height: 165px;
   /* A height is required to push this footer to the bottom of the page. */
@@ -12500,19 +12504,19 @@ html, body {
   background-color: #7665a0;
   color: white;
 }
-/* line 315, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 319, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer a:link {
   font-family: "Gotham 4r", sans-serif;
   font-weight: normal;
   color: white;
 }
-/* line 320, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 324, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer a:visited {
   font-family: "Gotham 4r", sans-serif;
   font-weight: normal;
   color: white;
 }
-/* line 325, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 329, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer a:hover {
   font-family: "Gotham 4r", sans-serif;
   font-weight: normal;
@@ -12520,41 +12524,41 @@ html, body {
   background-color: transparent;
   text-decoration: underline;
 }
-/* line 332, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 336, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer a:active {
   font-family: "Gotham 4r", sans-serif;
   font-weight: normal;
   color: white;
   background-color: transparent;
 }
-/* line 338, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 342, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer select {
   width: auto;
   font-size: 11px;
   height: 18px;
   margin-bottom: 4px;
 }
-/* line 345, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 349, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer .fineprint a:link {
   font-family: "Gotham 5r", sans-serif;
   font-weight: normal;
 }
-/* line 349, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 353, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer .fineprint a:visited {
   font-family: "Gotham 5r", sans-serif;
   font-weight: normal;
 }
-/* line 353, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 357, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer .fineprint a:hover {
   font-family: "Gotham 5r", sans-serif;
   font-weight: normal;
 }
-/* line 357, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 361, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer .fineprint a:active {
   font-family: "Gotham 5r", sans-serif;
   font-weight: normal;
 }
-/* line 362, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 366, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .footer .dim {
   display: inline-block;
   opacity: 0.5;
@@ -12562,50 +12566,50 @@ html, body {
 
 /* Styling that keeps the small footer consistent with other page elements */
 /* Shared styles so flyout looks like footer */
-/* line 374, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 378, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base, #copyright-flyout, #more-menu {
   background-color: #ddd;
   /* Matches blockly flyout */
   color: #949ca2;
   font-size: 14px;
 }
-/* line 378, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 382, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base a, #copyright-flyout a, #more-menu a {
   font-family: "Gotham 5r", sans-serif;
   font-weight: normal;
 }
-/* line 381, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 385, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base a:link, #copyright-flyout a:link, #more-menu a:link {
   color: #949ca2;
   text-decoration: none;
 }
-/* line 385, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 389, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base a:visited, #copyright-flyout a:visited, #more-menu a:visited {
   color: #949ca2;
   text-decoration: none;
 }
-/* line 389, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 393, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base a:hover, #copyright-flyout a:hover, #more-menu a:hover {
   color: #4d575f;
   background-color: transparent;
   text-decoration: underline;
 }
-/* line 394, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 398, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base a:active, #copyright-flyout a:active, #more-menu a:active {
   color: #949ca2;
   background-color: transparent;
   text-decoration: none;
 }
-/* line 401, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 405, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .dark .small-footer-base, .dark #copyright-flyout, .dark #more-menu {
   background-color: #4d575f;
 }
-/* line 404, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 408, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .dark .small-footer-base a:hover, .dark #copyright-flyout a:hover, .dark #more-menu a:hover {
   color: #e7e8ea;
 }
 
-/* line 411, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 415, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base {
   position: absolute;
   bottom: 0;
@@ -12618,19 +12622,19 @@ html, body {
    */
   margin-top: 5px;
 }
-/* line 424, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 428, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base form {
   float: left;
   margin-right: 15px;
 }
-/* line 429, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 433, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base select {
   width: 80px;
   font-size: 11px;
   height: 18px;
   margin-bottom: 0;
 }
-/* line 436, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 440, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base small {
   display: block;
   float: right;
@@ -12639,7 +12643,7 @@ html, body {
   white-space: nowrap;
 }
 
-/* line 445, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 449, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #more-menu {
   display: none;
   position: absolute;
@@ -12650,19 +12654,19 @@ html, body {
   margin: 0;
   padding: 0;
 }
-/* line 455, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 459, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #more-menu > li > a {
   display: block;
   padding: 3px 15px 3px 25px;
   border-bottom: solid thin #e7e8ea;
 }
-/* line 460, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 464, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #more-menu > li > a:hover {
   background-color: #4d575f;
   color: #e7e8ea;
   text-decoration: none;
 }
-/* line 469, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 473, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .dark #more-menu > li > a:hover {
   background-color: #e7e8ea;
   color: #4d575f;
@@ -12672,28 +12676,28 @@ html, body {
    Need to have this reasonably, high since some of our elements (such as
    applab editor) have higher values
 */
-/* line 481, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 485, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #more-menu {
   z-index: 998;
 }
 
-/* line 484, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 488, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #copyright-flyout {
   z-index: 999;
 }
 
-/* line 487, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 491, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .small-footer-base {
   z-index: 1000;
 }
 
-/* line 491, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 495, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #locale {
   font-family: sans-serif;
   height: 24px;
 }
 
-/* line 496, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 500, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_separator {
   padding-left: 2px;
   margin-bottom: -18px;
@@ -12705,7 +12709,7 @@ html, body {
   display: inline-block;
 }
 
-/* line 507, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 511, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .user_options, .project_more_popup {
   display: none;
   background-color: white;
@@ -12720,67 +12724,67 @@ html, body {
   left: auto;
   bottom: auto;
 }
-/* line 510, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 514, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .user_options a:link, .project_more_popup a:link {
   color: black;
 }
-/* line 513, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 517, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .user_options a:visited, .project_more_popup a:visited {
   color: black;
 }
-/* line 516, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 520, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .user_options a:hover, .project_more_popup a:hover {
   color: white;
   background-color: #7665a0;
   text-decoration: none;
 }
-/* line 521, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 525, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .user_options a:active, .project_more_popup a:active {
   color: white;
   background-color: #7665a0;
 }
 
-/* line 537, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 541, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .user_options a {
   color: black;
 }
 
-/* line 541, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 545, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .user_options .pairing_summary {
   font-size: 0.8em;
   line-height: 1.6em;
 }
 
-/* line 546, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 550, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .full_container {
   padding: 0px 25px 25px 25px;
 }
 
-/* line 550, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 554, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 body.embedded_iframe .full_container {
   padding-left: 0px;
 }
 
-/* line 560, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 564, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal a:hover {
   color: #c00;
   background-color: white;
 }
-/* line 565, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 569, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal#block-documentation-lightbox {
   width: 80% !important;
   left: 0;
   right: 0;
   margin: 0 auto;
 }
-/* line 573, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 577, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal .markdown .modal-image {
   margin-top: -100px;
   float: left;
   position: relative;
 }
 
-/* line 582, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 586, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .auto-resize-scrollable.modal {
   position: absolute;
   top: 50px;
@@ -12790,82 +12794,82 @@ body.embedded_iframe .full_container {
   z-index: 1050;
 }
 
-/* line 597, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 601, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-body {
   max-height: none;
 }
 
-/* line 601, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 605, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .dash_modal {
   width: 640px;
   margin-left: -320px;
 }
 
-/* line 606, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 610, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .dash_modal_body {
   padding-right: 25px;
 }
 
-/* line 610, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 614, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .btn#dataConfirmOK:hover {
   color: white;
   background-color: #ffa400;
 }
 
-/* line 615, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 619, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #video {
   padding: 0;
 }
 
-/* line 619, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 623, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-player {
   width: 100%;
   height: 100%;
   margin: 0;
 }
 
-/* line 626, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 630, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .fallback-video-player-failed video, .fallback-video-player-failed div {
   visibility: hidden;
 }
-/* line 629, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 633, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .fallback-video-player-failed p {
   font-size: 22px;
   line-height: 26px;
   padding: 5px;
 }
-/* line 634, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 638, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .fallback-video-player-failed p a {
   color: white;
 }
 
-/* line 640, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 644, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal {
   z-index: 10000;
 }
-/* line 643, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 647, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal .ui-tabs {
   height: 100%;
   width: 100%;
 }
 
-/* line 649, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 653, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_left {
   position: absolute;
   left: 25px;
   z-index: 2;
 }
-/* line 653, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 657, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_left .header_button, .header_left .header_input, .header_left .header_text {
   margin-left: 10px;
 }
 
-/* line 658, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 662, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_left, .header_right {
   margin-top: 5px;
 }
 
-/* line 662, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 666, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_logo {
   float: left;
   z-index: 1;
@@ -12875,21 +12879,21 @@ body.embedded_iframe .full_container {
   max-width: 55px;
   width: 55px;
 }
-/* line 671, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 675, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_logo a:hover {
   background-color: transparent;
 }
 
-/* line 678, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 682, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .project_info .header_text, .project_info .header_button {
   float: left;
 }
-/* line 681, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 685, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .project_info .project_name_wrapper .header_text {
   float: left;
   clear: left;
 }
-/* line 686, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 690, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .project_info .beta-notice {
   float: left;
   margin-left: 10px;
@@ -12901,7 +12905,7 @@ body.embedded_iframe .full_container {
   color: #fff176;
 }
 
-/* line 698, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 702, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .project_name {
   max-width: 300px;
   text-overflow: ellipsis;
@@ -12910,24 +12914,24 @@ body.embedded_iframe .full_container {
   vertical-align: middle;
 }
 
-/* line 706, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 710, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .project_updated_at {
   font-size: 10px;
 }
 
-/* line 710, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 714, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .project_save[disabled] {
   background: #949ca2;
 }
 
-/* line 716, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 720, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #project-share .export-button {
   color: #7665a0;
   cursor: pointer;
   margin-top: 10px;
   display: block;
 }
-/* line 723, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 727, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #project-share .social-buttons a {
   display: inline-block;
   background: #7665a0;
@@ -12936,15 +12940,15 @@ body.embedded_iframe .full_container {
   margin-right: 8px;
   font-size: larger;
 }
-/* line 730, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 734, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #project-share .social-buttons a:hover, #project-share .social-buttons a {
   text-decoration: none;
 }
-/* line 734, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 738, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #project-share .social-buttons a:hover {
   box-shadow: 2px 2px 5px #949ca2;
 }
-/* line 738, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 742, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #project-share .social-buttons a i {
   border-radius: 5px;
   width: 45px;
@@ -12954,36 +12958,36 @@ body.embedded_iframe .full_container {
   vertical-align: middle;
   font-size: 24pt;
 }
-/* line 747, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 751, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #project-share .social-buttons a i.fa-facebook {
   background-color: #3b5998;
 }
-/* line 750, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 754, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #project-share .social-buttons a i.fa-twitter {
   background-color: #00aced;
 }
-/* line 754, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 758, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #project-share .social-buttons a span {
   padding-right: 10px;
 }
 
-/* line 760, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 764, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_middle {
   position: absolute;
   left: 0;
   right: 0;
 }
-/* line 764, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 768, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_middle .header_button {
   margin-top: 3px;
 }
 
-/* line 769, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 773, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_level_container {
   display: inline-block;
 }
 
-/* line 773, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 777, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_level {
   padding-top: 2px;
   padding-bottom: 0;
@@ -12992,25 +12996,25 @@ body.embedded_iframe .full_container {
   cursor: default;
   white-space: nowrap;
 }
-/* line 781, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 785, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_level .progress_container {
   display: inline-block;
 }
 
-/* line 786, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 790, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_right {
   position: absolute;
   float: left;
   right: 25px;
 }
 
-/* line 792, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 796, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .freeplay_links {
   display: inline-block;
   text-align: center;
 }
 
-/* line 797, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 801, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_button {
   display: inline-block;
   background-color: #ffa400;
@@ -13021,30 +13025,30 @@ body.embedded_iframe .full_container {
   box-sizing: border-box;
   cursor: pointer;
 }
-/* line 798, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 802, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_button.header_button_light {
   background-color: #80d6de;
 }
-/* line 809, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 813, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_button a:hover {
   text-decoration: none;
   background-color: #ffa400;
 }
 
-/* line 815, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 819, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 input.header_input {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 3px;
 }
 
-/* line 821, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 825, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_user {
   text-align: right;
   margin-left: 5px;
 }
 
-/* line 826, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 830, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup {
   display: none;
   position: absolute;
@@ -13063,13 +13067,13 @@ input.header_input {
   overflow: hidden;
 }
 
-/* line 846, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 850, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_scrollable {
   max-height: 560px;
   overflow-y: auto;
 }
 
-/* line 851, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 855, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_header {
   padding: 12px 15px;
   margin-bottom: 0;
@@ -13079,28 +13083,28 @@ input.header_input {
   font-size: 22px;
   cursor: pointer;
 }
-/* line 860, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 864, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_header span {
   max-width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* line 867, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 871, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_body {
   position: relative;
   padding: 0 2px;
   display: block;
   color: #5b6770;
 }
-/* line 873, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 877, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_body .loading {
   height: 400px;
   margin: 20px;
   background: url(/assets/spinner-big.gif) no-repeat center center;
 }
 
-/* line 880, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 884, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_footer {
   height: 20px;
   padding: 7px 3px;
@@ -13111,7 +13115,7 @@ input.header_input {
   cursor: pointer;
 }
 
-/* line 890, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 894, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_link {
   min-width: 40px;
   display: inline-block;
@@ -13121,32 +13125,32 @@ input.header_input {
   cursor: pointer;
 }
 
-/* line 899, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 903, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_finished_link {
   display: inline-block;
   font-size: 16px;
 }
 
-/* line 904, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 908, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_finished_link:hover {
   background-color: transparent;
   text-decoration: underline;
 }
 
-/* line 909, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 913, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_link:hover {
   background-color: transparent;
   text-decoration: none;
 }
 
-/* line 914, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 918, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_link_glyph {
   font-size: 22px;
   color: #ffa400;
   line-height: 10px;
 }
 
-/* line 920, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 924, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .header_popup_link_text {
   font-size: 10px;
   color: white;
@@ -13154,13 +13158,13 @@ input.header_input {
   line-height: 20px;
 }
 
-/* line 927, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 931, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .trophy_image {
   width: 45px;
   height: 45px;
 }
 
-/* line 932, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 936, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #alert {
   color: #c00;
   font-size: 130%;
@@ -13169,16 +13173,16 @@ input.header_input {
   padding: 5px;
 }
 
-/* line 940, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 944, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #codeApp {
   position: relative;
 }
-/* line 943, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 947, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #codeApp .loading {
   height: 520px;
   background: url(/assets/spinner-big.gif) no-repeat center center;
 }
-/* line 948, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 952, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #codeApp .slow_load {
   display: none;
   text-align: center;
@@ -13186,7 +13190,7 @@ input.header_input {
   top: -230px;
 }
 
-/* line 956, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 960, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #codeApp.pin_bottom {
   position: absolute;
   top: 85px;
@@ -13195,12 +13199,12 @@ input.header_input {
   bottom: 10px;
 }
 @media screen and (max-device-height: 900px) and (max-device-width: 500px) {
-  /* line 956, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 960, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #codeApp.pin_bottom {
     top: 10px;
   }
 }
-/* line 966, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 970, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #codeApp.pin_bottom.centered_embed {
   position: relative;
   top: 0px;
@@ -13209,11 +13213,11 @@ input.header_input {
   margin-top: 10px;
 }
 
-/* line 975, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 979, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .reference_area {
   margin-top: 20px;
 }
-/* line 978, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 982, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .reference_area .help_title {
   color: #4d575f;
   font-family: "Gotham 7r", sans-serif;
@@ -13221,42 +13225,42 @@ input.header_input {
   font-size: 17.5px;
   display: inline-block;
 }
-/* line 986, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 990, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .reference_area .solution_link {
   font-size: 17.5px;
   padding-bottom: 4px;
 }
-/* line 991, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 995, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .reference_area .video_link {
   display: inline-block;
   margin: 6px;
 }
-/* line 996, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1000, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .reference_area .video_name {
   text-align: center;
 }
-/* line 1000, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1004, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .reference_area .help_subtitle {
   display: inline-block;
 }
 
-/* line 1005, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1009, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #notes-outer {
   overflow-y: scroll;
   padding: 0;
 }
 
-/* line 1010, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1014, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #notes .note {
   padding-bottom: 10px;
 }
-/* line 1012, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1016, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #notes .note p {
   font-size: 20px;
   line-height: 24px;
   padding-right: 30px;
 }
-/* line 1017, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1021, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #notes .note img {
   float: left;
   width: 450px;
@@ -13264,47 +13268,47 @@ input.header_input {
   padding-right: 30px;
 }
 
-/* line 1029, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1033, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal .modal-body {
   padding: 0;
 }
-/* line 1032, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1036, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal .ui-tabs-nav {
   background: #949ca2;
 }
-/* line 1035, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1039, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal .ui-tabs-nav li {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
 }
-/* line 1039, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1043, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal .ui-tabs-nav li a {
   background: #7665a0;
   color: white;
 }
-/* line 1042, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1046, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal .ui-tabs-nav li a:hover {
   color: #b9bf15;
 }
-/* line 1045, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1049, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal .ui-tabs-nav li a:focus {
   outline: 0;
 }
-/* line 1050, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1054, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .video-modal .ui-tabs-nav li {
   float: right;
 }
-/* line 1056, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1060, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal .ui-tabs-nav li.ui-state-active a {
   background: white;
   color: #ffa400;
 }
-/* line 1059, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1063, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .video-modal .ui-tabs-nav li.ui-state-active a:hover {
   color: #ffa400;
 }
 
-/* line 1110, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1114, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .x-close {
   position: absolute;
   cursor: pointer;
@@ -13316,35 +13320,35 @@ html[dir=rtl] .video-modal .ui-tabs-nav li {
   width: 61px;
   height: 59px;
 }
-/* line 1083, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1087, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .x-close:hover {
   top: -21px;
   right: -21px;
   width: 64px;
   height: 62px;
 }
-/* line 1090, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1094, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .x-close, .flip-x-close .x-close {
   right: auto;
   left: -20px;
 }
-/* line 1094, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1098, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .x-close:hover, .flip-x-close .x-close:hover {
   right: auto;
   left: -21px;
 }
-/* line 1099, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1103, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .flip-x-close .x-close {
   left: auto;
   right: -20px;
 }
-/* line 1104, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1108, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .flip-x-close .x-close:hover {
   left: auto;
   right: -21px;
 }
 
-/* line 1114, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1118, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .qtip-content {
   font-size: 20px;
   line-height: 28px;
@@ -13353,13 +13357,13 @@ html[dir=rtl] .flip-x-close .x-close:hover {
   font-weight: normal;
 }
 
-/* line 1122, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1126, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .qtip-content {
   direction: rtl;
   text-align: right;
 }
 
-/* line 1127, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1131, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .qtip-default {
   background-color: white;
   color: #5b6770;
@@ -13369,17 +13373,17 @@ html[dir=rtl] .qtip-content {
   padding: 10px;
 }
 
-/* line 1136, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1140, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .no-tip .qtip-tip {
   visibility: hidden;
 }
 
-/* line 1140, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1144, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .cdo-qtips {
   z-index: 1;
 }
 
-/* line 1144, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1148, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .tooltip-x-close.qtip-icon {
   position: absolute;
   cursor: pointer;
@@ -13391,66 +13395,66 @@ html[dir=rtl] .qtip-content {
   width: 61px;
   height: 59px;
 }
-/* line 1083, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1087, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .tooltip-x-close.qtip-icon:hover {
   top: -21px;
   right: -21px;
   width: 64px;
   height: 62px;
 }
-/* line 1090, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1094, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .tooltip-x-close.qtip-icon, .flip-x-close .tooltip-x-close.qtip-icon {
   right: auto;
   left: -20px;
 }
-/* line 1094, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1098, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .tooltip-x-close.qtip-icon:hover, .flip-x-close .tooltip-x-close.qtip-icon:hover {
   right: auto;
   left: -21px;
 }
-/* line 1099, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1103, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .flip-x-close .tooltip-x-close.qtip-icon {
   left: auto;
   right: -20px;
 }
-/* line 1104, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1108, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .flip-x-close .tooltip-x-close.qtip-icon:hover {
   left: auto;
   right: -21px;
 }
 
-/* line 1148, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1152, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 a.download-video {
   z-index: 1;
   cursor: pointer;
   width: 40px;
   height: 36px;
 }
-/* line 1153, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1157, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 a.download-video:hover {
   background: none;
 }
-/* line 1156, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1160, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 a.download-video img {
   width: 40px;
   height: 41px;
   margin-top: -3px;
   margin-bottom: -2px;
 }
-/* line 1162, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1166, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 a.download-video img:hover {
   width: 41px;
   height: 42px;
   margin-bottom: -3px;
 }
 
-/* line 1170, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1174, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .quiet_links a:link {
   font-family: "Gotham 4r", sans-serif;
   font-weight: normal;
 }
 
-/* line 1176, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1180, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .fixed_width_cell {
   white-space: nowrap;
   overflow: hidden;
@@ -13458,7 +13462,7 @@ a.download-video img:hover {
   padding-left: 5px;
 }
 
-/* line 1184, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1188, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .welcome {
   background-color: #a69bc1;
   border-radius: 15px;
@@ -13467,21 +13471,21 @@ a.download-video img:hover {
   color: white;
   overflow: hidden;
 }
-/* line 1193, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1197, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .welcomeleft {
   float: left;
   text-align: center;
 }
-/* line 1196, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1200, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .welcomeleft img {
   padding-left: 65px;
 }
-/* line 1201, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1205, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .welcomeright {
   float: left;
   text-align: center;
 }
-/* line 1206, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1210, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .lines_of_code_header {
   width: 100%;
   color: white;
@@ -13490,7 +13494,7 @@ a.download-video img:hover {
   font-size: 24px;
   line-height: 34px;
 }
-/* line 1215, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1219, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage a.lines_of_code_link {
   color: white;
   text-decoration: none;
@@ -13499,43 +13503,43 @@ a.download-video img:hover {
   line-height: 34px;
   text-transform: uppercase;
 }
-/* line 1224, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1228, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .description {
   margin-top: 15px;
   font-size: 20px;
   line-height: 30px;
 }
-/* line 1230, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1234, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .row#continue {
   background-color: #00adbc;
   color: white;
   font-size: 24.5px;
   padding: 5px 0;
 }
-/* line 1235, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1239, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .row#continue #puzzle {
   font-family: "Gotham 7r", sans-serif;
   font-weight: normal;
 }
-/* line 1239, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1243, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .row#continue .btn {
   height: 32px;
   margin: 0 5px;
 }
-/* line 1245, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1249, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #welcome h2 {
   font-size: 18px;
 }
-/* line 1249, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1253, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #teacher_announcement {
   margin-top: 10px;
 }
-/* line 1253, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1257, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce {
   position: relative;
   font-size: 14px;
 }
-/* line 1257, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1261, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce .announce-heading {
   background-color: #7665a0;
   border-radius: 4px;
@@ -13545,11 +13549,11 @@ a.download-video img:hover {
   padding: 10px;
   text-transform: uppercase;
 }
-/* line 1266, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1270, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce .announce-heading .heading-view-all {
   float: right;
 }
-/* line 1269, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1273, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce .announce-content {
   background-color: #ebe8f1;
   border-radius: 4px;
@@ -13557,16 +13561,16 @@ a.download-video img:hover {
   overflow: hidden;
   padding: 10px;
 }
-/* line 1276, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1280, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce .announce-content .content-img-container {
   float: left;
 }
-/* line 1279, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1283, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce .announce-content .content-img {
   border-radius: 4px;
   height: 108px;
 }
-/* line 1283, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1287, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce .announce-content .content-text {
   color: #5b6770;
   float: left;
@@ -13576,27 +13580,27 @@ a.download-video img:hover {
   line-height: 18px;
   width: 610px;
 }
-/* line 1292, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1296, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce .announce-content .content-text b {
   font-family: 'Gotham 5r', sans-serif;
 }
-/* line 1295, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1299, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce .announce-learn-more {
   position: absolute;
   bottom: 10px;
   right: 10px;
 }
-/* line 1300, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1304, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .teacher-announce a {
   text-decoration: none;
 }
-/* line 1304, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1308, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .gallery {
   margin: 0 auto;
   overflow: hidden;
   max-width: 890px;
 }
-/* line 1309, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1313, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .gallery .pagination {
   float: left;
   font-size: 30px;
@@ -13605,149 +13609,145 @@ a.download-video img:hover {
   width: 25px;
   text-align: center;
 }
-/* line 1316, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1320, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .gallery .pagination a:hover {
   text-decoration: none;
 }
-/* line 1321, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1325, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .gallery .gallery_activity {
   margin: 10px 5px;
   box-sizing: border-box;
   height: 154px;
   width: 154px;
 }
-/* line 1326, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1330, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .gallery .gallery_activity img {
   border: 2px solid #c6cacd;
   background-color: white;
 }
-/* line 1334, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1338, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage h3.whitetext a, #landingpage h3.whitetext a:link, #landingpage h3.whitetext a:hover, #landingpage h3.whitetext a:visited {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 1341, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1345, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .row.navcontainer {
   margin: 30px 0 10px -20px;
   background-color: #e7e8ea;
 }
-/* line 1346, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1350, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage ul.nav.nav-pills {
   text-transform: uppercase;
   padding: 10px;
 }
-/* line 1349, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1353, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage ul.nav.nav-pills li {
   margin-right: 10px;
 }
-/* line 1353, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1357, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage ul.nav.nav-pills li.active a, #landingpage ul.nav.nav-pills li.active a:hover, #landingpage ul.nav.nav-pills li.active a:link {
   background-color: white;
   color: #7665a0;
   border: 2px solid #7665a0;
 }
-/* line 1358, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1362, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage ul.nav.nav-pills li a:hover, #landingpage ul.nav.nav-pills a:focus {
   text-decoration: none;
   background-color: white;
 }
-/* line 1364, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1368, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage .padtopbottom {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 1369, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1373, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #signup {
   padding-top: 10px;
 }
-/* line 1371, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1375, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #signup .medium-size-text {
   font-size: 18px;
   line-height: 30px;
 }
-/* line 1375, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1379, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #signup #maintext {
   text-align: left;
   padding-left: 20px;
   color: #5b6770;
 }
-/* line 1380, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1384, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #signup #helptext {
   text-align: right;
   padding-right: 20px;
   color: #949ca2;
 }
-/* line 1388, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1392, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #lesson #heading {
   width: 700px;
 }
-/* line 1390, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
-#landingpage #lesson #heading h2 {
-  margin-top: 0;
-}
-/* line 1394, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1395, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #lesson #trynow {
   float: right;
   text-align: right;
 }
-/* line 1397, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1398, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #lesson #trynow .biggerbutton {
   font-size: 20px;
   height: 40px;
 }
-/* line 1401, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1402, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #lesson #trynow .button_to {
   margin-bottom: 5px;
 }
-/* line 1405, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1406, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #lesson .betatext {
   background: white;
   color: #0094ca;
   padding: 2px 4px;
   border: 1px solid #0094ca;
 }
-/* line 1413, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1414, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #edit_teachers {
   background-color: #e7e8ea;
   margin: 20px 0 20px -20px;
 }
-/* line 1416, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1417, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #landingpage #edit_teachers form {
   margin: 0;
 }
 
-/* line 1422, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1423, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .course_progress {
   margin: 10px 0;
 }
 
-/* line 1427, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1428, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signin .tryfirst {
   margin-bottom: 10px;
 }
-/* line 1429, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1430, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signin .tryfirst a {
   font-size: 18px;
   font-family: "Gotham 4r", sans-serif;
   font-weight: normal;
 }
-/* line 1435, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1436, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signin .itemblock {
   display: inline-block;
   width: 600px;
 }
-/* line 1439, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1440, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signin .labelblock {
   display: inline-block;
   width: 140px;
 }
 
-/* line 1446, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1447, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signinsection ul.students, #signinsection ul.pictures {
   margin-left: 0;
 }
-/* line 1450, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1451, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signinsection ul.students li,
 #signinsection ul.pictures li {
   list-style-type: none;
@@ -13759,77 +13759,77 @@ a.download-video img:hover {
   padding: 5px;
   cursor: pointer;
 }
-/* line 1462, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1463, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signinsection ul.students li:hover,
 #signinsection ul.pictures li:hover {
   background-color: #ffdb74;
 }
-/* line 1467, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1468, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signinsection ul.students li.selected,
 #signinsection ul.pictures li.selected {
   background-color: #ffb81d;
 }
-/* line 1472, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1473, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signinsection #pairing_checkbox {
   margin: 5px 0;
 }
-/* line 1474, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1475, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signinsection #pairing_checkbox label {
   font-size: 17.5px;
 }
-/* line 1477, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1478, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signinsection #pairing_checkbox label, #signinsection #pairing_checkbox input {
   margin: 5px;
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 1486, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1487, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup .signupblock {
   background-color: #e7e8ea;
 }
-/* line 1489, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1490, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup .signupform {
   padding: 20px;
   margin-bottom: 0px;
 }
-/* line 1493, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1494, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup .itemblock {
   display: table;
 }
-/* line 1496, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1497, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup .labelblock {
   display: table-cell;
   width: 140px;
 }
-/* line 1500, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1501, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup .fieldblock {
   width: 220px;
   vertical-align: top;
   margin-bottom: 5px;
   margin-top: 5px;
 }
-/* line 1506, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1507, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup .labelblock {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 1510, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1511, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup #labelusername {
   vertical-align: top;
   padding-top: 7px;
 }
-/* line 1514, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1515, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup #usernamefield {
   vertical-align: top;
 }
-/* line 1517, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1518, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup #usernamemessage, #signup #password_message, #signup #password_message_confirmation {
   display: inline-block;
   max-width: 180px;
   vertical-align: top;
 }
-/* line 1522, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1523, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup .error_in_field {
   color: red;
   opacity: 0;
@@ -13837,20 +13837,20 @@ a.download-video img:hover {
   padding-left: 10px;
   vertical-align: middle;
 }
-/* line 1529, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1530, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup select {
   width: 234px;
 }
-/* line 1532, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1533, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup .field_with_errors {
   display: inline-block;
 }
-/* line 1535, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1536, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup button {
   font-size: 16px;
   height: 40px;
 }
-/* line 1539, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1540, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #signup .registertext {
   display: inline-block;
   font-size: 16px;
@@ -13858,11 +13858,11 @@ a.download-video img:hover {
   margin-top: 15px;
 }
 
-/* line 1547, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1548, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #hoc_download {
   color: #5b6770;
 }
-/* line 1549, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1550, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #hoc_download .capsule {
   background-color: #e7e8ea;
   border-radius: 10px;
@@ -13871,21 +13871,21 @@ a.download-video img:hover {
   padding-top: 20px;
   padding-bottom: 28px;
 }
-/* line 1557, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1558, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #hoc_download .indent {
   margin-left: 20px;
 }
 
-/* line 1569, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1570, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match .mainblock {
   margin-left: 0px;
 }
-/* line 1572, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1573, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match .column {
   width: 260px;
   float: left;
 }
-/* line 1575, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1576, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match .column img {
   position: relative;
   top: 50%;
@@ -13897,13 +13897,13 @@ a.download-video img:hover {
   max-height: 100%;
   max-width: 100%;
 }
-/* line 1585, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1586, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match .draggablecolumn {
   cursor: default;
   touch-action: none;
   -ms-touch-action: none;
 }
-/* line 1590, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1591, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match li {
   padding-top: 1px;
   padding-bottom: 1px;
@@ -13917,60 +13917,60 @@ a.download-video img:hover {
   border-color: transparent;
   border-width: 6px;
 }
-/* line 1603, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1604, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #questions {
   list-style-type: none;
   margin-left: 0px;
 }
-/* line 1606, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1607, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #questions li {
   background-color: white;
   border-color: #c6cacd;
 }
-/* line 1611, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1612, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match li {
   text-align: center;
 }
-/* line 1614, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1615, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #slots {
   list-style-type: none;
   margin-left: 0px;
 }
-/* line 1617, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1618, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #slots .emptyslot {
   background-color: #e7e8ea;
   border-color: #e7e8ea;
 }
-/* line 1621, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1622, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #slots .emptyslot .giantmark .text {
   opacity: 0.8;
   font-family: "Gotham 5r", sans-serif;
   font-weight: normal;
 }
-/* line 1628, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1629, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #slots .active {
   border-style: dotted;
   border-color: #ffdb74;
 }
-/* line 1632, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1633, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #slots .active.emptyslot {
   background-color: #ffebb5;
 }
-/* line 1636, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1637, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match .answer {
   background-color: white;
   border-color: #a6daed;
 }
-/* line 1640, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1641, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match .answer.ui-draggable:hover {
   border-color: #d1d567;
   cursor: move;
 }
-/* line 1644, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1645, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #answerdest {
   width: 240px;
 }
-/* line 1648, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1649, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match .answerlist h4 {
   position: relative;
   top: 25%;
@@ -13978,12 +13978,12 @@ a.download-video img:hover {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 1654, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1655, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #answers {
   list-style-type: none;
   margin-left: 0px;
 }
-/* line 1659, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1660, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match .answerslot h4 {
   position: relative;
   top: 25%;
@@ -13991,16 +13991,16 @@ a.download-video img:hover {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 1665, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1666, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #correctmarkscolumn {
   width: 20px;
   padding-right: 20px;
 }
-/* line 1669, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1670, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match #correctmarks {
   margin-left: 0px;
 }
-/* line 1672, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1673, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .match .correctmark {
   list-style-type: none;
   margin-left: 0px;
@@ -14010,7 +14010,7 @@ a.download-video img:hover {
   background-color: transparent;
 }
 
-/* line 1682, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1683, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .level-group-number {
   display: block;
   font-size: 16px;
@@ -14019,17 +14019,17 @@ a.download-video img:hover {
   width: 30px;
 }
 
-/* line 1690, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1691, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .level-group-content {
   overflow: hidden;
 }
 
-/* line 1695, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1696, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .text-match p, .text-match label, .free-response p, .free-response label, .peer-review p, .peer-review label {
   font-size: 16px;
   line-height: 24px;
 }
-/* line 1699, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1700, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .text-match #markdown, .free-response #markdown, .peer-review #markdown {
   -moz-user-select: text;
   -webkit-user-select: text;
@@ -14037,12 +14037,12 @@ a.download-video img:hover {
   user-select: text;
 }
 
-/* line 1708, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1709, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .peer-review input[type=radio] {
   margin: 0 3px 3px 5px;
 }
 
-/* line 1712, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1713, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .peer-review-content {
   background: #fff;
   border: 1px solid #949ca2;
@@ -14050,28 +14050,28 @@ a.download-video img:hover {
   padding: 10px;
   margin-bottom: 1em;
 }
-/* line 1718, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1719, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .peer-review-content.outdated {
   color: #949ca2;
 }
-/* line 1721, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1722, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .peer-review-content:last-child {
   margin-bottom: 0;
 }
-/* line 1724, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1725, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .peer-review-content .peer-review-title {
   margin: 0;
 }
-/* line 1727, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1728, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .peer-review-content .peer-review-status {
   font-size: 1em;
 }
-/* line 1729, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1730, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .peer-review-content .peer-review-status > strong {
   font-family: inherit;
 }
 
-/* line 1741, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1742, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .external #markdown.teacher,
 .text-match #markdown.teacher,
 .free-response #markdown.teacher,
@@ -14084,7 +14084,7 @@ a.download-video img:hover {
   border-radius: 5px;
   margin: 10px auto;
 }
-/* line 1747, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1748, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .external #markdown.teacher .content,
 .text-match #markdown.teacher .content,
 .free-response #markdown.teacher .content,
@@ -14093,7 +14093,7 @@ a.download-video img:hover {
 .match #markdown.teacher .content {
   padding: 10px;
 }
-/* line 1750, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1751, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .external #markdown.teacher h3,
 .text-match #markdown.teacher h3,
 .free-response #markdown.teacher h3,
@@ -14109,63 +14109,63 @@ a.download-video img:hover {
   margin: 0;
 }
 
-/* line 1762, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1763, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .standalone-video {
   width: 853px;
   margin: auto;
 }
 
-/* line 1767, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1768, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi #markdown.teacher {
   margin-left: 50px;
   margin-right: 50px;
   max-width: 100%;
 }
 
-/* line 1773, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1774, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .text-match #markdown.teacher, .free-response #markdown.teacher {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 1778, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1779, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #free-response-upload {
   overflow: hidden;
 }
 
-/* line 1782, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1783, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #current-script-levels, #all-levels {
   min-height: 50px;
 }
-/* line 1784, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1785, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #current-script-levels li, #all-levels li {
   list-style-type: none;
 }
 
-/* line 1788, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1789, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #script-updated {
   color: #b9bf15;
   display: none;
 }
 
-/* line 1792, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1793, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #edit-script-content {
   float: left;
   width: 25%;
 }
 
-/* line 1797, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1798, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #blockly-frame {
   width: 70%;
   height: 800px;
 }
 
-/* line 1801, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1802, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #script_name {
   margin: 0px 10px 0px 0px;
 }
 
-/* line 1805, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1806, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #edit-script-nav a {
   display: block;
   padding: 2px;
@@ -14173,34 +14173,34 @@ a.download-video img:hover {
   font-size: 125%;
 }
 
-/* line 1813, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1814, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .edit_level .field {
   margin-bottom: 10px;
   border-top: 2px solid #e7e8ea;
   padding-top: 10px;
 }
-/* line 1819, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1820, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .edit_level #toolbox_name {
   display: block;
 }
-/* line 1822, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1823, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .edit_level .block-checkbox {
   float: left;
 }
 
-/* line 1827, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1828, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 div.gallery_activity {
   float: left;
   width: 174px;
   margin: 10px 5px;
 }
-/* line 1834, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1835, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 div.gallery_activity img {
   width: 154px;
   height: 154px;
   border: 10px groove lightgray;
 }
-/* line 1839, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1840, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 div.gallery_activity .caption {
   color: #5b6770;
   margin: 0 auto;
@@ -14212,20 +14212,20 @@ div.gallery_activity .caption {
   text-align: center;
 }
 
-/* line 1851, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1852, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 div.mini_gallery_activity {
   float: left;
   width: 62px;
   margin: 0px 5px;
 }
-/* line 1858, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1859, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 div.mini_gallery_activity img {
   width: 54px;
   height: 54px;
   border: 4px groove lightgray;
 }
 
-/* line 1865, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1866, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .infobox {
   background-color: #5b6770;
   color: white;
@@ -14236,19 +14236,19 @@ div.mini_gallery_activity img {
   padding: 10px;
 }
 
-/* line 1875, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1876, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .previousPageButton {
   margin-right: 5px;
 }
 
-/* line 1880, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1881, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .buttons.submittable .submitButton {
   border-color: #7665a0;
   background-color: #7665a0;
   color: white;
   background-image: none;
 }
-/* line 1887, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1888, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .buttons.submittable .unsubmitButton {
   border-color: #a69bc1;
   background-color: #a69bc1;
@@ -14256,125 +14256,125 @@ div.mini_gallery_activity img {
   background-image: none;
 }
 
-/* line 1895, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1896, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .submitted_readonly {
   background-color: #e7e8ea;
 }
 
 /* multiple choice */
-/* line 1906, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1907, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi {
   margin: auto;
 }
-/* line 1908, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
-.multi h2 {
+/* line 1909, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+.multi h1 {
   text-align: center;
 }
-/* line 1911, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1912, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi p {
   font-size: 16px;
   line-height: 24px;
 }
-/* line 1918, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1919, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .answerbutton.lock-answers {
   pointer-events: none;
   color: grey;
 }
-/* line 1929, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1930, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.tight .question .content {
   float: left;
   clear: both;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1929, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 1930, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .multi.tight .question .content {
     width: 55%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 1929, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 1930, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .multi.tight .question .content {
     width: 55%;
   }
 }
-/* line 1945, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1946, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.tight .multi-question {
   float: left;
   width: calc(100% - 50px);
   font-size: 16px;
   line-height: 24px;
 }
-/* line 1953, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1954, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.tight .answers {
   float: left;
   clear: both;
   width: calc(100% - 50px);
 }
-/* line 1957, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1958, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.tight .answers.question-content-blank {
   width: calc(100% - 50px);
 }
-/* line 1963, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1964, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.tight .answerbutton {
   clear: both;
   margin-left: 50px;
 }
-/* line 1975, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1976, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.default .question {
   float: left;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1975, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 1976, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .multi.default .question {
     width: 35%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 1975, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 1976, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .multi.default .question {
     width: 35%;
   }
 }
-/* line 1990, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 1991, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.default .multi-question {
   float: left;
   font-size: 16px;
   line-height: 24px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1990, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 1991, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .multi.default .multi-question {
     margin-left: 50px;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 1990, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 1991, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .multi.default .multi-question {
     margin-left: 50px;
   }
 }
-/* line 2004, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2005, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.default .answers {
   float: left;
   margin-left: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 2004, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2005, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .multi.default .answers {
     width: 55%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 2004, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2005, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   .multi.default .answers {
     width: 55%;
   }
 }
-/* line 2017, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2018, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.default .answers.question-content-blank {
   width: calc(100% - 50px);
 }
-/* line 2023, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2024, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi.default .answerbutton {
   margin-top: 15px;
   margin-right: 15px;
@@ -14383,28 +14383,28 @@ div.mini_gallery_activity img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 2033, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2034, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .mainblock {
   margin-left: 0px;
 }
-/* line 2035, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2036, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .mainblock img {
   max-height: 100%;
 }
-/* line 2039, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2040, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .item {
   padding: 10px;
   float: left;
 }
-/* line 2043, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2044, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi input {
   margin-top: 12px;
 }
-/* line 2046, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2047, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .answerbutton {
   white-space: nowrap;
 }
-/* line 2049, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2050, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .item-radio {
   display: inline-block;
   float: left;
@@ -14416,7 +14416,7 @@ div.mini_gallery_activity img {
   -ms-transform: translateY(-35%);
   transform: translateY(-35%);
 }
-/* line 2058, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2059, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .item-mark {
   display: inline-block;
   text-align: left;
@@ -14425,60 +14425,60 @@ div.mini_gallery_activity img {
   font-size: 21px;
   width: 30px;
 }
-/* line 2066, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2067, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .item-label {
   display: inline-block;
   text-align: left;
   vertical-align: top;
   white-space: normal;
 }
-/* line 2071, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2072, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .item-label label {
   font-size: 14px;
 }
-/* line 2075, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2076, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .multi .item-answer-letter {
   font-family: "Gotham 5r", sans-serif;
 }
 
-/* line 2084, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2085, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content {
   margin-left: 110px;
 }
-/* line 2086, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2087, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .modal-content {
   margin-left: 0;
   margin-right: 110px;
 }
-/* line 2090, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2091, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content.no-modal-icon {
   margin-left: 22px;
 }
-/* line 2094, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2095, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content p, .modal-content pre {
   line-height: 27px;
   font-size: 24px;
   color: #7665a0;
 }
-/* line 2100, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2101, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .congrats {
   font-size: 27px;
   line-height: 30px;
   margin-bottom: 15px;
 }
-/* line 2106, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2107, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .instructions2 {
   font-size: 18px;
   color: #5b6770;
 }
-/* line 2111, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2112, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .aniGif {
   display: block;
   margin: 0px auto 6px;
   position: relative;
   z-index: -1;
 }
-/* line 2118, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2119, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .feedback-image {
   width: 180px;
   height: auto;
@@ -14487,45 +14487,45 @@ html[dir=rtl] .modal-content {
   border: lightgrey;
   border-style: solid;
 }
-/* line 2127, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2128, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .feedback-links {
   margin-top: 15px;
 }
-/* line 2131, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2132, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .feedback-callout {
   border: solid;
   border-radius: 10px;
   border-color: #c00;
 }
-/* line 2136, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2137, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .feedback-callout p {
   margin: 15px;
   color: #c00;
   padding-right: 20%;
 }
-/* line 2142, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2143, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .feedback-callout .congrats {
   font-size: 24px;
   line-height: 27px;
 }
-/* line 2147, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2148, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .feedback-callout .hint-header {
   font-family: "Gotham 7r", sans-serif;
   font-weight: normal;
 }
-/* line 2152, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2153, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .feedback-callout .hint-image {
   float: right;
   width: 20%;
 }
-/* line 2158, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2159, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .lines-of-code-message {
   font-size: 20px;
   line-height: normal;
   color: #5b6770;
   margin: 0 0 8px;
 }
-/* line 2167, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2168, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content .instructions-container .authored-hints p, .modal-content .instructions-container .authored-hints pre {
   font-size: 18px;
   line-height: normal;
@@ -14533,13 +14533,13 @@ html[dir=rtl] .modal-content {
   margin: 0;
 }
 
-/* line 2177, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2178, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .dialog-title {
   font-family: "Gotham 7r", sans-serif;
   font-weight: normal;
 }
 
-/* line 2182, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2183, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #ok-button {
   background-color: #ffa400;
   border: 1px solid #ffa400;
@@ -14547,7 +14547,7 @@ html[dir=rtl] .modal-content {
   min-width: 100px;
 }
 
-/* line 2189, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2190, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .lightbulb-button {
   background-color: white;
   font-family: "Gotham 5r", sans-serif;
@@ -14558,7 +14558,7 @@ html[dir=rtl] .modal-content {
   line-height: 20px;
 }
 
-/* line 2199, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2200, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #again-button, #cancel-button {
   background-color: #b9bf15;
   color: white;
@@ -14566,7 +14566,7 @@ html[dir=rtl] .modal-content {
   margin-right: 10px;
 }
 
-/* line 2206, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2207, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #continue-button {
   background-color: #ffa400;
   color: white;
@@ -14574,14 +14574,14 @@ html[dir=rtl] .modal-content {
   margin-right: 10px;
 }
 
-/* line 2213, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2214, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-image {
   width: 100px;
   height: auto;
   margin-top: -75px;
   position: absolute;
 }
-/* line 2218, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2219, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .modal-image {
   float: right;
   -webkit-transform: scaleX(-1);
@@ -14589,19 +14589,19 @@ html[dir=rtl] .modal-image {
   transform: scaleX(-1);
 }
 
-/* line 2225, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2226, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-header {
   border: none;
   height: 20px;
 }
 
-/* line 2229, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2230, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-body {
   height: 100%;
   overflow: visible;
 }
 
-/* line 2234, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2235, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content.markdown-instructions-container {
   margin-left: 22px;
   margin-right: 22px;
@@ -14613,31 +14613,31 @@ html[dir=rtl] .modal-image {
   width: 566px;
 }
 
-/* line 2246, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2247, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content.instructions-container {
   margin: 15px 10px 20px 20px;
 }
-/* line 2249, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2250, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .modal-content.instructions-container button {
   margin: 0;
 }
 
-/* line 2254, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2255, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .instructions-markdown {
   padding-top: 19px;
 }
-/* line 2256, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2257, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .instructions-markdown p {
   line-height: 25px;
   font-size: 16px;
   color: black;
 }
-/* line 2262, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2263, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .instructions-markdown strong {
   font-family: "Gotham 5r", sans-serif;
 }
 
-/* line 2267, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2268, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .markdown-level-header-text {
   margin-left: 110px;
   margin-top: 15px;
@@ -14646,49 +14646,49 @@ html[dir=rtl] .modal-image {
   font-size: 24px;
   color: #7665a0;
 }
-/* line 2275, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2276, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .markdown-level-header-text.no-modal-icon {
   margin-left: 22px;
 }
 
-/* line 2280, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2281, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #levelgroup-submit-incomplete-dialogcontent,
 #levelgroup-submit-complete-dialogcontent,
 #unsubmit-dialogcontent {
   overflow: hidden;
 }
 
-/* line 2286, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2287, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #feedbackBlocks {
   margin-left: 50px;
   height: 100px;
   border: none;
 }
 
-/* line 2292, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2293, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #feedbackButtons::after {
   content: '';
   display: inline-block;
   width: 100%;
 }
 
-/* line 2298, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2299, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .farSide {
   text-align: right;
 }
-/* line 2300, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2301, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir=rtl] .farSide {
   text-align: left;
 }
 
-/* line 2306, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2307, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .exclamation-abuse a, .exclamation-abuse a:hover {
   color: white;
   text-decoration: underline;
 }
 
 /* Buttons from apps */
-/* line 2314, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2315, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button {
   margin: 5px;
   padding: 10px;
@@ -14699,7 +14699,7 @@ button {
   color: #000;
 }
 
-/* line 2323, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2324, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button.launch {
   border: 1px solid #ffa400;
   background-color: #ffa400;
@@ -14712,41 +14712,41 @@ button.launch {
   text-align: left;
 }
 
-/* line 2334, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2335, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 html[dir="RTL"] button.launch {
   text-align: right;
 }
 
-/* line 2337, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2338, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button.launch > img {
   opacity: 1;
   vertical-align: text-bottom;
 }
 
-/* line 2341, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2342, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button > img {
   opacity: 0.6;
   vertical-align: text-bottom;
 }
 
-/* line 2345, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2346, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button:hover > img {
   opacity: 1;
 }
 
-/* line 2348, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2349, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button:active {
   border: 1px solid #949ca2 !important;
 }
 
-/* line 2351, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2352, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button:hover {
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* line 2354, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2355, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button.disabled, button[disabled=disabled] {
   border: 1px solid #c6cacd;
   background-color: #c6cacd;
@@ -14755,22 +14755,22 @@ button.disabled, button[disabled=disabled] {
   box-shadow: none;
 }
 
-/* line 2359, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2360, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button.disabled:hover > img {
   opacity: 0.6;
 }
 
-/* line 2362, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2363, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button.disabled {
   display: none;
 }
 
-/* line 2365, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2366, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 button.notext {
   font-size: 10%;
 }
 
-/* line 2379, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2380, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 .example-image {
   -webkit-box-shadow: 0px 10px 13px -11px black;
   -moz-box-shadow: 0px 10px 13px -11px black;
@@ -14786,89 +14786,89 @@ button.notext {
  * defined in apps/style/common.scss, so that the columns in the
  * header line up with the columns below them.
  */
-/* line 2392, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2393, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #visualizationColumnHeader {
   max-width: 400px;
   float: left;
 }
 
-/* line 2396, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2397, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #visualizationEditorHeader {
   margin-left: 400px;
   padding-left: 15px;
 }
 
-/* line 2401, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2402, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #visualizationEditor.responsive {
   margin-left: 400px;
   padding-left: 15px;
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1150px) {
-  /* line 2408, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2409, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationColumnHeader.responsive {
     max-width: 350px;
   }
 
-  /* line 2411, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2412, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationEditorHeader.responsive {
     margin-left: 350px;
   }
 
-  /* line 2414, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2415, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationEditor.responsive {
     margin-left: 350px;
   }
 }
 @media screen and (min-width: 1051px) and (max-width: 1100px) {
-  /* line 2421, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2422, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationColumnHeader.responsive {
     max-width: 300px;
   }
 
-  /* line 2424, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2425, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationEditorHeader.responsive {
     margin-left: 300px;
   }
 
-  /* line 2427, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2428, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationEditor.responsive {
     margin-left: 300px;
   }
 }
 @media screen and (min-width: 1001px) and (max-width: 1050px) {
-  /* line 2434, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2435, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationColumnHeader.responsive {
     max-width: 250px;
   }
 
-  /* line 2437, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2438, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationEditorHeader.responsive {
     margin-left: 250px;
   }
 
-  /* line 2440, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2441, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationEditor.responsive {
     margin-left: 250px;
   }
 }
 @media screen and (max-width: 1000px) {
-  /* line 2447, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2448, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationColumnHeader.responsive {
     max-width: 200px;
   }
 
-  /* line 2450, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2451, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationEditorHeader.responsive {
     margin-left: 200px;
   }
 
-  /* line 2453, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+  /* line 2454, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
   #visualizationEditor.responsive {
     margin-left: 200px;
   }
 }
-/* line 2458, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2459, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #main-logo {
   padding: 10px 15px;
   display: inline-block;
@@ -14879,15 +14879,15 @@ button.notext {
   position: fixed;
   z-index: 1000;
 }
-/* line 2468, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2469, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #main-logo a {
   color: #949ca2;
 }
-/* line 2470, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2471, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #main-logo a:hover {
   text-decoration: none;
 }
-/* line 2475, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2476, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #main-logo #logo-container {
   padding: 4px;
   background-color: #949ca2;
@@ -14896,7 +14896,7 @@ button.notext {
   margin-bottom: 4px;
 }
 
-/* line 2485, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
+/* line 2486, /Users/pcardune/programming/code-dot-org/dashboard/app/assets/stylesheets/application.css.scss */
 #environment_tag {
   position: fixed;
   top: 0;
