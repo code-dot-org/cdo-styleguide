@@ -81,11 +81,11 @@ div.droplet-palette-header-row {
   height: 24px; }
 
 div.droplet-palette-group-header:active {
-  color: black; }
+  color: #000; }
 
 div.droplet-palette-group-header-selected {
   font-weight: 400;
-  color: black; }
+  color: #000; }
 
 div.droplet-palette-group-header.yellow {
   border-left: 10px solid #FFF176; }
@@ -236,6 +236,9 @@ button.arrow:disabled {
   vertical-align: top;
   min-width: 204px; }
 
+/* Set z-index to zero here so that .droplet-dropdown (z-index 10000) appears in front of
+ * other droplet elements, but behind anything with z-index > 1 outside of #codeTextbox,
+ * such as dialogs. */
 #codeTextbox {
   position: absolute;
   left: 0px;
@@ -245,7 +248,8 @@ button.arrow:disabled {
   font-size: 14px;
   overflow: hidden;
   min-height: calc(50% - 16px) !important;
-  direction: ltr; }
+  direction: ltr;
+  z-index: 0; }
 
 #codeTextbox.pin_bottom {
   border: 1px solid #ddd; }
@@ -315,7 +319,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   height: 400px;
   margin-bottom: 5px; }
 
-.bee-counter-text {
+.karel-counter-text {
   text-anchor: end;
   font-size: 16px;
   font-family: Verdana, Geneva, sans-serif;
@@ -364,7 +368,7 @@ html[dir='rtl'] div#visualizationResizeBar {
     -webkit-transform: scale(0.875);
     -ms-transform: scale(0.875);
     transform: scale(0.875); }
-  .bee-counter-text {
+  .karel-counter-text {
     font-size: 20px;
     stroke-width: 1.2px; } }
 
@@ -391,7 +395,7 @@ html[dir='rtl'] div#visualizationResizeBar {
     -webkit-transform: scale(0.75);
     -ms-transform: scale(0.75);
     transform: scale(0.75); }
-  .bee-counter-text {
+  .karel-counter-text {
     font-size: 24px;
     stroke-width: 1.4px; } }
 
@@ -418,7 +422,7 @@ html[dir='rtl'] div#visualizationResizeBar {
     -webkit-transform: scale(0.625);
     -ms-transform: scale(0.625);
     transform: scale(0.625); }
-  .bee-counter-text {
+  .karel-counter-text {
     font-size: 28px;
     stroke-width: 1.6px; } }
 
@@ -445,7 +449,7 @@ html[dir='rtl'] div#visualizationResizeBar {
     -webkit-transform: scale(0.5);
     -ms-transform: scale(0.5);
     transform: scale(0.5); }
-  .bee-counter-text {
+  .karel-counter-text {
     font-size: 32px;
     stroke-width: 2px; }
   #soft-buttons {
@@ -463,12 +467,12 @@ button, label.img-upload {
   border: 1px solid #ddd;
   font-size: large;
   background-color: #eee;
-  color: black; }
+  color: #000; }
 
 button.launch {
   border: 1px solid #ffa400;
   background-color: #ffa400;
-  color: white;
+  color: #fff;
   font-size: large;
   min-width: 96px;
   margin-left: 0px;
@@ -518,7 +522,7 @@ button.blocklyLaunch {
 button.share {
   border: 1px solid #FFA000;
   background-color: #FFA000;
-  color: white;
+  color: #fff;
   margin-left: 0px;
   margin-right: 0px; }
 
@@ -614,9 +618,9 @@ input[type="radio"] {
 
 #dialog {
   visibility: hidden;
-  background-color: white;
-  color: black;
-  border: 1px solid black;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
   position: absolute;
   border-radius: 8px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -626,8 +630,8 @@ input[type="radio"] {
 #dialogBorder {
   visibility: hidden;
   position: absolute;
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #000;
   border-radius: 6px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); }
 
@@ -638,7 +642,7 @@ input[type="radio"] {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #000;
   opacity: 0.3;
   z-index: 1; }
 
@@ -653,18 +657,6 @@ input[type="radio"] {
   top: 0;
   left: 0;
   z-index: -1; }
-
-.trophy {
-  min-width: 100px;
-  text-align: center;
-  vertical-align: top;
-  display: inline-block;
-  max-width: 100px;
-  margin-bottom: 10px; }
-
-.trophyimg {
-  width: 80px;
-  height: 80px; }
 
 #dialog button {
   min-width: 4em; }
@@ -681,7 +673,7 @@ input[type="radio"] {
   margin-bottom: 5px; }
 
 #hint {
-  color: white;
+  color: #fff;
   padding: 5px 1em;
   font-size: large; }
 
@@ -717,7 +709,7 @@ input[type="radio"] {
 
 /* Instructions. Not netsim-bubbles are styled in JSX */
 #bubble.netsim-bubble {
-  color: black;
+  color: #000;
   margin-bottom: 10px;
   position: relative;
   cursor: pointer; }
@@ -740,6 +732,13 @@ input[type="radio"] {
     .prompt-icon-cell.authored_hints #lightbulb {
       position: absolute;
       left: 40px; }
+
+html[dir="RTL"] .prompt-icon-cell {
+  padding-right: 0px;
+  padding-left: 10px; }
+  html[dir="RTL"] .prompt-icon-cell.authored_hints #lightbulb {
+    right: 40px;
+    left: auto; }
 
 .qtip.cdo-qtips.qtip-authored-hint .qtip-content {
   font-family: "Gotham 4r", sans-serif;
@@ -879,7 +878,7 @@ input[type="radio"] {
   #headers #toolbox-header.toggleable, .purple-header #toolbox-header.toggleable {
     cursor: pointer; }
     #headers #toolbox-header.toggleable:hover .fa, .purple-header #toolbox-header.toggleable:hover .fa {
-      color: white; }
+      color: #fff; }
 
 #headers #show-toolbox-header, .purple-header #show-toolbox-header {
   border: 0;
@@ -887,7 +886,7 @@ input[type="radio"] {
   padding: 0 10px;
   cursor: pointer; }
   #headers #show-toolbox-header:hover .fa, .purple-header #show-toolbox-header:hover .fa {
-    color: white; }
+    color: #fff; }
   #headers #show-toolbox-header > span, .purple-header #show-toolbox-header > span {
     margin: auto 18px; }
 
@@ -1224,7 +1223,7 @@ body.readonly.embed-block #codeWorkspace .userHidden {
   border-radius: 14px;
   border: none;
   background: #0094ca;
-  color: white;
+  color: #fff;
   -webkit-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3); }
@@ -1304,6 +1303,9 @@ a.WireframeSendToPhone_send-to-phone-link {
 .legacy-share-view .admin {
   display: none; }
 
+body.embedded_iframe #visualizationColumn.wireframeShare {
+  padding: 0; }
+
 #rotateContainer {
   position: fixed;
   z-index: 10001;
@@ -1334,8 +1336,240 @@ a.WireframeSendToPhone_send-to-phone-link {
     #rotateContainer {
       display: block; } }
 
+.pixelated {
+  image-rendering: optimizeSpeed;
+  /* Legal fallback */
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  image-rendering: crisp-edges;
+  /* CSS4 Proposed  */
+  image-rendering: pixelated;
+  /* CSS4 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */ }
+
+.arrow {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+  -ms-touch-action: none;
+  display: inline !important;
+  padding: 0 !important;
+  margin-top: 5px !important;
+  touch-action: none;
+  -ms-touch-action: none; }
+
+.left-btn {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+  -ms-touch-action: none;
+  background: url("/blockly/media/craft/Sliced_Parts/MC_Run_Arrow_Icon_Smaller.png") no-repeat !important;
+  background-position: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  image-rendering: optimizeSpeed;
+  /* Legal fallback */
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  image-rendering: crisp-edges;
+  /* CSS4 Proposed  */
+  image-rendering: pixelated;
+  /* CSS4 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: "FlipH";
+  filter: FlipH;
+  background-size: 16px 32px !important; }
+
+.right-btn {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+  -ms-touch-action: none;
+  background: url("/blockly/media/craft/Sliced_Parts/MC_Run_Arrow_Icon_Smaller.png") no-repeat !important;
+  background-position: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  image-rendering: optimizeSpeed;
+  /* Legal fallback */
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  image-rendering: crisp-edges;
+  /* CSS4 Proposed  */
+  image-rendering: pixelated;
+  /* CSS4 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */
+  background-size: 16px 32px !important; }
+
+.down-btn {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+  -ms-touch-action: none;
+  background: url("/blockly/media/craft/Sliced_Parts/MC_Down_Arrow_Icon.png") no-repeat !important;
+  background-position: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  image-rendering: optimizeSpeed;
+  /* Legal fallback */
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  image-rendering: crisp-edges;
+  /* CSS4 Proposed  */
+  image-rendering: pixelated;
+  /* CSS4 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */
+  background-size: 28px 20px !important; }
+
+.up-btn {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+  -ms-touch-action: none;
+  background: url("/blockly/media/craft/Sliced_Parts/MC_Up_Arrow_Icon.png") no-repeat !important;
+  background-position: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  image-rendering: optimizeSpeed;
+  /* Legal fallback */
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  image-rendering: crisp-edges;
+  /* CSS4 Proposed  */
+  image-rendering: pixelated;
+  /* CSS4 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */
+  background-size: 28px 20px !important; }
+
+.scroll-up-btn {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+  -ms-touch-action: none;
+  background: url("/blockly/media/craft/CDO_MC_ScrollUp.png") no-repeat !important;
+  background-position: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  image-rendering: optimizeSpeed;
+  /* Legal fallback */
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  image-rendering: crisp-edges;
+  /* CSS4 Proposed  */
+  image-rendering: pixelated;
+  /* CSS4 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */
+  background-size: 21px 15px !important;
+  width: 30px !important;
+  height: 30px !important; }
+
+.scroll-down-btn {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+  -ms-touch-action: none;
+  background: url("/blockly/media/craft/CDO_MC_ScrollDown.png") no-repeat !important;
+  background-position: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  image-rendering: optimizeSpeed;
+  /* Legal fallback */
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  image-rendering: crisp-edges;
+  /* CSS4 Proposed  */
+  image-rendering: pixelated;
+  /* CSS4 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */
+  background-size: 21px 15px !important;
+  width: 30px !important;
+  height: 30px !important; }
+
 body {
-  background-color: #646464; }
+  background-color: #646464;
+  -ms-content-zooming: none;
+  -ms-touch-action: none; }
 
 .header-wrapper {
   background-color: #F2F2F2; }
@@ -1348,6 +1582,8 @@ body {
 
 .blocklySvg {
   background-color: #a1a1a1; }
+  .csf-top-instructions .blocklySvg {
+    background-color: #3B3B3B; }
 
 .blocklyFlyoutBackground {
   fill: #4E4E4E !important;
@@ -1675,6 +1911,8 @@ a.video_link {
     width: 144px;
     height: 268px;
     margin-top: 13px; }
+    .minecraft-events #craft-popup-player-selection #steve-portrait {
+      background-image: url("/blockly/media/craft/Events/Steve_Character_Select.png"); }
     @media screen and (max-height: 630px) {
       #craft-popup-player-selection #steve-portrait {
         width: 72px;
@@ -1684,6 +1922,8 @@ a.video_link {
     background-image: url("/blockly/media/craft/Sliced_Parts/Alex_Character_Select.png");
     width: 136px;
     height: 271px; }
+    .minecraft-events #craft-popup-player-selection #alex-portrait {
+      background-image: url("/blockly/media/craft/Events/Alex_Character_Select.png"); }
     @media screen and (max-height: 630px) {
       #craft-popup-player-selection #alex-portrait {
         width: 68px;
@@ -1738,6 +1978,18 @@ a.video_link {
     font-family: "Gotham 5r", sans-serif !important;
     display: inline-block;
     padding: 5px; }
+    #craft-popup-player-selection .choose-character-button:hover {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+    #craft-popup-player-selection .choose-character-button:active {
+      outline: none;
+      border-image-slice: 2 3 4 3 fill;
+      border-image-width: 10px 20px 20px 20px;
+      -moz-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+      -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+      -o-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+      border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 fill stretch !important; }
 
 #craft-popup-house-selection {
   background-color: transparent;
@@ -1793,6 +2045,9 @@ a.video_link {
     color: #F4D00B;
     line-height: 11px;
     font-size: 30px; }
+  #craft-popup-house-selection #getting-started-header {
+    margin-left: 125px;
+    margin-bottom: 25px; }
   #craft-popup-house-selection #select-house-text {
     line-height: 50px;
     font-size: 22px;
@@ -1927,6 +2182,18 @@ a.video_link {
     font-family: "Gotham 5r", sans-serif !important;
     display: inline-block;
     padding: 5px; }
+    #craft-popup-house-selection .choose-house-button:hover {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+    #craft-popup-house-selection .choose-house-button:active {
+      outline: none;
+      border-image-slice: 2 3 4 3 fill;
+      border-image-width: 10px 20px 20px 20px;
+      -moz-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+      -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+      -o-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+      border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 fill stretch !important; }
 
 .dash_modal button, .minecraft button {
   border-style: solid !important;
@@ -1955,6 +2222,18 @@ a.video_link {
   color: #f1f1f1 !important;
   font-size: 26px;
   font-family: "Gotham 5r", sans-serif !important; }
+  .dash_modal button:hover, .minecraft button:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+  .dash_modal button:active, .minecraft button:active {
+    outline: none;
+    border-image-slice: 2 3 4 3 fill;
+    border-image-width: 10px 20px 20px 20px;
+    -moz-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+    -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+    -o-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+    border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 fill stretch !important; }
   .dash_modal button.mc-share-button, .minecraft button.mc-share-button {
     border-style: solid !important;
     border-width: 3px 3px 5px 5px !important;
@@ -1985,7 +2264,7 @@ a.video_link {
     .dash_modal button.mc-share-button > div, .minecraft button.mc-share-button > div {
       font-size: 24px;
       color: white !important;
-      text-shadow: 2px 2px #5A5A5A !important; }
+      text-shadow: 2px 2px #5a5a5a !important; }
     .dash_modal button.mc-share-button:hover, .minecraft button.mc-share-button:hover {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
@@ -2045,7 +2324,7 @@ a.video_link {
     .dash_modal button#runButton > div, .minecraft button#runButton > div {
       font-size: 24px;
       color: white !important;
-      text-shadow: 2px 2px #5A5A5A !important; }
+      text-shadow: 2px 2px #5a5a5a !important; }
     .dash_modal button#runButton:hover, .minecraft button#runButton:hover {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
@@ -2079,14 +2358,14 @@ a.video_link {
       margin-left: 2px;
       margin-right: 18px; }
     .dash_modal button#runButton .run26, .minecraft button#runButton .run26 {
-      background: url("/blockly/media/craft/Sliced_Parts/MC_Run_Arrow_Icon.png") no-repeat 0 0;
-      width: 16px;
+      -moz-transform: scale(2);
+      -webkit-transform: scale(2);
+      transform: scale(2);
+      width: 6px;
       height: 34px;
-      margin-left: 6px;
-      margin-right: 3px;
-      margin-top: -2px;
-      margin-bottom: -1px;
+      margin: 16px -3px -18px 23px;
       padding-right: 13px;
+      background: url("/blockly/media/craft/Sliced_Parts/MC_Run_Arrow_Icon_Smaller.png") no-repeat 0 0;
       image-rendering: optimizeSpeed;
       /* Legal fallback */
       image-rendering: -moz-crisp-edges;
@@ -2103,6 +2382,40 @@ a.video_link {
       /* CSS4 Proposed  */
       -ms-interpolation-mode: nearest-neighbor;
       /* IE8+           */ }
+  .dash_modal button#toggleButton, .minecraft button#toggleButton {
+    min-width: 110px;
+    padding-top: 6px;
+    padding-bottom: 4px; }
+    .dash_modal button#toggleButton > div, .minecraft button#toggleButton > div {
+      margin-top: 4px;
+      margin-left: 2px;
+      margin-right: 18px; }
+    .dash_modal button#toggleButton .toggle26, .minecraft button#toggleButton .toggle26 {
+      background-position: center !important;
+      background-size: 18px 20px !important;
+      width: 18px;
+      height: 25px;
+      margin-right: 5px;
+      image-rendering: optimizeSpeed;
+      /* Legal fallback */
+      image-rendering: -moz-crisp-edges;
+      /* Firefox        */
+      image-rendering: -o-crisp-edges;
+      /* Opera          */
+      image-rendering: -webkit-optimize-contrast;
+      /* Safari         */
+      image-rendering: optimize-contrast;
+      /* CSS3 Proposed  */
+      image-rendering: crisp-edges;
+      /* CSS4 Proposed  */
+      image-rendering: pixelated;
+      /* CSS4 Proposed  */
+      -ms-interpolation-mode: nearest-neighbor;
+      /* IE8+           */ }
+      .dash_modal button#toggleButton .toggle26.more-btn, .minecraft button#toggleButton .toggle26.more-btn {
+        background: url("/blockly/media/craft/CDO_MC_More.png") no-repeat; }
+      .dash_modal button#toggleButton .toggle26.less-btn, .minecraft button#toggleButton .toggle26.less-btn {
+        background: url("/blockly/media/craft/CDO_MC_Less.png") no-repeat; }
   .dash_modal button#resetButton, .minecraft button#resetButton {
     min-width: 139px;
     padding-top: 6px;
@@ -2132,7 +2445,7 @@ a.video_link {
     .dash_modal button#resetButton > div, .minecraft button#resetButton > div {
       font-size: 24px;
       color: white !important;
-      text-shadow: 2px 2px #5A5A5A !important;
+      text-shadow: 2px 2px #5a5a5a !important;
       margin-left: 8px;
       padding-right: 0;
       margin-right: 2px;
@@ -2410,5 +2723,64 @@ a.video_link {
   bottom: -66px !important;
   margin-left: -33px !important; }
 
-.instructions-markdown p {
-  color: white; }
+.csf-top-instructions p, .instructions-markdown p {
+  color: #fff; }
+
+.minecraft-events code {
+  background-color: #d78c01;
+  border: 1px solid #ffb72f;
+  color: #fff; }
+
+.minecraft-events #toolbox-header {
+  border-right: none !important; }
+
+.minecraft-events #codeWorkspace {
+  border: none !important; }
+
+.minecraft-events #headers {
+  border-radius: 6px 6px 0 0; }
+
+.minecraft-events #codeWorkspace > svg.blocklySvg {
+  border-radius: 0 0 6px 6px; }
+
+.minecraft-events .small-footer-base {
+  border-radius: 0 6px 0 0; }
+
+.minecraft-events #score-container {
+  float: left;
+  position: relative;
+  left: 50%;
+  height: 0;
+  margin-bottom: -100%; }
+  .minecraft-events #score-container #score-inner {
+    background: #6a6a6a;
+    border-style: solid !important;
+    border-width: 1px 7px 7px 7px !important;
+    -moz-border-image: url("/blockly/media/craft/Events/MC_HoC_Score_9Slice.png") 7 stretch !important;
+    -webkit-border-image: url("/blockly/media/craft/Events/MC_HoC_Score_9Slice.png") 7 stretch !important;
+    -o-border-image: url("/blockly/media/craft/Events/MC_HoC_Score_9Slice.png") 7 stretch !important;
+    border-image: url("/blockly/media/craft/Events/MC_HoC_Score_9Slice.png") 7 fill stretch !important;
+    image-rendering: optimizeSpeed;
+    /* Legal fallback */
+    image-rendering: -moz-crisp-edges;
+    /* Firefox        */
+    image-rendering: -o-crisp-edges;
+    /* Opera          */
+    image-rendering: -webkit-optimize-contrast;
+    /* Safari         */
+    image-rendering: optimize-contrast;
+    /* CSS3 Proposed  */
+    image-rendering: crisp-edges;
+    /* CSS4 Proposed  */
+    image-rendering: pixelated;
+    /* CSS4 Proposed  */
+    -ms-interpolation-mode: nearest-neighbor;
+    /* IE8+           */
+    top: -411px;
+    height: 17px;
+    float: left;
+    position: relative;
+    left: -50%;
+    font-size: 15px;
+    color: #fff !important;
+    text-shadow: 2px 2px #5a5a5a !important; }

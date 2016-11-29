@@ -1,0 +1,22 @@
+/* Stylesheet for the Public Key Cryptography Widget.
+ * Generated from publicKeyCryptography.scss. */
+.public-key-cryptography {
+  text-align: center;
+  margin: 200px;
+  font-style: italic; }
+
+.integer-dropdown {
+  display: inline-block;
+  width: 85px;
+  vertical-align: middle;
+  margin: 0 5px; }
+  .integer-dropdown .Select-control {
+    height: 28px;
+    line-height: 28px; }
+    .integer-dropdown .Select-control .Select-placeholder, .integer-dropdown .Select-control .Select-value {
+      line-height: 28px; }
+    .integer-dropdown .Select-control .Select-input {
+      height: 28px;
+      line-height: 28px; }
+      .integer-dropdown .Select-control .Select-input > input {
+        padding: 2px 0 8px 0; }

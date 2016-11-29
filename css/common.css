@@ -81,11 +81,11 @@ div.droplet-palette-header-row {
   height: 24px; }
 
 div.droplet-palette-group-header:active {
-  color: black; }
+  color: #000; }
 
 div.droplet-palette-group-header-selected {
   font-weight: 400;
-  color: black; }
+  color: #000; }
 
 div.droplet-palette-group-header.yellow {
   border-left: 10px solid #FFF176; }
@@ -236,6 +236,9 @@ button.arrow:disabled {
   vertical-align: top;
   min-width: 204px; }
 
+/* Set z-index to zero here so that .droplet-dropdown (z-index 10000) appears in front of
+ * other droplet elements, but behind anything with z-index > 1 outside of #codeTextbox,
+ * such as dialogs. */
 #codeTextbox {
   position: absolute;
   left: 0px;
@@ -245,7 +248,8 @@ button.arrow:disabled {
   font-size: 14px;
   overflow: hidden;
   min-height: calc(50% - 16px) !important;
-  direction: ltr; }
+  direction: ltr;
+  z-index: 0; }
 
 #codeTextbox.pin_bottom {
   border: 1px solid #ddd; }
@@ -315,7 +319,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   height: 400px;
   margin-bottom: 5px; }
 
-.bee-counter-text {
+.karel-counter-text {
   text-anchor: end;
   font-size: 16px;
   font-family: Verdana, Geneva, sans-serif;
@@ -364,7 +368,7 @@ html[dir='rtl'] div#visualizationResizeBar {
     -webkit-transform: scale(0.875);
     -ms-transform: scale(0.875);
     transform: scale(0.875); }
-  .bee-counter-text {
+  .karel-counter-text {
     font-size: 20px;
     stroke-width: 1.2px; } }
 
@@ -391,7 +395,7 @@ html[dir='rtl'] div#visualizationResizeBar {
     -webkit-transform: scale(0.75);
     -ms-transform: scale(0.75);
     transform: scale(0.75); }
-  .bee-counter-text {
+  .karel-counter-text {
     font-size: 24px;
     stroke-width: 1.4px; } }
 
@@ -418,7 +422,7 @@ html[dir='rtl'] div#visualizationResizeBar {
     -webkit-transform: scale(0.625);
     -ms-transform: scale(0.625);
     transform: scale(0.625); }
-  .bee-counter-text {
+  .karel-counter-text {
     font-size: 28px;
     stroke-width: 1.6px; } }
 
@@ -445,7 +449,7 @@ html[dir='rtl'] div#visualizationResizeBar {
     -webkit-transform: scale(0.5);
     -ms-transform: scale(0.5);
     transform: scale(0.5); }
-  .bee-counter-text {
+  .karel-counter-text {
     font-size: 32px;
     stroke-width: 2px; }
   #soft-buttons {
@@ -463,12 +467,12 @@ button, label.img-upload {
   border: 1px solid #ddd;
   font-size: large;
   background-color: #eee;
-  color: black; }
+  color: #000; }
 
 button.launch {
   border: 1px solid #ffa400;
   background-color: #ffa400;
-  color: white;
+  color: #fff;
   font-size: large;
   min-width: 96px;
   margin-left: 0px;
@@ -518,7 +522,7 @@ button.blocklyLaunch {
 button.share {
   border: 1px solid #FFA000;
   background-color: #FFA000;
-  color: white;
+  color: #fff;
   margin-left: 0px;
   margin-right: 0px; }
 
@@ -614,9 +618,9 @@ input[type="radio"] {
 
 #dialog {
   visibility: hidden;
-  background-color: white;
-  color: black;
-  border: 1px solid black;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
   position: absolute;
   border-radius: 8px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -626,8 +630,8 @@ input[type="radio"] {
 #dialogBorder {
   visibility: hidden;
   position: absolute;
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #000;
   border-radius: 6px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); }
 
@@ -638,7 +642,7 @@ input[type="radio"] {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #000;
   opacity: 0.3;
   z-index: 1; }
 
@@ -653,18 +657,6 @@ input[type="radio"] {
   top: 0;
   left: 0;
   z-index: -1; }
-
-.trophy {
-  min-width: 100px;
-  text-align: center;
-  vertical-align: top;
-  display: inline-block;
-  max-width: 100px;
-  margin-bottom: 10px; }
-
-.trophyimg {
-  width: 80px;
-  height: 80px; }
 
 #dialog button {
   min-width: 4em; }
@@ -681,7 +673,7 @@ input[type="radio"] {
   margin-bottom: 5px; }
 
 #hint {
-  color: white;
+  color: #fff;
   padding: 5px 1em;
   font-size: large; }
 
@@ -717,7 +709,7 @@ input[type="radio"] {
 
 /* Instructions. Not netsim-bubbles are styled in JSX */
 #bubble.netsim-bubble {
-  color: black;
+  color: #000;
   margin-bottom: 10px;
   position: relative;
   cursor: pointer; }
@@ -740,6 +732,13 @@ input[type="radio"] {
     .prompt-icon-cell.authored_hints #lightbulb {
       position: absolute;
       left: 40px; }
+
+html[dir="RTL"] .prompt-icon-cell {
+  padding-right: 0px;
+  padding-left: 10px; }
+  html[dir="RTL"] .prompt-icon-cell.authored_hints #lightbulb {
+    right: 40px;
+    left: auto; }
 
 .qtip.cdo-qtips.qtip-authored-hint .qtip-content {
   font-family: "Gotham 4r", sans-serif;
@@ -879,7 +878,7 @@ input[type="radio"] {
   #headers #toolbox-header.toggleable, .purple-header #toolbox-header.toggleable {
     cursor: pointer; }
     #headers #toolbox-header.toggleable:hover .fa, .purple-header #toolbox-header.toggleable:hover .fa {
-      color: white; }
+      color: #fff; }
 
 #headers #show-toolbox-header, .purple-header #show-toolbox-header {
   border: 0;
@@ -887,7 +886,7 @@ input[type="radio"] {
   padding: 0 10px;
   cursor: pointer; }
   #headers #show-toolbox-header:hover .fa, .purple-header #show-toolbox-header:hover .fa {
-    color: white; }
+    color: #fff; }
   #headers #show-toolbox-header > span, .purple-header #show-toolbox-header > span {
     margin: auto 18px; }
 
@@ -1224,7 +1223,7 @@ body.readonly.embed-block #codeWorkspace .userHidden {
   border-radius: 14px;
   border: none;
   background: #0094ca;
-  color: white;
+  color: #fff;
   -webkit-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3); }
@@ -1303,6 +1302,9 @@ a.WireframeSendToPhone_send-to-phone-link {
 
 .legacy-share-view .admin {
   display: none; }
+
+body.embedded_iframe #visualizationColumn.wireframeShare {
+  padding: 0; }
 
 #rotateContainer {
   position: fixed;

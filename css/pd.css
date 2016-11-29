@@ -1,12 +1,17 @@
 @charset "UTF-8";
 #workshop-container {
   /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
   /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-  /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */ }
+  /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+  -webkit-user-select: auto;
+  -khtml-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto; }
   #workshop-container html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -768,7 +773,6 @@
       color: #036083;
       text-decoration: underline; }
     #workshop-container a:focus {
-      outline: thin dotted;
       outline: 5px auto -webkit-focus-ring-color;
       outline-offset: -2px; }
   #workshop-container figure {
@@ -1821,7 +1825,6 @@
   #workshop-container input[type="file"]:focus,
   #workshop-container input[type="radio"]:focus,
   #workshop-container input[type="checkbox"]:focus {
-    outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
   #workshop-container output {
@@ -2294,7 +2297,6 @@
     -ms-user-select: none;
     user-select: none; }
     #workshop-container .btn:focus, #workshop-container .btn.focus, #workshop-container .btn:active:focus, #workshop-container .btn:active.focus, #workshop-container .btn.active:focus, #workshop-container .btn.active.focus {
-      outline: thin dotted;
       outline: 5px auto -webkit-focus-ring-color;
       outline-offset: -2px; }
     #workshop-container .btn:hover, #workshop-container .btn:focus, #workshop-container .btn.focus {
@@ -5025,28 +5027,28 @@
     #workshop-container .hidden-print {
       display: none !important; } }
   #workshop-container .btn-primary {
-    color: white;
+    color: #fff;
     background-color: #0094ca;
     border-color: #949ca2;
     text-shadow: none; }
     #workshop-container .btn-primary:focus, #workshop-container .btn-primary.focus {
-      color: white;
+      color: #fff;
       background-color: #006f97;
       border-color: #555c62; }
     #workshop-container .btn-primary:hover {
-      color: white;
+      color: #fff;
       background-color: #006f97;
       border-color: #747e85; }
     #workshop-container .btn-primary:active, #workshop-container .btn-primary.active,
     .open > #workshop-container .btn-primary.dropdown-toggle {
-      color: white;
+      color: #fff;
       background-color: #006f97;
       border-color: #747e85; }
       #workshop-container .btn-primary:active:hover, #workshop-container .btn-primary:active:focus, #workshop-container .btn-primary:active.focus, #workshop-container .btn-primary.active:hover, #workshop-container .btn-primary.active:focus, #workshop-container .btn-primary.active.focus,
       .open > #workshop-container .btn-primary.dropdown-toggle:hover,
       .open > #workshop-container .btn-primary.dropdown-toggle:focus,
       .open > #workshop-container .btn-primary.dropdown-toggle.focus {
-        color: white;
+        color: #fff;
         background-color: #005473;
         border-color: #555c62; }
     #workshop-container .btn-primary:active, #workshop-container .btn-primary.active,
@@ -5060,14 +5062,14 @@
       border-color: #949ca2; }
     #workshop-container .btn-primary .badge {
       color: #0094ca;
-      background-color: white; }
-  #workshop-container a {
+      background-color: #fff; }
+  #workshop-container a:not(.btn) {
     color: #7665a0;
     font-family: "Gotham 7r"; }
-    #workshop-container a:hover {
+    #workshop-container a:not(.btn):hover {
       color: #7665a0; }
   #workshop-container th {
-    color: black;
+    color: #000;
     background-color: #c6cacd;
     padding: 2px 5px;
     white-space: normal;
@@ -5080,8 +5082,8 @@ div[role=dialog] div.modal {
 div[role=dialog] div.modal-content {
   margin: 0;
   /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
   /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -5847,7 +5849,6 @@ div[role=dialog] div.modal-content {
       color: #036083;
       text-decoration: underline; }
     div[role=dialog] div.modal-content a:focus {
-      outline: thin dotted;
       outline: 5px auto -webkit-focus-ring-color;
       outline-offset: -2px; }
   div[role=dialog] div.modal-content figure {
@@ -6900,7 +6901,6 @@ div[role=dialog] div.modal-content {
   div[role=dialog] div.modal-content input[type="file"]:focus,
   div[role=dialog] div.modal-content input[type="radio"]:focus,
   div[role=dialog] div.modal-content input[type="checkbox"]:focus {
-    outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
   div[role=dialog] div.modal-content output {
@@ -7437,7 +7437,6 @@ div[role=dialog] div.modal-content {
     -ms-user-select: none;
     user-select: none; }
     div[role=dialog] div.modal-content .btn:focus, div[role=dialog] div.modal-content .btn.focus, div[role=dialog] div.modal-content .btn:active:focus, div[role=dialog] div.modal-content .btn:active.focus, div[role=dialog] div.modal-content .btn.active:focus, div[role=dialog] div.modal-content .btn.active.focus {
-      outline: thin dotted;
       outline: 5px auto -webkit-focus-ring-color;
       outline-offset: -2px; }
     div[role=dialog] div.modal-content .btn:hover, div[role=dialog] div.modal-content .btn:focus, div[role=dialog] div.modal-content .btn.focus {
@@ -10168,28 +10167,28 @@ div[role=dialog] div.modal-content {
     div[role=dialog] div.modal-content .hidden-print {
       display: none !important; } }
   div[role=dialog] div.modal-content .btn-primary {
-    color: white;
+    color: #fff;
     background-color: #0094ca;
     border-color: #949ca2;
     text-shadow: none; }
     div[role=dialog] div.modal-content .btn-primary:focus, div[role=dialog] div.modal-content .btn-primary.focus {
-      color: white;
+      color: #fff;
       background-color: #006f97;
       border-color: #555c62; }
     div[role=dialog] div.modal-content .btn-primary:hover {
-      color: white;
+      color: #fff;
       background-color: #006f97;
       border-color: #747e85; }
     div[role=dialog] div.modal-content .btn-primary:active, div[role=dialog] div.modal-content .btn-primary.active,
     .open > div[role=dialog] div.modal-content .btn-primary.dropdown-toggle {
-      color: white;
+      color: #fff;
       background-color: #006f97;
       border-color: #747e85; }
       div[role=dialog] div.modal-content .btn-primary:active:hover, div[role=dialog] div.modal-content .btn-primary:active:focus, div[role=dialog] div.modal-content .btn-primary:active.focus, div[role=dialog] div.modal-content .btn-primary.active:hover, div[role=dialog] div.modal-content .btn-primary.active:focus, div[role=dialog] div.modal-content .btn-primary.active.focus,
       .open > div[role=dialog] div.modal-content .btn-primary.dropdown-toggle:hover,
       .open > div[role=dialog] div.modal-content .btn-primary.dropdown-toggle:focus,
       .open > div[role=dialog] div.modal-content .btn-primary.dropdown-toggle.focus {
-        color: white;
+        color: #fff;
         background-color: #005473;
         border-color: #555c62; }
     div[role=dialog] div.modal-content .btn-primary:active, div[role=dialog] div.modal-content .btn-primary.active,
@@ -10203,7 +10202,7 @@ div[role=dialog] div.modal-content {
       border-color: #949ca2; }
     div[role=dialog] div.modal-content .btn-primary .badge {
       color: #0094ca;
-      background-color: white; }
+      background-color: #fff; }
   div[role=dialog] div.modal-content div {
     height: auto; }
 

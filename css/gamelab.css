@@ -52,14 +52,14 @@
     margin: 0 0.25em; }
 
 #debug-watch-header {
-  width: 151px;
+  width: 201px;
   max-width: calc(100% - 270px - 130px + 1px);
   float: right;
   border-left: 1px solid gray; }
 
 .debug-commands, .debug-console, .debug-watch {
   display: block;
-  background-color: white;
+  background-color: #fff;
   border: 1px solid #ddd;
   position: absolute;
   top: 43px;
@@ -72,7 +72,7 @@
 
 .debug-watch {
   right: 0;
-  width: 150px;
+  width: 200px;
   max-width: calc(100% - 270px - 130px);
   font-family: monospace;
   font-size: 12px;
@@ -81,8 +81,10 @@
     max-width: calc(100% - 130px); }
 
 .debug-watch-item {
-  margin: 0 5px;
-  line-height: 14px; }
+  margin: 0;
+  line-height: 14px;
+  clear: both;
+  margin-bottom: 1px; }
   .debug-watch-item .watch-variable, .debug-watch-item .watch-separator {
     color: purple; }
   .debug-watch-item .watch-unavailable {
@@ -90,7 +92,7 @@
 
 .debug-console {
   left: 270px;
-  right: 150px;
+  right: 200px;
   min-width: 130px; }
   .debug-console.no-commands {
     left: 0; }
@@ -180,6 +182,12 @@
 .step-over-btn {
   background-position: 0px 21px;
   margin-right: 3px; }
+
+.Select-input {
+  height: 28px !important; }
+
+.Select-arrow-zone {
+  display: none !important; }
 
 .resizable-panes .resizer {
   flex: 0 0 0;

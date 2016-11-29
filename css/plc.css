@@ -62,7 +62,7 @@
       .course_unit_sections .course_unit_section .module_assignment .right_aligned {
         float: right; }
     .course_unit_sections .course_unit_section .not_started {
-      background-color: white; }
+      background-color: #fff; }
     .course_unit_sections .course_unit_section .in_progress {
       background-color: #EFCD1C !important; }
     .course_unit_sections .course_unit_section .completed {
