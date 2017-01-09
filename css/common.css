@@ -518,6 +518,14 @@ button.blocklyLaunch {
   button.blocklyLaunch#resetButton {
     border: 1px solid #0094ca;
     background-color: #0094ca; }
+  button.blocklyLaunch.hideText {
+    width: 42px;
+    height: 42px;
+    min-width: 0;
+    padding: 7px; }
+    button.blocklyLaunch.hideText img {
+      margin-left: 2px;
+      margin-top: -2px; }
 
 button.share {
   border: 1px solid #FFA000;
@@ -1303,7 +1311,7 @@ a.WireframeSendToPhone_send-to-phone-link {
 .legacy-share-view .admin {
   display: none; }
 
-body.embedded_iframe #visualizationColumn.wireframeShare {
+.embedded_iframe #visualizationColumn.wireframeShare {
   padding: 0; }
 
 #rotateContainer {

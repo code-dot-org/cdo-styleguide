@@ -518,6 +518,14 @@ button.blocklyLaunch {
   button.blocklyLaunch#resetButton {
     border: 1px solid #0094ca;
     background-color: #0094ca; }
+  button.blocklyLaunch.hideText {
+    width: 42px;
+    height: 42px;
+    min-width: 0;
+    padding: 7px; }
+    button.blocklyLaunch.hideText img {
+      margin-left: 2px;
+      margin-top: -2px; }
 
 button.share {
   border: 1px solid #FFA000;
@@ -1303,7 +1311,7 @@ a.WireframeSendToPhone_send-to-phone-link {
 .legacy-share-view .admin {
   display: none; }
 
-body.embedded_iframe #visualizationColumn.wireframeShare {
+.embedded_iframe #visualizationColumn.wireframeShare {
   padding: 0; }
 
 #rotateContainer {
@@ -2442,6 +2450,13 @@ a.video_link {
     -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/Reset_Button_Up_Slice.png") 3 3 5 5 stretch !important;
     -o-border-image: url("/blockly/media/craft/Sliced_Parts/Reset_Button_Up_Slice.png") 3 3 5 5 stretch !important;
     border-image: url("/blockly/media/craft/Sliced_Parts/Reset_Button_Up_Slice.png") 3 3 5 5 fill stretch !important; }
+    .dash_modal button#resetButton.hideText, .minecraft button#resetButton.hideText {
+      min-width: 0;
+      width: 62px;
+      height: 62px; }
+      .dash_modal button#resetButton.hideText img, .minecraft button#resetButton.hideText img {
+        margin-left: 0;
+        margin-top: -5px; }
     .dash_modal button#resetButton > div, .minecraft button#resetButton > div {
       font-size: 24px;
       color: white !important;
