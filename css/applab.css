@@ -53,9 +53,17 @@
 
 #debug-watch-header {
   width: 201px;
-  max-width: calc(100% - 270px - 130px + 1px);
   float: right;
   border-left: 1px solid gray; }
+
+#watchersResizeBar {
+  height: 100%;
+  width: 13px;
+  cursor: ew-resize;
+  position: absolute;
+  right: 193.5px;
+  z-index: 1;
+  top: 13px; }
 
 .debug-commands, .debug-console, .debug-watch {
   display: block;
@@ -73,7 +81,6 @@
 .debug-watch {
   right: 0;
   width: 200px;
-  max-width: calc(100% - 270px - 130px);
   font-family: monospace;
   font-size: 12px;
   overflow-y: scroll; }

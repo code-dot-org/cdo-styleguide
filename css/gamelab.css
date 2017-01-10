@@ -53,9 +53,17 @@
 
 #debug-watch-header {
   width: 201px;
-  max-width: calc(100% - 270px - 130px + 1px);
   float: right;
   border-left: 1px solid gray; }
+
+#watchersResizeBar {
+  height: 100%;
+  width: 13px;
+  cursor: ew-resize;
+  position: absolute;
+  right: 193.5px;
+  z-index: 1;
+  top: 13px; }
 
 .debug-commands, .debug-console, .debug-watch {
   display: block;
@@ -73,7 +81,6 @@
 .debug-watch {
   right: 0;
   width: 200px;
-  max-width: calc(100% - 270px - 130px);
   font-family: monospace;
   font-size: 12px;
   overflow-y: scroll; }
@@ -188,29 +195,6 @@
 
 .Select-arrow-zone {
   display: none !important; }
-
-.resizable-panes .resizer {
-  flex: 0 0 0;
-  box-sizing: border-box;
-  background: #000;
-  opacity: 0.2;
-  z-index: 1;
-  background-clip: padding-box;
-  -webkit-user-select: text;
-  -khtml-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
-  user-select: text;
-  width: 11px;
-  margin: 0 -5px;
-  border-left: 5px solid rgba(255, 255, 255, 0);
-  border-right: 5px solid rgba(255, 255, 255, 0);
-  cursor: col-resize;
-  height: 100%; }
-  .resizable-panes .resizer:hover {
-    -webkit-transition: all 2s ease;
-    transition: all 2s ease;
-    border-color: rgba(0, 0, 0, 0.5); }
 
 #visualizationOverlay {
   position: absolute;
