@@ -88,58 +88,58 @@ div.droplet-palette-group-header-selected {
   color: #000; }
 
 div.droplet-palette-group-header.yellow {
-  border-left: 10px solid #FFF176; }
+  border-left: 10px solid #fff176; }
 
 div.droplet-palette-group-header-selected.yellow {
-  background-color: #FFF176; }
+  background-color: #fff176; }
 
 div.droplet-palette-group-header.red {
-  border-left: 10px solid #F78183; }
+  border-left: 10px solid #f78183; }
 
 div.droplet-palette-group-header-selected.red {
-  background-color: #F78183; }
+  background-color: #f78183; }
 
 div.droplet-palette-group-header.cyan {
-  border-left: 10px solid #4DD0E1; }
+  border-left: 10px solid #4dd0e1; }
 
 div.droplet-palette-group-header-selected.cyan {
-  background-color: #4DD0E1; }
+  background-color: #4dd0e1; }
 
 div.droplet-palette-group-header.pink {
-  border-left: 10px solid #F57AC6; }
+  border-left: 10px solid #f57ac6; }
 
 div.droplet-palette-group-header-selected.pink {
-  background-color: #F57AC6; }
+  background-color: #f57ac6; }
 
 div.droplet-palette-group-header.lightgreen {
-  border-left: 10px solid #D3E965; }
+  border-left: 10px solid #d3e965; }
 
 div.droplet-palette-group-header-selected.lightgreen {
-  background-color: #D3E965; }
+  background-color: #d3e965; }
 
 div.droplet-palette-group-header.purple {
-  border-left: 10px solid #BB77C7; }
+  border-left: 10px solid #bb77c7; }
 
 div.droplet-palette-group-header-selected.purple {
-  background-color: #BB77C7; }
+  background-color: #bb77c7; }
 
 div.droplet-palette-group-header.blue {
-  border-left: 10px solid #64B5F6; }
+  border-left: 10px solid #64b5f6; }
 
 div.droplet-palette-group-header-selected.blue {
-  background-color: #64B5F6; }
+  background-color: #64b5f6; }
 
 div.droplet-palette-group-header.green {
-  border-left: 10px solid #68D995; }
+  border-left: 10px solid #68d995; }
 
 div.droplet-palette-group-header-selected.green {
-  background-color: #68D995; }
+  background-color: #68d995; }
 
 div.droplet-palette-group-header.orange {
-  border-left: 10px solid #FFB74D; }
+  border-left: 10px solid #ffb74d; }
 
 div.droplet-palette-group-header-selected.orange {
-  background-color: #FFB74D; }
+  background-color: #ffb74d; }
 
 .droplet-wrapper-div {
   overflow: hidden;
