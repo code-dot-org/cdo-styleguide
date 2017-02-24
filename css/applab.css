@@ -36,13 +36,13 @@
 #debug-area {
   position: absolute;
   bottom: 0;
-  height: 120px;
+  height: 43px;
   left: 0;
   right: 0;
   max-height: calc(50% - 16px) !important; }
 
 #codeTextbox.pin_bottom {
-  bottom: 120px; }
+  bottom: 43px; }
 
 #debug-commands-header {
   width: 270px;
