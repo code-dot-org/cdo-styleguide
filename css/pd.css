@@ -7024,7 +7024,7 @@ div[role=dialog] div.modal {
   width: auto; }
 
 div[role=dialog] div.modal-content {
-  margin: 0;
+  margin: 0 !important;
   /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
