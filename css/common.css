@@ -870,7 +870,10 @@ html[dir="RTL"] .prompt-icon-cell {
   top: 0;
   left: 8px;
   line-height: 30px;
-  color: #cfc9de; }
+  color: #cfc9de;
+  cursor: pointer; }
+  #headers #show-toolbox-icon:hover.fa, #headers #hide-toolbox-icon:hover.fa, .purple-header #show-toolbox-icon:hover.fa, .purple-header #hide-toolbox-icon:hover.fa {
+    color: #fff; }
 
 #headers #hide-toolbox-icon, .purple-header #hide-toolbox-icon {
   -moz-transform: scale(-1, 1);
@@ -883,20 +886,16 @@ html[dir="RTL"] .prompt-icon-cell {
   width: 270px;
   border-right: 1px solid gray;
   float: left; }
-  #headers #toolbox-header.toggleable, .purple-header #toolbox-header.toggleable {
-    cursor: pointer; }
-    #headers #toolbox-header.toggleable:hover .fa, .purple-header #toolbox-header.toggleable:hover .fa {
-      color: #fff; }
 
 #headers #show-toolbox-header, .purple-header #show-toolbox-header {
   border: 0;
   float: left;
   padding: 0 10px;
   cursor: pointer; }
-  #headers #show-toolbox-header:hover .fa, .purple-header #show-toolbox-header:hover .fa {
+  #headers #show-toolbox-header #show-toolbox-click-target:hover .fa, .purple-header #show-toolbox-header #show-toolbox-click-target:hover .fa {
     color: #fff; }
   #headers #show-toolbox-header > span, .purple-header #show-toolbox-header > span {
-    margin: auto 18px; }
+    margin: auto auto auto 18px; }
 
 #headers #blockCounter, #headers #blockUsed, .purple-header #blockCounter, .purple-header #blockUsed {
   display: inline-block; }
