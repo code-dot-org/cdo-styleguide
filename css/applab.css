@@ -288,7 +288,7 @@
   background: #bdc3c7 url("/blockly/media/applab/placeholder_chart.png") center center no-repeat; }
 
 div#visualization {
-  height: 400px;
+  height: 562.5px;
   width: 400px; }
 
 div#visualization.with_padding {
@@ -303,10 +303,22 @@ div#visualizationResizeBar {
 .small-footer-base {
   width: 340px; }
 
-/* Shrink the visualization area on small displays. */
-@media screen and (min-width: 1151px), screen and (min-height: 601px) {
+/*
+ * Shrink the visualization area on small displays.
+ *
+ * Above 1150px, the play space is 400px wide. Between 1150px and 950px, the
+ * play space width responsively decreases by 50px as the window width is
+ * reduced by 50px. The scale factor and the play space height are scaled down
+ * so as to preserve the aspect ratio.
+ *
+ * Vertical responsiveness causes the playspace width to grow and shrink by the
+ * same increments. min-height and max-height breakpoints are chosen
+ * experimentally to keep about the same amount of space below the phone frame
+ * throughout the responsive range.
+ */
+@media screen and (min-width: 1151px), screen and (min-height: 849px) {
   div#visualization.responsive {
-    max-height: 400px;
+    max-height: 562.5px;
     max-width: 400px; }
   div#visualizationColumn.responsive {
     max-width: 400px; }
@@ -320,17 +332,17 @@ div#visualizationResizeBar {
     right: 400px; }
   div#visualizationResizeBar {
     left: 400px;
-    line-height: 400px; }
+    line-height: 562.5px; }
   html[dir='rtl'] div#visualizationResizeBar {
     right: 400px; }
   div#visualization.responsive > * {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1); } }
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25); } }
 
-@media screen and (min-width: 1101px) and (max-width: 1150px), screen and (min-height: 551px) and (max-height: 600px) {
+@media screen and (min-width: 1101px) and (max-width: 1150px), screen and (min-height: 777px) and (max-height: 848px) {
   div#visualization.responsive {
-    max-height: 350px;
+    max-height: 492.1875px;
     max-width: 350px; }
   div#visualizationColumn.responsive {
     max-width: 350px; }
@@ -344,17 +356,17 @@ div#visualizationResizeBar {
     right: 350px; }
   div#visualizationResizeBar {
     left: 350px;
-    line-height: 350px; }
+    line-height: 492.1875px; }
   html[dir='rtl'] div#visualizationResizeBar {
     right: 350px; }
   div#visualization.responsive > * {
-    -webkit-transform: scale(0.875);
-    -ms-transform: scale(0.875);
-    transform: scale(0.875); } }
+    -webkit-transform: scale(1.09375);
+    -ms-transform: scale(1.09375);
+    transform: scale(1.09375); } }
 
-@media screen and (min-width: 1051px) and (max-width: 1100px), screen and (min-height: 501px) and (max-height: 550px) {
+@media screen and (min-width: 1051px) and (max-width: 1100px), screen and (min-height: 708px) and (max-height: 778px) {
   div#visualization.responsive {
-    max-height: 300px;
+    max-height: 421.875px;
     max-width: 300px; }
   div#visualizationColumn.responsive {
     max-width: 300px; }
@@ -368,17 +380,17 @@ div#visualizationResizeBar {
     right: 300px; }
   div#visualizationResizeBar {
     left: 300px;
-    line-height: 300px; }
+    line-height: 421.875px; }
   html[dir='rtl'] div#visualizationResizeBar {
     right: 300px; }
   div#visualization.responsive > * {
-    -webkit-transform: scale(0.75);
-    -ms-transform: scale(0.75);
-    transform: scale(0.75); } }
+    -webkit-transform: scale(0.9375);
+    -ms-transform: scale(0.9375);
+    transform: scale(0.9375); } }
 
-@media screen and (min-width: 1001px) and (max-width: 1050px), screen and (min-height: 451px) and (max-height: 500px) {
+@media screen and (min-width: 1001px) and (max-width: 1050px), screen and (min-height: 638px) and (max-height: 707px) {
   div#visualization.responsive {
-    max-height: 250px;
+    max-height: 351.5625px;
     max-width: 250px; }
   div#visualizationColumn.responsive {
     max-width: 250px; }
@@ -392,17 +404,17 @@ div#visualizationResizeBar {
     right: 250px; }
   div#visualizationResizeBar {
     left: 250px;
-    line-height: 250px; }
+    line-height: 351.5625px; }
   html[dir='rtl'] div#visualizationResizeBar {
     right: 250px; }
   div#visualization.responsive > * {
-    -webkit-transform: scale(0.625);
-    -ms-transform: scale(0.625);
-    transform: scale(0.625); } }
+    -webkit-transform: scale(0.78125);
+    -ms-transform: scale(0.78125);
+    transform: scale(0.78125); } }
 
-@media screen and (max-width: 1000px), screen and (max-height: 450px) {
+@media screen and (max-width: 1000px), screen and (max-height: 637px) {
   div#visualization.responsive {
-    max-height: 200px;
+    max-height: 281.25px;
     max-width: 200px; }
   div#visualizationColumn.responsive {
     max-width: 200px; }
@@ -416,13 +428,13 @@ div#visualizationResizeBar {
     right: 200px; }
   div#visualizationResizeBar {
     left: 200px;
-    line-height: 200px; }
+    line-height: 281.25px; }
   html[dir='rtl'] div#visualizationResizeBar {
     right: 200px; }
   div#visualization.responsive > * {
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5); } }
+    -webkit-transform: scale(0.625);
+    -ms-transform: scale(0.625);
+    transform: scale(0.625); } }
 
 #visualizationColumn.wireframeShare {
   max-width: none !important;
