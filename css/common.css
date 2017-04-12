@@ -707,13 +707,13 @@ input[type="radio"] {
   #puzzleRatingButtons .puzzle-rating-btn#like.enabled {
     fill: #FF3014; }
   #puzzleRatingButtons .puzzle-rating-btn#like.enabled:hover {
-    fill: #D62911; }
+    fill: #d62911; }
   #puzzleRatingButtons .puzzle-rating-btn#dislike:hover {
     fill: #4D4D4D; }
   #puzzleRatingButtons .puzzle-rating-btn#dislike.enabled {
     fill: #0094ca; }
   #puzzleRatingButtons .puzzle-rating-btn#dislike.enabled:hover {
-    fill: #00647F; }
+    fill: #00647f; }
 
 /* Instructions. Not netsim-bubbles are styled in JSX */
 #bubble.netsim-bubble {
