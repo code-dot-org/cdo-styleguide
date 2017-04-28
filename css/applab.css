@@ -487,6 +487,9 @@ div#visualizationResizeBar {
   left: 0px;
   z-index: -1; }
 
+#divApplab.running label {
+  cursor: default; }
+
 /* When not running, show default arrow cursor for all UI elements
    so that they do not look active. */
 #divApplab.notRunning button, #divApplab.notRunning label, #divApplab.notRunning select, #divApplab.notRunning input, #divApplab.notRunning img, #divApplab.notRunning div.chart, #divApplab.notRunning canvas, #divApplab.notRunning div[contenteditable=true] {
