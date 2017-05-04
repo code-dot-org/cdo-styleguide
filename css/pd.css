@@ -7018,6 +7018,19 @@
     padding: 2px 5px;
     white-space: normal;
     font-weight: normal; }
+  #workshop-container #error_explanation, #application-container #error_explanation, #application-header #error_explanation {
+    padding: 0; }
+    #workshop-container #error_explanation h2, #application-container #error_explanation h2, #application-header #error_explanation h2 {
+      padding: 0;
+      margin: 0; }
+  #workshop-container table.table.table-auto-width, #application-container table.table.table-auto-width, #application-header table.table.table-auto-width {
+    width: auto !important; }
+  #workshop-container form.pd-admin .field_with_errors input, #application-container form.pd-admin .field_with_errors input, #application-header form.pd-admin .field_with_errors input {
+    background-color: #ff0 !important; }
+  #workshop-container form.pd-admin .field_with_errors select, #application-container form.pd-admin .field_with_errors select, #application-header form.pd-admin .field_with_errors select {
+    background-color: #ff0 !important; }
+  #workshop-container form.pd-admin .field_with_errors textarea, #application-container form.pd-admin .field_with_errors textarea, #application-header form.pd-admin .field_with_errors textarea {
+    background-color: #ff0 !important; }
 
 div[role=dialog] div.modal {
   min-width: 450px;
@@ -12422,5 +12435,5 @@ div[role=dialog] div.modal-content {
   div[role=dialog] div.modal-content div {
     height: auto; }
 
-.form-required-field {
+form .form-required-field {
   color: red; }
