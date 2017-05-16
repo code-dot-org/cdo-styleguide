@@ -464,3 +464,92 @@ table.checkboxes td, table.checkboxes th {
 table.checkboxes label {
   font-size: 13px;
   font-weight: bold; }
+
+#grid .label {
+  background-color: black; }
+
+#grid .border {
+  background-color: dimgray !important; }
+
+#grid .path {
+  background-color: darkgreen !important; }
+
+#grid .start {
+  background-color: firebrick !important; }
+
+#grid .end {
+  background-color: lime !important; }
+
+#grid .obstacle {
+  background-color: gold !important; }
+
+#grid .dirt {
+  background-color: #d1d567 !important; }
+
+#grid .conditional {
+  background-color: green !important; }
+
+#grid td {
+  width: 40px;
+  border: 1px solid #CCC;
+  padding: 0 4px 0 4px;
+  vertical-align: top;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF; }
+  #grid td.highlighted {
+    border-color: yellow; }
+  #grid td.selected {
+    border-color: cyan; }
+  #grid td.start {
+    background-image: url("/blockly/media/skins/birds/small_static_avatar.png");
+    background-size: 100% 100%; }
+  #grid td.end {
+    background-image: url("/blockly/media/skins/birds/goal.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
+  #grid td.obstacle {
+    background-image: url("/blockly/media/skins/birds/obstacle.png");
+    background-size: 100% 100%; }
+  #grid td.dirt {
+    background-image: url("/blockly/media/skins/farmer/dirt.png");
+    background-size: 1100px 100%; }
+  #grid td.conditional {
+    background-size: 100% 100%; }
+  #grid td.flower {
+    background-image: url("/blockly/media/skins/bee/redFlower.png"); }
+  #grid td.hive {
+    background-image: url("/blockly/media/skins/bee/honey.png"); }
+  #grid td.flower-or-nothing {
+    background-image: url("/assets/editor/flower-or-nothing.png"); }
+  #grid td.hive-or-nothing {
+    background-image: url("/assets/editor/hive-or-nothing.png"); }
+  #grid td.flower-or-hive {
+    background-image: url("/assets/editor/hive-or-flower.png"); }
+  #grid td.flower-hive-or-nothing {
+    background-image: url("/assets/editor/flower-hive-or-nothing.png"); }
+  #grid td.playlab.none {
+    background-color: #e7e8ea !important; }
+  #grid td.playlab.goal {
+    background-color: #b9bf15 !important;
+    background-image: url("/blockly/media/skins/studio/goal.png");
+    background-size: contain;
+    background-position: center; }
+  #grid td.playlab.sprite {
+    background-color: #0094ca !important;
+    background-size: 1200% 100%; }
+
+#grid tr {
+  height: 40px; }
+
+#grid .htInvalid {
+  background-color: orangered !important; }
+
+#grid .htNumeric {
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF; }
+
+#grid table {
+  border-collapse: separate;
+  table-layout: fixed;
+  width: 0; }
