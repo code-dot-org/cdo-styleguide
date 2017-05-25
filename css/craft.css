@@ -1887,6 +1887,134 @@ a.video_link {
   .legacy-share-view #visualization {
     height: auto !important; }
 
+#code-connection-log {
+  width: 400px;
+  height: 400px;
+  margin-left: 17px;
+  margin-top: 61px;
+  overflow-y: scroll;
+  display: inline-block;
+  background-color: #333;
+  color: #f2f2f2; }
+  #code-connection-log #log-text {
+    line-height: 50px;
+    font-size: 22px;
+    color: #e7e8ea; }
+
+#craft-popup-connect {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #3C3C3C;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 540px;
+  margin: -258px 0 0 -270px;
+  border-style: solid;
+  border-width: 18px 21px 22px 19px;
+  box-shadow: none;
+  image-rendering: optimizeSpeed;
+  /* Legal fallback */
+  image-rendering: -moz-crisp-edges;
+  /* Firefox        */
+  image-rendering: -o-crisp-edges;
+  /* Opera          */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari         */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed  */
+  image-rendering: crisp-edges;
+  /* CSS4 Proposed  */
+  image-rendering: pixelated;
+  /* CSS4 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+           */
+  -moz-border-image: url("/blockly/media/craft/Sliced_Parts/Pop_Up_Slice.png") 18 21 22 19 stretch;
+  -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/Pop_Up_Slice.png") 18 21 22 19 stretch;
+  -o-border-image: url("/blockly/media/craft/Sliced_Parts/Pop_Up_Slice.png") 18 21 22 19 stretch;
+  border-image: url("/blockly/media/craft/Sliced_Parts/Pop_Up_Slice.png") 18 21 22 19 fill stretch; }
+  #craft-popup-connect .x-close {
+    visibility: hidden; }
+  @media screen and (max-height: 630px) {
+    #craft-popup-connect {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 540px;
+      margin: -200px 0 0 -270px; } }
+  #craft-popup-connect #modal-body {
+    background-color: #3C3C3C; }
+  #craft-popup-connect .modal-content.no-modal-icon {
+    margin-left: 0; }
+    html[dir=rtl] #craft-popup-connect .modal-content.no-modal-icon {
+      margin-right: 0; }
+  #craft-popup-connect .minecraft-big-yellow-header {
+    text-shadow: 2px 2px #565656 !important;
+    color: #F4D00B;
+    line-height: 11px;
+    font-size: 30px; }
+  #craft-popup-connect #download-text {
+    line-height: 50px;
+    font-size: 22px;
+    color: #e7e8ea; }
+  #craft-popup-connect #close-popup {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    background: url("/blockly/media/craft/Sliced_Parts/X_Button.png") no-repeat center center;
+    background-size: 100% auto;
+    top: -35px;
+    right: -35px;
+    width: 50px;
+    height: 50px; }
+    html[dir=rtl] #craft-popup-connect #close-popup {
+      right: auto;
+      left: -35px; }
+  #craft-popup-connect .download-button {
+    border-style: solid !important;
+    border-width: 4px 5px 6px !important;
+    image-rendering: optimizeSpeed;
+    /* Legal fallback */
+    image-rendering: -moz-crisp-edges;
+    /* Firefox        */
+    image-rendering: -o-crisp-edges;
+    /* Opera          */
+    image-rendering: -webkit-optimize-contrast;
+    /* Safari         */
+    image-rendering: optimize-contrast;
+    /* CSS3 Proposed  */
+    image-rendering: crisp-edges;
+    /* CSS4 Proposed  */
+    image-rendering: pixelated;
+    /* CSS4 Proposed  */
+    -ms-interpolation-mode: nearest-neighbor;
+    /* IE8+           */
+    -moz-border-image: url("/blockly/media/craft/Sliced_Parts/Button_Grey_Slice.png") 4 5 6 stretch !important;
+    -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/Button_Grey_Slice.png") 4 5 6 stretch !important;
+    -o-border-image: url("/blockly/media/craft/Sliced_Parts/Button_Grey_Slice.png") 4 5 6 stretch !important;
+    border-image: url("/blockly/media/craft/Sliced_Parts/Button_Grey_Slice.png") 4 5 6 fill stretch !important;
+    text-shadow: 2px 2px #565656 !important;
+    color: #f1f1f1 !important;
+    font-size: 26px;
+    line-height: 26px;
+    font-family: "Gotham 5r", sans-serif !important;
+    display: inline-block;
+    padding: 5px; }
+    #craft-popup-connect .download-button:hover {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+    #craft-popup-connect .download-button:active {
+      outline: none;
+      border-image-slice: 2 3 4 3 fill;
+      border-image-width: 10px 20px 20px 20px;
+      -moz-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+      -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+      -o-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
+      border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 fill stretch !important; }
+
 #craft-popup-player-selection {
   background-color: transparent;
   border: none;
