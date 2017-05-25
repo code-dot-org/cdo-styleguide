@@ -1628,28 +1628,28 @@ body {
   -ms-touch-action: none; }
 
 .header-wrapper {
-  background-color: #F2F2F2; }
+  background-color: #f2f2f2; }
 
 .workspace-header {
-  background-color: #3B3B3B; }
+  background-color: #3b3b3b; }
 
 #headers {
-  background-color: #3B3B3B !important; }
+  background-color: #3b3b3b !important; }
 
 .blocklySvg {
   background-color: #a1a1a1; }
   .csf-top-instructions .blocklySvg {
-    background-color: #3B3B3B; }
+    background-color: #3b3b3b; }
 
 .blocklyFlyoutBackground {
-  fill: #4E4E4E !important;
+  fill: #4e4e4e !important;
   fill-opacity: 1; }
 
 #bubble {
   background-color: transparent !important; }
 
 .small-footer-base, #copyright-flyout, #more-menu {
-  background-color: #4E4E4E;
+  background-color: #4e4e4e;
   color: #969292; }
   .small-footer-base a:hover, #copyright-flyout a:hover, #more-menu a:hover {
     color: white; }
@@ -1682,7 +1682,7 @@ body {
 
 #codeWorkspace.pin_bottom {
   border: none;
-  border-top: 1px solid #3B3B3B; }
+  border-top: 1px solid #3b3b3b; }
 
 #visualizationResizeBar {
   color: #4F4F4F; }
@@ -1906,7 +1906,7 @@ a.video_link {
   border: none;
   box-shadow: none;
   border-radius: 0;
-  background-color: #3C3C3C;
+  background-color: #3c3c3c;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -1945,14 +1945,14 @@ a.video_link {
       width: 540px;
       margin: -200px 0 0 -270px; } }
   #craft-popup-connect #modal-body {
-    background-color: #3C3C3C; }
+    background-color: #3c3c3c; }
   #craft-popup-connect .modal-content.no-modal-icon {
     margin-left: 0; }
     html[dir=rtl] #craft-popup-connect .modal-content.no-modal-icon {
       margin-right: 0; }
   #craft-popup-connect .minecraft-big-yellow-header {
     text-shadow: 2px 2px #565656 !important;
-    color: #F4D00B;
+    color: #f4d00b;
     line-height: 11px;
     font-size: 30px; }
   #craft-popup-connect #download-text {
@@ -1974,7 +1974,7 @@ a.video_link {
       left: -35px; }
   #craft-popup-connect .download-button {
     border-style: solid !important;
-    border-width: 4px 5px 6px !important;
+    border-width: 4px 5px 6px 5px !important;
     image-rendering: optimizeSpeed;
     /* Legal fallback */
     image-rendering: -moz-crisp-edges;
@@ -2020,7 +2020,7 @@ a.video_link {
   border: none;
   box-shadow: none;
   border-radius: 0;
-  background-color: #3C3C3C;
+  background-color: #3c3c3c;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -2059,14 +2059,14 @@ a.video_link {
       width: 540px;
       margin: -200px 0 0 -270px; } }
   #craft-popup-player-selection #modal-body {
-    background-color: #3C3C3C; }
+    background-color: #3c3c3c; }
   #craft-popup-player-selection .modal-content.no-modal-icon {
     margin-left: 0; }
     html[dir=rtl] #craft-popup-player-selection .modal-content.no-modal-icon {
       margin-right: 0; }
   #craft-popup-player-selection .minecraft-big-yellow-header {
     text-shadow: 2px 2px #565656 !important;
-    color: #F4D00B;
+    color: #f4d00b;
     line-height: 11px;
     font-size: 30px; }
   #craft-popup-player-selection #select-character-text {
@@ -2180,7 +2180,7 @@ a.video_link {
   border: none;
   box-shadow: none;
   border-radius: 0;
-  background-color: #3C3C3C;
+  background-color: #3c3c3c;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -2219,14 +2219,14 @@ a.video_link {
       width: 654px;
       margin: -150px 0 0 -327px; } }
   #craft-popup-house-selection #modal-body {
-    background-color: #3C3C3C; }
+    background-color: #3c3c3c; }
   #craft-popup-house-selection .modal-content {
     margin-left: 0; }
     html[dir=rtl] #craft-popup-house-selection .modal-content {
       margin-right: 0; }
   #craft-popup-house-selection .minecraft-big-yellow-header {
     text-shadow: 2px 2px #565656 !important;
-    color: #F4D00B;
+    color: #f4d00b;
     line-height: 11px;
     font-size: 30px; }
   #craft-popup-house-selection #getting-started-header {
@@ -2791,7 +2791,7 @@ a.video_link {
       color: #cfc9de; }
   .minecraft .dash_modal .dialog-title {
     text-shadow: 2px 2px #565656 !important;
-    color: #F4D00B; }
+    color: #f4d00b; }
   .minecraft .dash_modal #feedbackButtons:after {
     display: none; }
 
@@ -2832,7 +2832,7 @@ a.video_link {
   .ieVersion10 .qtip-default {
     background-color: #585858 !important;
     border-radius: 8px;
-    border-color: #3B3B3B;
+    border-color: #3b3b3b;
     border-width: 15px; }
 
 .tooltip-x-close.qtip-icon {
@@ -2868,7 +2868,7 @@ a.video_link {
     height: 50px; }
 
 .ieVersion9 #open-workspace {
-  background-color: #3B3B3B; }
+  background-color: #3b3b3b; }
 
 .cdo-qtips .qtip-tip {
   background: url("/blockly/media/craft/Sliced_Parts/Callout_Tail.png") no-repeat center center;
