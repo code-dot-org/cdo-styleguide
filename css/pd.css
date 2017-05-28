@@ -7009,23 +7009,23 @@
       background-color: #fff; }
   #workshop-container .btn-orange, #application-container .btn-orange, #application-header .btn-orange {
     color: #fff;
-    background-color: #ff8600;
+    background-color: #ffa400;
     border-color: #949ca2;
     text-shadow: none; }
     #workshop-container .btn-orange:focus, #workshop-container .btn-orange.focus, #application-container .btn-orange:focus, #application-container .btn-orange.focus, #application-header .btn-orange:focus, #application-header .btn-orange.focus {
       color: #fff;
-      background-color: #cc6b00;
+      background-color: #cc8300;
       border-color: #555c62; }
     #workshop-container .btn-orange:hover, #application-container .btn-orange:hover, #application-header .btn-orange:hover {
       color: #fff;
-      background-color: #cc6b00;
+      background-color: #cc8300;
       border-color: #747e85; }
     #workshop-container .btn-orange:active, #workshop-container .btn-orange.active,
     .open > #workshop-container .btn-orange.dropdown-toggle, #application-container .btn-orange:active, #application-container .btn-orange.active,
     .open > #application-container .btn-orange.dropdown-toggle, #application-header .btn-orange:active, #application-header .btn-orange.active,
     .open > #application-header .btn-orange.dropdown-toggle {
       color: #fff;
-      background-color: #cc6b00;
+      background-color: #cc8300;
       border-color: #747e85; }
       #workshop-container .btn-orange:active:hover, #workshop-container .btn-orange:active:focus, #workshop-container .btn-orange:active.focus, #workshop-container .btn-orange.active:hover, #workshop-container .btn-orange.active:focus, #workshop-container .btn-orange.active.focus,
       .open > #workshop-container .btn-orange.dropdown-toggle:hover,
@@ -7038,7 +7038,7 @@
       .open > #application-header .btn-orange.dropdown-toggle:focus,
       .open > #application-header .btn-orange.dropdown-toggle.focus {
         color: #fff;
-        background-color: #a85800;
+        background-color: #a86c00;
         border-color: #555c62; }
     #workshop-container .btn-orange:active, #workshop-container .btn-orange.active,
     .open > #workshop-container .btn-orange.dropdown-toggle, #application-container .btn-orange:active, #application-container .btn-orange.active,
@@ -7055,10 +7055,10 @@
     fieldset[disabled] #application-header .btn-orange:hover,
     fieldset[disabled] #application-header .btn-orange:focus,
     fieldset[disabled] #application-header .btn-orange.focus {
-      background-color: #ff8600;
+      background-color: #ffa400;
       border-color: #949ca2; }
     #workshop-container .btn-orange .badge, #application-container .btn-orange .badge, #application-header .btn-orange .badge {
-      color: #ff8600;
+      color: #ffa400;
       background-color: #fff; }
   #workshop-container .btn-gray, #application-container .btn-gray, #application-header .btn-gray {
     color: #333;
@@ -12543,28 +12543,28 @@ div[role=dialog] div.modal-content {
       background-color: #fff; }
   div[role=dialog] div.modal-content .btn-orange {
     color: #fff;
-    background-color: #ff8600;
+    background-color: #ffa400;
     border-color: #949ca2;
     text-shadow: none; }
     div[role=dialog] div.modal-content .btn-orange:focus, div[role=dialog] div.modal-content .btn-orange.focus {
       color: #fff;
-      background-color: #cc6b00;
+      background-color: #cc8300;
       border-color: #555c62; }
     div[role=dialog] div.modal-content .btn-orange:hover {
       color: #fff;
-      background-color: #cc6b00;
+      background-color: #cc8300;
       border-color: #747e85; }
     div[role=dialog] div.modal-content .btn-orange:active, div[role=dialog] div.modal-content .btn-orange.active,
     .open > div[role=dialog] div.modal-content .btn-orange.dropdown-toggle {
       color: #fff;
-      background-color: #cc6b00;
+      background-color: #cc8300;
       border-color: #747e85; }
       div[role=dialog] div.modal-content .btn-orange:active:hover, div[role=dialog] div.modal-content .btn-orange:active:focus, div[role=dialog] div.modal-content .btn-orange:active.focus, div[role=dialog] div.modal-content .btn-orange.active:hover, div[role=dialog] div.modal-content .btn-orange.active:focus, div[role=dialog] div.modal-content .btn-orange.active.focus,
       .open > div[role=dialog] div.modal-content .btn-orange.dropdown-toggle:hover,
       .open > div[role=dialog] div.modal-content .btn-orange.dropdown-toggle:focus,
       .open > div[role=dialog] div.modal-content .btn-orange.dropdown-toggle.focus {
         color: #fff;
-        background-color: #a85800;
+        background-color: #a86c00;
         border-color: #555c62; }
     div[role=dialog] div.modal-content .btn-orange:active, div[role=dialog] div.modal-content .btn-orange.active,
     .open > div[role=dialog] div.modal-content .btn-orange.dropdown-toggle {
@@ -12573,10 +12573,10 @@ div[role=dialog] div.modal-content {
     fieldset[disabled] div[role=dialog] div.modal-content .btn-orange:hover,
     fieldset[disabled] div[role=dialog] div.modal-content .btn-orange:focus,
     fieldset[disabled] div[role=dialog] div.modal-content .btn-orange.focus {
-      background-color: #ff8600;
+      background-color: #ffa400;
       border-color: #949ca2; }
     div[role=dialog] div.modal-content .btn-orange .badge {
-      color: #ff8600;
+      color: #ffa400;
       background-color: #fff; }
   div[role=dialog] div.modal-content .btn-gray {
     color: #333;
