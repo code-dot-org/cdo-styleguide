@@ -457,7 +457,6 @@ div#visualizationResizeBar {
   display: none; }
 
 #divApplab, #designModeViz {
-  overflow: visible;
   outline: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -471,11 +470,12 @@ div#visualizationResizeBar {
   z-index: 1;
   background-color: white; }
 
-#designModeViz.clip-content {
-  overflow: hidden; }
-
-#designModeViz .screen {
+#designModeViz {
   overflow: visible; }
+  #designModeViz.clip-content {
+    overflow: hidden; }
+  #designModeViz .screen {
+    overflow: visible; }
 
 #visualizationOverlay {
   z-index: 3; }
