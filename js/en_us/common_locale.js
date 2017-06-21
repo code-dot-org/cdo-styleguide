@@ -1,0 +1,678 @@
+var common_locale = {lc:{"ar":function(n){
+  if (n === 0) {
+    return 'zero';
+  }
+  if (n == 1) {
+    return 'one';
+  }
+  if (n == 2) {
+    return 'two';
+  }
+  if ((n % 100) >= 3 && (n % 100) <= 10 && n == Math.floor(n)) {
+    return 'few';
+  }
+  if ((n % 100) >= 11 && (n % 100) <= 99 && n == Math.floor(n)) {
+    return 'many';
+  }
+  return 'other';
+},"en":function(n){return n===1?"one":"other"},"bg":function(n){return n===1?"one":"other"},"bn":function(n){return n===1?"one":"other"},"ca":function(n){return n===1?"one":"other"},"cs":function(n){
+  if (n == 1) {
+    return 'one';
+  }
+  if (n == 2 || n == 3 || n == 4) {
+    return 'few';
+  }
+  return 'other';
+},"da":function(n){return n===1?"one":"other"},"de":function(n){return n===1?"one":"other"},"el":function(n){return n===1?"one":"other"},"es":function(n){return n===1?"one":"other"},"et":function(n){return n===1?"one":"other"},"eu":function(n){return n===1?"one":"other"},"fa":function(n){return "other"},"fi":function(n){return n===1?"one":"other"},"fil":function(n){return n===0||n==1?"one":"other"},"fr":function(n){return Math.floor(n)===0||Math.floor(n)==1?"one":"other"},"ga":function(n){return n==1?"one":(n==2?"two":"other")},"gl":function(n){return n===1?"one":"other"},"he":function(n){return n===1?"one":"other"},"hi":function(n){return n===0||n==1?"one":"other"},"hr":function(n){
+  if ((n % 10) == 1 && (n % 100) != 11) {
+    return 'one';
+  }
+  if ((n % 10) >= 2 && (n % 10) <= 4 &&
+      ((n % 100) < 12 || (n % 100) > 14) && n == Math.floor(n)) {
+    return 'few';
+  }
+  if ((n % 10) === 0 || ((n % 10) >= 5 && (n % 10) <= 9) ||
+      ((n % 100) >= 11 && (n % 100) <= 14) && n == Math.floor(n)) {
+    return 'many';
+  }
+  return 'other';
+},"hu":function(n){return "other"},"id":function(n){return "other"},"is":function(n){
+    return ((n%10) === 1 && (n%100) !== 11) ? 'one' : 'other';
+  },"it":function(n){return n===1?"one":"other"},"ja":function(n){return "other"},"ko":function(n){return "other"},"lt":function(n){
+  if ((n % 10) == 1 && ((n % 100) < 11 || (n % 100) > 19)) {
+    return 'one';
+  }
+  if ((n % 10) >= 2 && (n % 10) <= 9 &&
+      ((n % 100) < 11 || (n % 100) > 19) && n == Math.floor(n)) {
+    return 'few';
+  }
+  return 'other';
+},"lv":function(n){
+  if (n === 0) {
+    return 'zero';
+  }
+  if ((n % 10) == 1 && (n % 100) != 11) {
+    return 'one';
+  }
+  return 'other';
+},"mk":function(n){return (n%10)==1&&n!=11?"one":"other"},"mr":function(n){return n===1?"one":"other"},"ms":function(n){return "other"},"mt":function(n){
+  if (n == 1) {
+    return 'one';
+  }
+  if (n === 0 || ((n % 100) >= 2 && (n % 100) <= 4 && n == Math.floor(n))) {
+    return 'few';
+  }
+  if ((n % 100) >= 11 && (n % 100) <= 19 && n == Math.floor(n)) {
+    return 'many';
+  }
+  return 'other';
+},"nl":function(n){return n===1?"one":"other"},"no":function(n){return n===1?"one":"other"},"pl":function(n){
+  if (n == 1) {
+    return 'one';
+  }
+  if ((n % 10) >= 2 && (n % 10) <= 4 &&
+      ((n % 100) < 12 || (n % 100) > 14) && n == Math.floor(n)) {
+    return 'few';
+  }
+  if ((n % 10) === 0 || n != 1 && (n % 10) == 1 ||
+      ((n % 10) >= 5 && (n % 10) <= 9 || (n % 100) >= 12 && (n % 100) <= 14) &&
+      n == Math.floor(n)) {
+    return 'many';
+  }
+  return 'other';
+},"pt":function(n){return n===1?"one":"other"},"ro":function(n){
+  if (n == 1) {
+    return 'one';
+  }
+  if (n === 0 || n != 1 && (n % 100) >= 1 &&
+      (n % 100) <= 19 && n == Math.floor(n)) {
+    return 'few';
+  }
+  return 'other';
+},"ru":function(n){
+  if ((n % 10) == 1 && (n % 100) != 11) {
+    return 'one';
+  }
+  if ((n % 10) >= 2 && (n % 10) <= 4 &&
+      ((n % 100) < 12 || (n % 100) > 14) && n == Math.floor(n)) {
+    return 'few';
+  }
+  if ((n % 10) === 0 || ((n % 10) >= 5 && (n % 10) <= 9) ||
+      ((n % 100) >= 11 && (n % 100) <= 14) && n == Math.floor(n)) {
+    return 'many';
+  }
+  return 'other';
+},"sk":function(n){
+  if (n == 1) {
+    return 'one';
+  }
+  if (n == 2 || n == 3 || n == 4) {
+    return 'few';
+  }
+  return 'other';
+},"sl":function(n){
+  if ((n % 100) == 1) {
+    return 'one';
+  }
+  if ((n % 100) == 2) {
+    return 'two';
+  }
+  if ((n % 100) == 3 || (n % 100) == 4) {
+    return 'few';
+  }
+  return 'other';
+},"sq":function(n){return n===1?"one":"other"},"sr":function(n){
+  if ((n % 10) == 1 && (n % 100) != 11) {
+    return 'one';
+  }
+  if ((n % 10) >= 2 && (n % 10) <= 4 &&
+      ((n % 100) < 12 || (n % 100) > 14) && n == Math.floor(n)) {
+    return 'few';
+  }
+  if ((n % 10) === 0 || ((n % 10) >= 5 && (n % 10) <= 9) ||
+      ((n % 100) >= 11 && (n % 100) <= 14) && n == Math.floor(n)) {
+    return 'many';
+  }
+  return 'other';
+},"sv":function(n){return n===1?"one":"other"},"ta":function(n){return n===1?"one":"other"},"th":function(n){return "other"},"tr":function(n){return n===1?"one":"other"},"uk":function(n){
+  if ((n % 10) == 1 && (n % 100) != 11) {
+    return 'one';
+  }
+  if ((n % 10) >= 2 && (n % 10) <= 4 &&
+      ((n % 100) < 12 || (n % 100) > 14) && n == Math.floor(n)) {
+    return 'few';
+  }
+  if ((n % 10) === 0 || ((n % 10) >= 5 && (n % 10) <= 9) ||
+      ((n % 100) >= 11 && (n % 100) <= 14) && n == Math.floor(n)) {
+    return 'many';
+  }
+  return 'other';
+},"ur":function(n){return n===1?"one":"other"},"vi":function(n){return "other"},"zh":function(n){return "other"}},
+c:function(d,k){if(!d)throw new Error("MessageFormat: Data required for '"+k+"'.")},
+n:function(d,k,o){if(isNaN(d[k]))throw new Error("MessageFormat: '"+k+"' isn't a number.");return d[k]-(o||0)},
+v:function(d,k){common_locale.c(d,k);return d[k]},
+p:function(d,k,o,l,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:(k=common_locale.lc[l](d[k]-o),k in p?p[k]:p.other)},
+s:function(d,k,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
+(window.blockly = window.blockly || {}).common_locale = {
+"addRemoveGoogleClassrooms":function(d){return "Visit https://classroom.google.com/ to add and remove classrooms."},
+"age":function(d){return "Age"},
+"allStudents":function(d){return "All"},
+"allowEditing":function(d){return "Allow editing"},
+"allowEditingInstructions":function(d){return "\"Allow editing\" while students should be taking the assessment."},
+"and":function(d){return "and"},
+"animationMode":function(d){return "Animation"},
+"announcements":function(d){return "Announcements"},
+"announcementHeading":function(d){return "Welcome to your new teacher homepage"},
+"announcementDescription":function(d){return "Now you can access your recent courses and student sections immediately from your homepage. Plus, quickly navigate to your top resources by using the new links at the top of every page."},
+"answersVisible":function(d){return "Answers visible (read-only)"},
+"assessmentSteps":function(d){return "Steps to give assessment for"},
+"assessmentSettings":function(d){return "Assessment Settings"},
+"assignACourse":function(d){return "Assign a course to your classroom or start your own course."},
+"assignedTo":function(d){return "Assigned to"},
+"autolock":function(d){return "Note: Stage auto-locks after 24 hours."},
+"backToPreviousLevel":function(d){return "Back to previous level"},
+"blocklyMessage":function(d){return "Blockly"},
+"blocks":function(d){return "blocks"},
+"booleanFalse":function(d){return "false"},
+"booleanTrue":function(d){return "true"},
+"builtOnCodeStudio":function(d){return "Built on Code Studio"},
+"by":function(d){return "By"},
+"catActions":function(d){return "Actions"},
+"catColour":function(d){return "Color"},
+"catLists":function(d){return "Lists"},
+"catLogic":function(d){return "Logic"},
+"catLoops":function(d){return "Loops"},
+"catMath":function(d){return "Math"},
+"catProcedures":function(d){return "Functions"},
+"catText":function(d){return "Text"},
+"catVariables":function(d){return "Variables"},
+"choosePrefix":function(d){return "Choose..."},
+"clearPuzzle":function(d){return "Start Over"},
+"clearPuzzleConfirm":function(d){return "This will reset the puzzle to its start state and delete all the blocks you've added or changed."},
+"clearPuzzleConfirmHeader":function(d){return "Are you sure you want to start over?"},
+"chooseSection":function(d){return "Choose Section"},
+"code":function(d){return "Code:"},
+"codeMode":function(d){return "Code"},
+"codeTooltip":function(d){return "See generated JavaScript code."},
+"completedWithoutRecommendedBlock":function(d){return "Congratulations! You completed Puzzle "+common_locale.v(d,"puzzleNumber")+". (But you could use a different block for stronger code.)"},
+"connectToday":function(d){return "Connect Today"},
+"continue":function(d){return "Continue"},
+"copy":function(d){return "Copy"},
+"copyright":function(d){return "Copyright"},
+"course":function(d){return "Course"},
+"courseExplorerHeading":function(d){return "Find a course"},
+"courseExplorerDescription":function(d){return "Code.org curriculum pathway"},
+"courses":function(d){return "Courses"},
+"coursesCardAction":function(d){return "Find a course"},
+"coursesCardDescription":function(d){return "Find a new course to keep challenging yourself."},
+"coursesCodeStudio":function(d){return "Courses from Code Studio"},
+"coursesHeadingDescription":function(d){return "Create an account to save your progress and projects. Or just start coding - no account needed. All courses are available at no cost."},
+"coursesHeadingSubText":function(d){return common_locale.v(d,"linesCount")+" lines of code written by "+common_locale.v(d,"studentsCount")+" million students."},
+"coursesUiTipsTeacherCourses":function(d){return "We've updated this page just for teachers. Find the next course for your classroom here."},
+"createAccount":function(d){return "Create an account"},
+"createNewClassroom":function(d){return "Create a new classroom section to start assigning courses and seeing your student progress."},
+"createSection":function(d){return "Create section"},
+"createSectionsInfo":function(d){return "Create new sections and add students to them. Sections help you organize students into smaller groups so you can track their progress and manage their accounts."},
+"currentVersion":function(d){return "Current Version"},
+"dataLimitAlert":function(d){return "The app has been reading or writing to the database too frequently, which may result in unexpected failures.  Please let the app owner know if you keep experiencing issues."},
+"dataMode":function(d){return "Data"},
+"dataTabExplanation":function(d){return "Your app can store data (like high scores and survey results) that gets saved even after you reset your app. Before you run your app, use this tab to plan out your key/value pairs or your data tables. You can enter, edit, and delete data directly from this tab or by using the data blocks within your app."},
+"dataTableCaption":function(d){return "Create data tables to store rows of data with multiple columns for different fields."},
+"dataTableNamePlaceholder":function(d){return "Table name"},
+"dataWorkspaceHeader":function(d){return "Data Browser"},
+"debugConsoleHeader":function(d){return "Debug Console"},
+"debugCommandsHeaderWhenOpen":function(d){return "Debug Commands"},
+"debugCommandsHeaderWhenClosed":function(d){return "Show Debug Commands"},
+"debugWatchHeader":function(d){return "Watch"},
+"debugWatchNotAvailable":function(d){return "<not available>"},
+"defaultTwitterText":function(d){return "Check out what I made"},
+"defaultProjectNameAppLab":function(d){return "App Lab Project"},
+"defaultProjectNameGameLab":function(d){return "Game Lab Project"},
+"defaultProjectNameWebLab":function(d){return "Web Lab Project"},
+"defaultProjectNameArtist":function(d){return "Artist Project"},
+"defaultProjectNameFrozen":function(d){return "Frozen Project"},
+"defaultProjectNameBigGame":function(d){return "Big Game"},
+"defaultProjectNamePlayLab":function(d){return "Play Lab Project"},
+"defaultProjectNameInfinity":function(d){return "Infinity Project"},
+"defaultProjectNameGumball":function(d){return "Gumball Project"},
+"defaultProjectNameIceAge":function(d){return "Ice Age Project"},
+"defaultProjectName":function(d){return "My Project"},
+"delete":function(d){return "Delete"},
+"deleteConfirm":function(d){return "Delete?"},
+"deleteProject":function(d){return "Delete Project"},
+"designMode":function(d){return "Design"},
+"dialogCancel":function(d){return "Cancel"},
+"dialogOK":function(d){return "OK"},
+"directionEastLetter":function(d){return "E"},
+"directionNorthLetter":function(d){return "N"},
+"directionSouthLetter":function(d){return "S"},
+"directionWestLetter":function(d){return "W"},
+"directionNorthwestLetter":function(d){return "NW"},
+"directionNortheastLetter":function(d){return "NE"},
+"directionSouthwestLetter":function(d){return "SW"},
+"directionSoutheastLetter":function(d){return "SE"},
+"disabledButtonsInfo":function(d){return "Your progress and code will not be saved from December 3 - 11 due to Hour of Code traffic."},
+"disabledButtonsWarning":function(d){return "Warning:"},
+"disabledButtonsWhy":function(d){return "Why are my bubbles gray?"},
+"disabledProgress1":function(d){return "Any progress you make on your course will not be saved from December 3 - 11 due to the level of traffic our site receives for the Hour of Code during this time."},
+"disabledProgress2":function(d){return "This is why all your bubbles are displayed as gray (don’t worry, your progress from before this week is still safe)."},
+"disabledProgress3":function(d){return "We encourage you to try Hour of Code tutorials instead this week."},
+"disableMaker":function(d){return "Disable Maker Toolkit"},
+"documentation":function(d){return "Documentation"},
+"dontForget":function(d){return "Don't forget"},
+"dropletBlock_addOperator_description":function(d){return "Add two numbers"},
+"dropletBlock_addOperator_signatureOverride":function(d){return "Add operator"},
+"dropletBlock_andOperator_description":function(d){return "Returns true only when both expressions are true and false otherwise"},
+"dropletBlock_andOperator_signatureOverride":function(d){return "AND boolean operator"},
+"dropletBlock_assign_x_description":function(d){return "Assigns a value to a previously declared variable."},
+"dropletBlock_assign_x_signatureOverride":function(d){return "Assign a variable"},
+"dropletBlock_callMyFunction_description":function(d){return "Calls a named function that takes no parameters."},
+"dropletBlock_callMyFunction_n_description":function(d){return "Calls a user defined function that takes one or more parameters."},
+"dropletBlock_callMyFunction_n_signatureOverride":function(d){return "Call a function with parameters"},
+"dropletBlock_callMyFunction_signatureOverride":function(d){return "Call a function"},
+"dropletBlock_comment_description":function(d){return "Write a description of some code"},
+"dropletBlock_comment_signatureOverride":function(d){return "comment"},
+"dropletBlock_declareAssign_x_array_1_4_description":function(d){return "Declares a variable and assigns it to an array with the given initial values"},
+"dropletBlock_declareAssign_x_array_1_4_signatureOverride":function(d){return "Declare a variable assigned to an array"},
+"dropletBlock_declareAssign_x_description":function(d){return "Declares and assigns an initial value to a variable."},
+"dropletBlock_declareAssign_x_signatureOverride":function(d){return "Declare a variable"},
+"dropletBlock_declareAssign_x_prompt_description":function(d){return "Declares that the code will now use a variable and assign it an initial value provided by the user"},
+"dropletBlock_declareAssign_x_prompt_signatureOverride":function(d){return "Prompt the user for a value and store it"},
+"dropletBlock_declareAssign_x_promptNum_description":function(d){return "Declares that the code will now use a variable and assign it an initial numerical value provided by the user"},
+"dropletBlock_declareAssign_x_promptNum_signatureOverride":function(d){return "Prompt the user for a numerical value and store it"},
+"dropletBlock_declareNoAssign_x_description":function(d){return "Declares a variable with the given name."},
+"dropletBlock_declareNoAssign_x_signatureOverride":function(d){return "Declare a variable"},
+"dropletBlock_divideOperator_description":function(d){return "Divide two numbers"},
+"dropletBlock_divideOperator_signatureOverride":function(d){return "Divide operator"},
+"dropletBlock_equalityOperator_description":function(d){return "Test whether two values are equal. Returns true if the value on the left-hand side of the expression equals the value on the right-hand side of the expression, and false otherwise."},
+"dropletBlock_equalityOperator_signatureOverride":function(d){return "Equality operator"},
+"dropletBlock_forLoop_i_0_4_description":function(d){return "Creates a loop consisting of an initialization expression, a conditional expression, an incrementing expression, and a block of statements executed for each iteration of the loop."},
+"dropletBlock_forLoop_i_0_4_signatureOverride":function(d){return "for loop"},
+"dropletBlock_functionParams_n_description":function(d){return "Gives a name to a set of parameter driven actions for the computer to perform."},
+"dropletBlock_functionParams_n_signatureOverride":function(d){return "Define a function with parameters"},
+"dropletBlock_functionParams_none_description":function(d){return "Gives a name to a set of actions you want the computer to perform."},
+"dropletBlock_functionParams_none_signatureOverride":function(d){return "Define a function"},
+"dropletBlock_getTime_description":function(d){return "Get the current time in milliseconds."},
+"dropletBlock_greaterThanOperator_description":function(d){return "Tests whether a number is greater than another number. Returns true if the value on the left-hand side of the expression is strictly greater than the value on the right-hand side of the expression."},
+"dropletBlock_greaterThanOperator_signatureOverride":function(d){return "Greater than operator"},
+"dropletBlock_greaterThanOrEqualOperator_description":function(d){return "Tests whether a value is greater than or equal to another value. Returns true if the value on the left-hand side of the expression is greater than or equal to the value on the right-hand side of the expression."},
+"dropletBlock_greaterThanOrEqualOperator_signatureOverride":function(d){return "Greater than or equal operator"},
+"dropletBlock_ifBlock_description":function(d){return "Executes a block of statements if the specified condition is true"},
+"dropletBlock_ifBlock_signatureOverride":function(d){return "if statement"},
+"dropletBlock_ifElseBlock_description":function(d){return "Executes a block of statements if the specified condition is true; otherwise, the block of statements in the else clause are executed"},
+"dropletBlock_ifElseBlock_signatureOverride":function(d){return "if/else statement"},
+"dropletBlock_inequalityOperator_description":function(d){return "Tests whether two values are not equal. Returns true if the value on the left-hand side of the expression does not equal the value on the right-hand side of the expression"},
+"dropletBlock_inequalityOperator_signatureOverride":function(d){return "Inequality operator"},
+"dropletBlock_lessThanOperator_description":function(d){return "Tests whether a value is less than another value. Returns true if the value on the left-hand side of the expression is strictly less than the value on the right-hand side of the expression"},
+"dropletBlock_lessThanOperator_signatureOverride":function(d){return "Less than operator"},
+"dropletBlock_lessThanOrEqualOperator_description":function(d){return "Tests whether a value is less than or equal to another value. Returns true if the value on the left-hand side of the expression is less than or equal to the value on the right-hand side of the expression."},
+"dropletBlock_lessThanOrEqualOperator_signatureOverride":function(d){return "Less than or equal operator"},
+"dropletBlock_mathAbs_description":function(d){return "Takes the absolute value of x"},
+"dropletBlock_mathAbs_param0":function(d){return "x"},
+"dropletBlock_mathAbs_param0_description":function(d){return "An arbitrary number."},
+"dropletBlock_mathAbs_signatureOverride":function(d){return "Math.abs(x)"},
+"dropletBlock_mathMax_description":function(d){return "Takes the maximum value among one or more values n1, n2, ..., nX"},
+"dropletBlock_mathMax_param0":function(d){return "n1, n2,..., nX"},
+"dropletBlock_mathMax_param0_description":function(d){return "One or more numbers to compare."},
+"dropletBlock_mathMax_signatureOverride":function(d){return "Math.max(n1, n2, ..., nX)"},
+"dropletBlock_mathMin_description":function(d){return "Takes the minimum value among one or more values n1, n2, ..., nX"},
+"dropletBlock_mathMin_param0":function(d){return "n1, n2,..., nX"},
+"dropletBlock_mathMin_param0_description":function(d){return "One or more numbers to compare."},
+"dropletBlock_mathMin_signatureOverride":function(d){return "Math.min(n1, n2, ..., nX)"},
+"dropletBlock_mathRandom_description":function(d){return "Returns a random number ranging from 0 (inclusive) up to but not including 1 (exclusive)"},
+"dropletBlock_mathRandom_signatureOverride":function(d){return "Math.random()"},
+"dropletBlock_mathRound_description":function(d){return "Rounds a number to the nearest integer"},
+"dropletBlock_mathRound_param0":function(d){return "x"},
+"dropletBlock_mathRound_param0_description":function(d){return "An arbitrary number."},
+"dropletBlock_mathRound_signatureOverride":function(d){return "Math.round(x)"},
+"dropletBlock_multiplyOperator_description":function(d){return "Multiply two numbers"},
+"dropletBlock_multiplyOperator_signatureOverride":function(d){return "Multiply operator"},
+"dropletBlock_notOperator_description":function(d){return "Returns false if the expression can be converted to true; otherwise, returns true"},
+"dropletBlock_notOperator_signatureOverride":function(d){return "NOT boolean operator"},
+"dropletBlock_orOperator_description":function(d){return "Returns true when either expression is true and false otherwise"},
+"dropletBlock_orOperator_signatureOverride":function(d){return "OR boolean operator"},
+"dropletBlock_playSound_description":function(d){return "Plays the MP3 sound file from the specified URL."},
+"dropletBlock_playSound_param0_description":function(d){return "The URL to a sound file. Can be a project asset name or external URL."},
+"dropletBlock_playSound_param1_description":function(d){return "If true, loop the sound until asked to stop."},
+"dropletBlock_randomNumber_description":function(d){return "Returns a random number in the closed range from min to max."},
+"dropletBlock_randomNumber_param0":function(d){return "min"},
+"dropletBlock_randomNumber_param0_description":function(d){return "The minimum number returned"},
+"dropletBlock_randomNumber_param1":function(d){return "max"},
+"dropletBlock_randomNumber_param1_description":function(d){return "The maximum number returned"},
+"dropletBlock_return_description":function(d){return "Return a value from a function"},
+"dropletBlock_return_signatureOverride":function(d){return "return"},
+"dropletBlock_setAttribute_description":function(d){return "Sets the given value"},
+"dropletBlock_stopSound_description":function(d){return "Stops playing the sound file from the specified URL, or all sounds if no URL is given."},
+"dropletBlock_stopSound_param0_description":function(d){return "The URL to a sound file. Can be an project asset name or external URL."},
+"dropletBlock_subtractOperator_description":function(d){return "Subtract two numbers"},
+"dropletBlock_subtractOperator_signatureOverride":function(d){return "Subtract operator"},
+"dropletBlock_whileBlock_description":function(d){return "Creates a loop consisting of a conditional expression and a block of statements executed for each iteration of the loop. The loop continues to execute as long as the condition evaluates to true"},
+"dropletBlock_whileBlock_signatureOverride":function(d){return "while loop"},
+"edit":function(d){return "Edit"},
+"editable":function(d){return "Editable"},
+"emptyBlockInFunction":function(d){return "The function "+common_locale.v(d,"name")+" has an unfilled input."},
+"emptyBlockInVariable":function(d){return "The variable "+common_locale.v(d,"name")+" has an unfilled input."},
+"emptyBlocksErrorMsg":function(d){return "The \"Repeat\" or \"If\" block needs to have other blocks inside it to work. Make sure the inner block fits properly inside the containing block."},
+"emptyExampleBlockErrorMsg":function(d){return "You need at least two examples in function "+common_locale.v(d,"functionName")+". Make sure each example has a call and a result."},
+"emptyFunctionBlocksErrorMsg":function(d){return "The function block needs to have other blocks inside it to work."},
+"emptyFunctionalBlock":function(d){return "You have a block with an unfilled input."},
+"emptyTopLevelBlock":function(d){return "There are no blocks to run. You must attach a block to the "+common_locale.v(d,"topLevelBlockName")+" block."},
+"enable":function(d){return "Enable"},
+"enableMaker":function(d){return "Enable Maker Toolkit (BETA)"},
+"enableMakerDialogTitle":function(d){return "Enable Maker Toolkit?"},
+"enableMakerDialogWarning":function(d){return "Warning: Your app will NOT work unless you have an Adafruit Circuit Playground board."},
+"enableMakerDialogDescription":function(d){return "This is a new feature for the Computer Science Discoveries curriculum being piloted this year. See the setup page for more details:"},
+"enableMakerDialogSetupPageLinkText":function(d){return "Maker Toolkit Setup"},
+"end":function(d){return "end"},
+"englishOnlyWarning":function(d){return "Sorry! This stage is not available in your language. The puzzles in this stage use a mix of English words and characters that can’t be translated right now. You can move on to Stage "+common_locale.v(d,"nextStage")+"."},
+"errorEmptyFunctionBlockModal":function(d){return "There need to be blocks inside your function definition. Click \"edit\" and drag blocks inside the green block."},
+"errorIncompleteBlockInFunction":function(d){return "Click \"edit\" to make sure you don't have any blocks missing inside your function definition."},
+"errorGenericLintError":function(d){return "Your program contains an editor warning that needs to be corrected. Hover over the icons near the line numbers in the editor to learn more."},
+"errorParamInputUnattached":function(d){return "Remember to attach a block to each parameter input on the function block in your workspace."},
+"errorQuestionMarksInNumberField":function(d){return "Try replacing \"???\" with a value."},
+"errorRequiredParamsMissing":function(d){return "Create a parameter for your function by clicking \"edit\" and adding the necessary parameters. Drag the new parameter blocks into your function definition."},
+"errorUnusedFunction":function(d){return "You created a function, but never used it on your workspace! Click on \"Functions\" in the toolbox and make sure you use it in your program."},
+"errorUnusedParam":function(d){return "You added a parameter block, but didn't use it in the definition. Make sure to use your parameter by clicking \"edit\" and placing the parameter block inside the green block."},
+"exactNumberOfBlocks":function(d){return "Only "+common_locale.p(d,"numBlocks",0,"en",{"one":"1 block","other":common_locale.n(d,"numBlocks")+" blocks"})+" used!"},
+"exampleErrorMessage":function(d){return "The function "+common_locale.v(d,"functionName")+" has one or more examples that need adjusting. Make sure they match your definition and answer the question."},
+"examplesFailedOnClose":function(d){return "One or more of your examples do not match your definition. Check your examples before closing"},
+"extrasStageNumberCompleted":function(d){return "You Completed Lesson "+common_locale.v(d,"number")+"!"},
+"extrasTryAChallenge":function(d){return "Try a Challenge"},
+"extrasCreateSomething":function(d){return "Create Something"},
+"extrasNextLesson":function(d){return "Go on to Lesson "+common_locale.v(d,"number")},
+"extrasNextFinish":function(d){return "Finish the Unit"},
+"extrasNoBonusLevels":function(d){return "There are no bonus levels for this stage."},
+"extraTopBlocks":function(d){return "You have unattached blocks."},
+"extraTopBlocksWhenRun":function(d){return "You have unattached blocks. Did you mean to attach these to the \"when run\" block?"},
+"fewerNumberOfBlocks":function(d){return "Fewer than "+common_locale.p(d,"numBlocks",0,"en",{"one":"1 block","other":common_locale.n(d,"numBlocks")+" blocks"})+" used!"},
+"filterByStudent":function(d){return "Filter by student:"},
+"finalStage":function(d){return "Congratulations! You have completed the final puzzle."},
+"finalStageTrophies":function(d){return "Congratulations! You have completed the final puzzle and won "+common_locale.p(d,"numTrophies",0,"en",{"one":"a trophy","other":common_locale.n(d,"numTrophies")+" trophies"})+"."},
+"findGuestSpeaker":function(d){return "Find a guest speaker"},
+"findGuestSpeakerDescription":function(d){return "Invite a local volunteer to visit your classroom or inspire your students remotely via video chat."},
+"finish":function(d){return "Finish"},
+"forTeachersOnly":function(d){return "For Teachers Only"},
+"generatedCodeInfo":function(d){return "Even top universities teach block-based coding (e.g., "+common_locale.v(d,"berkeleyLink")+", "+common_locale.v(d,"harvardLink")+"). But under the hood, the blocks you have assembled can also be shown in JavaScript, the world's most widely used coding language:"},
+"getHelp":function(d){return "Get Help"},
+"goToUnit":function(d){return "Go to Unit"},
+"grade":function(d){return "Grade"},
+"hashError":function(d){return "Sorry, '%1' doesn't correspond with any saved program."},
+"help":function(d){return "Help"},
+"hidden":function(d){return "Hidden"},
+"hideToolbox":function(d){return "(Hide)"},
+"hintHeader":function(d){return "Here's a tip:"},
+"hintPrompt":function(d){return "Need help?"},
+"hintPromptInline":function(d){return "Do you want a hint?"},
+"hintRequest":function(d){return "See hint"},
+"hintReviewTitle":function(d){return "Review Your Hints"},
+"hintSelectInstructions":function(d){return "Instructions and old hints"},
+"hintSelectNewHint":function(d){return "Get a new hint"},
+"hintTitle":function(d){return "Hint"},
+"homepageHeading":function(d){return "Home"},
+"homepageUiTipAlreadyHome":function(d){return "You're already on your homepage.  It's now personalized for you because you're signed in.  You can find all your other resources here."},
+"homepageUiTipKeyLinks":function(d){return "1 of 2: All your key links are right here"},
+"homepageUiTipOtherLinks":function(d){return "2 of 2: All other links are in this menu"},
+"homepageUiTipsBeforeDialogTitle":function(d){return "We've personalized your teacher homepage"},
+"homepageUiTipsBeforeDialogBody":function(d){return "This new design makes it easier to find all the things you need to prepare for your class, like reading your next lesson plan and reviewing students' progress."},
+"homepageUiTipsBeforeDialogCancel":function(d){return "Skip"},
+"homepageUiTipsBeforeDialogConfirm":function(d){return "Show me"},
+"homepageUiTipsAfterDialogTitle":function(d){return ""},
+"homepageUiTipsAfterDialogBody":function(d){return "To learn more about these updates, please read our blog."},
+"homepageUiTipsAfterDialogCancel":function(d){return "Finish"},
+"homepageUiTipsAfterDialogConfirm":function(d){return "Learn more"},
+"iconSearchPlaceholder":function(d){return "Search for an icon..."},
+"ignore":function(d){return "Ignore"},
+"infinity":function(d){return "Infinity"},
+"inspireStudents":function(d){return "Inspire students"},
+"joinCommunity":function(d){return "Join community"},
+"joinText":function(d){return "join"},
+"joinTextTooltip":function(d){return "Create a piece of text by joining together multiple items."},
+"jump":function(d){return "jump"},
+"keepPlaying":function(d){return "Keep playing"},
+"keyValueCaption":function(d){return "Use key/value pairs to store a list of unique keys that map to values."},
+"keyValuePairLink":function(d){return "Key/value pairs"},
+"lastEdited":function(d){return "Last Edited"},
+"learnMore":function(d){return "Learn more"},
+"less":function(d){return "Less"},
+"lessonName":function(d){return "Lesson Name"},
+"lessonNumbered":function(d){return "Lesson "+common_locale.v(d,"lessonNumber")+": "+common_locale.v(d,"lessonName")},
+"levelIncompleteError":function(d){return "Keep coding! Something's not quite right yet."},
+"levelN":function(d){return "LEVEL "+common_locale.v(d,"levelNumber")},
+"listVariable":function(d){return "list"},
+"loading":function(d){return "Loading..."},
+"locked":function(d){return "Locked"},
+"lockFollowing":function(d){return "Lock the following stages that are currently unlocked:"},
+"lockAssessment":function(d){return "Lock assessment"},
+"lockAssessmentLong":function(d){return "Lock assessment when students finish using the \"Lock Settings\" button."},
+"lockSettings":function(d){return "Lock Settings"},
+"lockStage":function(d){return "Lock stage"},
+"lockStageInstructions":function(d){return "Once time is up, \"Lock stage\" to hide questions."},
+"lockWhenDone":function(d){return "Lock when students finish"},
+"loginType":function(d){return "Login Type"},
+"makeMyOwn":function(d){return "Make my own"},
+"makeYourOwnFlappy":function(d){return "Make Your Own Flappy Game"},
+"manageAssets":function(d){return "Manage Assets"},
+"manageSections":function(d){return "Manage sections"},
+"missingRecommendedBlocksErrorMsg":function(d){return "Not quite. Try using a block you aren’t using yet."},
+"missingRequiredBlocksErrorMsg":function(d){return "Not quite. You have to use a block you aren’t using yet."},
+"more":function(d){return "More"},
+"myCourses":function(d){return "My Courses"},
+"myProjects":function(d){return "My Projects"},
+"nestedForSameVariable":function(d){return "You're using the same variable inside two or more nested loops. Use unique variable names to avoid infinite loops."},
+"newSection":function(d){return "New section"},
+"nextLevel":function(d){return "Congratulations! You completed Puzzle "+common_locale.v(d,"puzzleNumber")+"."},
+"nextLevelTrophies":function(d){return "Congratulations! You completed Puzzle "+common_locale.v(d,"puzzleNumber")+" and won "+common_locale.p(d,"numTrophies",0,"en",{"one":"a trophy","other":common_locale.n(d,"numTrophies")+" trophies"})+"."},
+"nextPuzzle":function(d){return "Next puzzle"},
+"nextStage":function(d){return "Congratulations! You completed "+common_locale.v(d,"stageName")+"."},
+"nextStageTrophies":function(d){return "Congratulations! You completed "+common_locale.v(d,"stageName")+" and won "+common_locale.p(d,"numTrophies",0,"en",{"one":"a trophy","other":common_locale.n(d,"numTrophies")+" trophies"})+"."},
+"no":function(d){return "No"},
+"noClassroomsFound":function(d){return "No classrooms found."},
+"noIconsFound":function(d){return "No icons found"},
+"noMenuItemsAvailable":function(d){return "No menu items available."},
+"nPoints":function(d){return common_locale.p(d,"numPoints",0,"en",{"one":"1 point","other":common_locale.n(d,"numPoints")+" points"})},
+"numBlocksNeeded":function(d){return "Congratulations! You completed Puzzle "+common_locale.v(d,"puzzleNumber")+". (However, you could have used only "+common_locale.p(d,"numBlocks",0,"en",{"one":"1 block","other":common_locale.n(d,"numBlocks")+" blocks"})+".)"},
+"numLinesOfCodeWritten":function(d){return "You just wrote "+common_locale.p(d,"numLines",0,"en",{"one":"1 line","other":common_locale.n(d,"numLines")+" lines"})+" of code!"},
+"openWorkspace":function(d){return "How It Works"},
+"orientationLock":function(d){return "Turn off orientation lock in device settings."},
+"pairingNavigatorWarning":function(d){return "This puzzle was completed while pairing with "+common_locale.v(d,"driver")+"."},
+"pairingNavigatorLink":function(d){return "Click here to view the solution you created as a team."},
+"pairProgramming":function(d){return "Pair Programming"},
+"pause":function(d){return "Break"},
+"play":function(d){return "play"},
+"playzoneArtistDescription":function(d){return "Draw cool pictures and designs with the Artist!"},
+"playzoneArtistTitle":function(d){return "New Drawing"},
+"playzoneContinueButton":function(d){return "Go on to the next Stage"},
+"playzonePlaylabDescription":function(d){return "Create a story or make a game with Play Lab!"},
+"playzonePlaylabTitle":function(d){return "New App"},
+"playzonePrimaryHeader":function(d){return "Congratulations! You finished "+common_locale.v(d,"stageName")+"!"},
+"playzoneProjectsDescription":function(d){return "Revisit one of your existing projects."},
+"playzoneProjectsTitle":function(d){return "Open a Project"},
+"playzoneSecondaryHeader":function(d){return "Ask your teacher what to do next"},
+"positionBottomCenter":function(d){return "to the bottom center position"},
+"positionBottomLeft":function(d){return "to the bottom left position"},
+"positionBottomOutLeft":function(d){return "to the bottom outside left position"},
+"positionBottomOutRight":function(d){return "to the bottom outside right position"},
+"positionBottomRight":function(d){return "to the bottom right position"},
+"positionMiddleCenter":function(d){return "to the middle center position"},
+"positionMiddleLeft":function(d){return "to the middle left position"},
+"positionMiddleRight":function(d){return "to the middle right position"},
+"positionOutBottomLeft":function(d){return "to the below bottom left position"},
+"positionOutBottomRight":function(d){return "to the below bottom right position"},
+"positionOutTopLeft":function(d){return "to the above top left position"},
+"positionOutTopRight":function(d){return "to the above top right position"},
+"positionRandom":function(d){return "to the random position"},
+"positionTopCenter":function(d){return "to the top center position"},
+"positionTopLeft":function(d){return "to the top left position"},
+"positionTopOutLeft":function(d){return "to the top outside left position"},
+"positionTopOutRight":function(d){return "to the top outside right position"},
+"positionTopRight":function(d){return "to the top right position"},
+"predictionInstructions":function(d){return "Make a prediction before you run the program."},
+"printCertificates":function(d){return "Print certificates"},
+"professionalLearning":function(d){return "Professional Learning"},
+"professionalLearningDescription":function(d){return "Our highly-rated professional learning prepares you for your next computer science class."},
+"progress":function(d){return "Progress"},
+"projectGalleryCard":function(d){return "Project Gallery"},
+"projectGalleryCardAction":function(d){return "See the gallery"},
+"projectGalleryCardDescription":function(d){return "Share your own creations or find inspiration from creations made by students all around the world."},
+"projectName":function(d){return "Project Name"},
+"projectType":function(d){return "Type"},
+"projectTypeAllProjectsApplab":function(d){return "All App Lab Projects"},
+"projectTypeAllProjectsArtist":function(d){return "All Artist Projects"},
+"projectTypeAllProjectsGamelab":function(d){return "All Game Lab Projects"},
+"projectTypeAllProjectsGamelabBeta":function(d){return "All Game Lab (beta) Projects"},
+"projectTypeAllProjectsPlaylab":function(d){return "All Play Lab Projects"},
+"projectTypeAlgebra":function(d){return "Algebra"},
+"projectTypeApplab":function(d){return "App Lab"},
+"projectTypeArtist":function(d){return "Artist"},
+"projectTypeGamelab":function(d){return "Game Lab"},
+"projectTypeGamelabBeta":function(d){return "Game Lab (beta)"},
+"projectTypePlaylab":function(d){return "Play Lab"},
+"projectTypeWeblab":function(d){return "Web Lab"},
+"projectTypeApplabViewMore":function(d){return "View more App Lab projects"},
+"projectTypeArtistViewMore":function(d){return "View more Artist projects"},
+"projectTypeGamelabViewMore":function(d){return "View more Game Lab projects"},
+"projectTypePlaylabViewMore":function(d){return "View more Play Lab projects"},
+"projectsViewAll":function(d){return "View all projects"},
+"projectGalleryHeader":function(d){return "Project Gallery"},
+"projectsViewOldGallery":function(d){return "View old gallery with other project types"},
+"print":function(d){return "Print"},
+"privacyPolicy":function(d){return "Privacy Policy"},
+"projectWarning":function(d){return "Note: You are on a level that is part of a longer project. Changes made on this level will also appear in other levels in the project."},
+"publish":function(d){return "Publish"},
+"publishToClassGallery":function(d){return "Publish to Class Gallery"},
+"publishToPublicGallery":function(d){return "Publish to Public Gallery"},
+"publishToPublicGalleryWarning":function(d){return "You are about to publish your project to the public gallery, meaning anyone in the world can view your project. Make sure your project does not contain any personal information."},
+"published":function(d){return "Published"},
+"publicGallery":function(d){return "Public Gallery"},
+"puzzleCompleted":function(d){return "Puzzle completed!"},
+"puzzleTitle":function(d){return "Puzzle "+common_locale.v(d,"puzzle_number")+" of "+common_locale.v(d,"stage_total")},
+"readonlyWorkspaceHeader":function(d){return "View only: "},
+"recentCourses":function(d){return "Recent Courses"},
+"recommendedBlockContextualHintTitle":function(d){return "Try using a block like this to solve the puzzle."},
+"relockStage":function(d){return "Re-lock stage"},
+"relockStageInstructions":function(d){return "\"Re-lock stage\" to prevent sharing of answers with other classes/schools."},
+"remix":function(d){return "Remix"},
+"removeFromClassGallery":function(d){return "Remove from Class Gallery"},
+"removeFromPublicGallery":function(d){return "Remove from Public Gallery"},
+"rename":function(d){return "Rename"},
+"repeat":function(d){return "repeat"},
+"replayButton":function(d){return "Replay"},
+"reportAbuse":function(d){return "Report Abuse"},
+"resetProgram":function(d){return "Reset"},
+"resources":function(d){return "Resources"},
+"restoreThisVersion":function(d){return "Restore this Version"},
+"reviewDocuments":function(d){return "Review documents"},
+"reviewResponses":function(d){return "Go to the assessment/survey tab for your section to review student responses."},
+"rotateText":function(d){return "Rotate your device."},
+"runProgram":function(d){return "Run"},
+"runTooltip":function(d){return "Run the program defined by the blocks in the workspace."},
+"runtimeErrorMsg":function(d){return "Your program did not run successfully. Please remove line "+common_locale.v(d,"lineNumber")+" and try again."},
+"save":function(d){return "Save"},
+"saveAndPublish":function(d){return "Save & Publish"},
+"savedToGallery":function(d){return "Saved"},
+"saving":function(d){return "Saving..."},
+"score":function(d){return "score"},
+"section":function(d){return "Section"},
+"sectionCode":function(d){return "Section Code"},
+"sectionName":function(d){return "Section Name"},
+"sectionsTitle":function(d){return "Classroom Sections"},
+"selectGoogleClassroom":function(d){return "Select a Google Classroom"},
+"selectSection":function(d){return "Select Section"},
+"selectSectionInstructions":function(d){return "Select a section to be able to lock and unlock assessments or surveys. Click the lock settings button in the stage to the left."},
+"sendToPhone":function(d){return "Send to phone"},
+"settings":function(d){return "Settings"},
+"setUpClassroom":function(d){return "Set up your classroom"},
+"share":function(d){return "Share"},
+"shareFailure":function(d){return "Sorry, we can't share this program."},
+"shareWarningsAge":function(d){return "Please provide your age below and click OK to continue."},
+"shareWarningsMoreInfo":function(d){return "Our Privacy Policy"},
+"shareWarningsStoreData":function(d){return "This app built on Code Studio stores data that could be viewed by anyone with this sharing link, so avoid providing personal information about yourself or others."},
+"showAnswers":function(d){return "Show answers"},
+"showAnswersInstructions":function(d){return "\"Show answers\" to put the assessment into a read-only mode."},
+"showBlock":function(d){return "Get a block"},
+"showBlocksHeader":function(d){return "Show Blocks"},
+"showCodeHeader":function(d){return "Show Code"},
+"showGeneratedCode":function(d){return "Show code"},
+"showTextHeader":function(d){return "Show Text"},
+"showToolbox":function(d){return "Show Toolbox"},
+"showVersionsHeader":function(d){return "Version History"},
+"signup":function(d){return "Sign up for the intro course"},
+"stageExtras":function(d){return "Stage Extras"},
+"stageLocked":function(d){return "Stage is locked."},
+"stageNotFullyLocked":function(d){return "Stage is not locked for all."},
+"stageRewards":function(d){return "Stage Rewards"},
+"standaloneToolsDescription":function(d){return "In addition to our courses, teachers can use App Lab and Game Lab in any course to teach students how to create apps, animations, and games in JavaScript. And, we have lessons and widgets to teach encryption, text compression, and other computer science concepts."},
+"standaloneToolsHeading":function(d){return "Tools for Middle and High School"},
+"standardsAndFramework":function(d){return "Curriculum Standards "},
+"standardsAndFrameworkDescription":function(d){return "Information about standards alignment for Code.org courses."},
+"startLearning":function(d){return "Start learning"},
+"stepIn":function(d){return "Step in"},
+"stepOut":function(d){return "Step out"},
+"stepOver":function(d){return "Step over"},
+"stringEquals":function(d){return "string=?"},
+"student":function(d){return "Student"},
+"students":function(d){return "Students"},
+"studentAccountsAndProgress":function(d){return "Student Accounts and Progress"},
+"studentControl":function(d){return "Individual student control"},
+"studentLockStateInstructions":function(d){return "Use the table below to control the state for each individual student."},
+"studentName":function(d){return "Student Name"},
+"submit":function(d){return "Submit"},
+"submitYourProject":function(d){return "Submit your project"},
+"submitYourProjectConfirm":function(d){return "You cannot edit your project after submitting it, really submit?"},
+"subtitle":function(d){return "a visual programming environment"},
+"syntaxErrorMsg":function(d){return "Your program contains a typo. Please remove line "+common_locale.v(d,"lineNumber")+" and try again."},
+"teacher":function(d){return "Teacher"},
+"teacherCommunity":function(d){return "Teacher Community"},
+"teacherCommunityDescription":function(d){return "Ask questions about curriculum, share ideas from your lessons, and get help from other teachers"},
+"teacherCourseHoc":function(d){return "Hour of Code"},
+"teacherCourseHocDescription":function(d){return "Celebrated in December, but available year-round, the Hour of Code makes computer science fun and accessible to all ages."},
+"teacherCourseElementary":function(d){return "Elementary school"},
+"teacherCourseElementaryDescription":function(d){return "Teachers say our five elementary courses are 'totally awesome sauce' and fun for all students, even pre-readers."},
+"teacherCourseMiddle":function(d){return "Middle school"},
+"teacherCourseMiddleDescription":function(d){return "Our new middle school course can be offered as a semester or year-long introduction to computer science for all students."},
+"teacherCourseHighOlder":function(d){return "High school and older"},
+"teacherCoursesHeading":function(d){return "Full course catalog from Code.org and 3rd party partners"},
+"teacherCourseHighDescription":function(d){return "We offer two year-long courses for high school: an intro course and an AP course. Both are designed to broaden participation in computer science."},
+"teacherHomePage":function(d){return "Teacher home page"},
+"teacherPanel":function(d){return "Teacher Panel"},
+"textVariable":function(d){return "text"},
+"toggleBlocksErrorMsg":function(d){return "You need to correct an error in your program before it can be shown as blocks."},
+"tooManyBlocksMsg":function(d){return "This puzzle can be solved with <x id='START_SPAN'/><x id='END_SPAN'/> blocks."},
+"tooMuchWork":function(d){return "You made me do a lot of work!  Could you try repeating fewer times?"},
+"toolboxHeader":function(d){return "Blocks"},
+"toolboxHeaderDroplet":function(d){return "Toolbox"},
+"totalNumLinesOfCodeWritten":function(d){return "All-time total: "+common_locale.p(d,"numLines",0,"en",{"one":"1 line","other":common_locale.n(d,"numLines")+" lines"})+" of code."},
+"tryAgain":function(d){return "Try again"},
+"tryBlocksBelowFeedback":function(d){return "Try using one of the blocks below:"},
+"tryHOC":function(d){return "Try the Hour of Code"},
+"tryNow":function(d){return "Try Now"},
+"unnamedFunction":function(d){return "You have a variable or function that does not have a name. Don't forget to give everything a descriptive name."},
+"unattachedBlockTipTitle":function(d){return "Unattached blocks"},
+"unattachedBlockTipBody":function(d){return "Blocks that are not attached will not do anything. If you want these blocks in your program, try connecting them to other blocks."},
+"unexpectedError":function(d){return "An unexpected error occurred, please try again. If this keeps happening, try reloading the page."},
+"unpluggedActivity":function(d){return "Unplugged Activity"},
+"usingHints":function(d){return "Using hints"},
+"usingTooManyBlocks":function(d){return "Using too many blocks"},
+"unsubmit":function(d){return "Unsubmit"},
+"unsubmitYourProject":function(d){return "Unsubmit your project"},
+"unsubmitYourProjectConfirm":function(d){return "Unsubmitting your project will reset the submitted date, really unsubmit?"},
+"usingOneHint":function(d){return "Using just one hint!"},
+"viewAllAnnouncements":function(d){return "View all announcements"},
+"viewAllCourses":function(d){return "View all courses"},
+"viewAllSections":function(d){return "View all sections"},
+"viewCode":function(d){return "View code"},
+"viewCourse":function(d){return "View course"},
+"viewCourses":function(d){return "View courses"},
+"viewLessonPlan":function(d){return "View Lesson Plan"},
+"viewMyProjects":function(d){return "View my projects"},
+"viewPageAs":function(d){return "View page as:"},
+"viewSection":function(d){return "View section"},
+"viewUnitOverview":function(d){return "View Unit Overview"},
+"visible":function(d){return "Visible"},
+"wantToLearn":function(d){return "Want to learn to code?"},
+"watchVideo":function(d){return "Watch the Video"},
+"when":function(d){return "when"},
+"whenRun":function(d){return "when run"},
+"withoutHints":function(d){return "Without using any hints!"},
+"workspaceHeaderShort":function(d){return "Workspace: "},
+"yes":function(d){return "Yes"}};
