@@ -134,7 +134,7 @@ var common_locale = {lc:{"ar":function(n){
     return 'many';
   }
   return 'other';
-},"sv":function(n){return n===1?"one":"other"},"ta":function(n){return n===1?"one":"other"},"th":function(n){return "other"},"tr":function(n){return n===1?"one":"other"},"uk":function(n){
+},"sv":function(n){return n===1?"one":"other"},"ta":function(n){return n===1?"one":"other"},"te":function(n){return n===1?"one":"other"},"th":function(n){return "other"},"tr":function(n){return n===1?"one":"other"},"uk":function(n){
   if ((n % 10) == 1 && (n % 100) != 11) {
     return 'one';
   }
@@ -200,6 +200,7 @@ s:function(d,k,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "completedWithoutRecommendedBlock":function(d){return "Congratulations! You completed Puzzle "+common_locale.v(d,"puzzleNumber")+". (But you could use a different block for stronger code.)"},
 "connectToday":function(d){return "Connect Today"},
 "continue":function(d){return "Continue"},
+"continueLesson":function(d){return "Continue lesson"},
 "copy":function(d){return "Copy"},
 "copyright":function(d){return "Copyright"},
 "course":function(d){return "Course"},
@@ -443,6 +444,7 @@ s:function(d,k,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "keyValuePairLink":function(d){return "Key/value pairs"},
 "lastEdited":function(d){return "Last Edited"},
 "learnMore":function(d){return "Learn more"},
+"leaveSection":function(d){return "Leave section"},
 "less":function(d){return "Less"},
 "lessonName":function(d){return "Lesson Name"},
 "lessonNumbered":function(d){return "Lesson "+common_locale.v(d,"lessonNumber")+": "+common_locale.v(d,"lessonName")},
@@ -654,10 +656,14 @@ s:function(d,k,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "tooMuchWork":function(d){return "You made me do a lot of work!  Could you try repeating fewer times?"},
 "toolboxHeader":function(d){return "Blocks"},
 "toolboxHeaderDroplet":function(d){return "Toolbox"},
+"topCourseExplanation":function(d){return "Continue lesson to jump to where you left off or view the whole course to see an overview of your progress."},
+"topCourseLessonIntro":function(d){return "You are currently working on "+common_locale.v(d,"lessonName")+"."},
+"topCourseWelcome":function(d){return "Welcome back to "+common_locale.v(d,"assignableName")},
 "totalNumLinesOfCodeWritten":function(d){return "All-time total: "+common_locale.p(d,"numLines",0,"en",{"one":"1 line","other":common_locale.n(d,"numLines")+" lines"})+" of code."},
 "tryAgain":function(d){return "Try again"},
 "tryBlocksBelowFeedback":function(d){return "Try using one of the blocks below:"},
 "tryHOC":function(d){return "Try the Hour of Code"},
+"tryIt":function(d){return "Try It"},
 "tryNow":function(d){return "Try Now"},
 "unnamedFunction":function(d){return "You have a variable or function that does not have a name. Don't forget to give everything a descriptive name."},
 "unattachedBlockTipTitle":function(d){return "Unattached blocks"},
@@ -678,6 +684,7 @@ s:function(d,k,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "viewCourses":function(d){return "View courses"},
 "viewLessonPlan":function(d){return "View Lesson Plan"},
 "viewMyProjects":function(d){return "View my projects"},
+"viewMore":function(d){return "View more"},
 "viewPageAs":function(d){return "View page as:"},
 "viewSection":function(d){return "View section"},
 "viewUnitOverview":function(d){return "View Unit Overview"},

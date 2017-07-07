@@ -134,7 +134,7 @@ var studio_locale = {lc:{"ar":function(n){
     return 'many';
   }
   return 'other';
-},"sv":function(n){return n===1?"one":"other"},"ta":function(n){return n===1?"one":"other"},"th":function(n){return "other"},"tr":function(n){return n===1?"one":"other"},"uk":function(n){
+},"sv":function(n){return n===1?"one":"other"},"ta":function(n){return n===1?"one":"other"},"te":function(n){return n===1?"one":"other"},"th":function(n){return "other"},"tr":function(n){return n===1?"one":"other"},"uk":function(n){
   if ((n % 10) == 1 && (n % 100) != 11) {
     return 'one';
   }
