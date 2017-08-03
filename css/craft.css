@@ -358,7 +358,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   html[dir='rtl'] .editor-column {
     right: 350px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 350px;
     line-height: 350px; }
@@ -385,7 +385,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   html[dir='rtl'] .editor-column {
     right: 300px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 300px;
     line-height: 300px; }
@@ -412,7 +412,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   html[dir='rtl'] .editor-column {
     right: 250px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 250px;
     line-height: 250px; }
@@ -439,7 +439,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   html[dir='rtl'] .editor-column {
     right: 200px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 200px;
     line-height: 200px; }
@@ -1778,7 +1778,7 @@ a.video_link {
   html[dir='rtl'] .editor-column {
     right: 181.970649895px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 181.970649895px;
     line-height: 200px; }
@@ -1802,7 +1802,7 @@ a.video_link {
   html[dir='rtl'] .editor-column {
     right: 252.029350105px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 252.029350105px;
     line-height: 277px; }
@@ -1826,7 +1826,7 @@ a.video_link {
   html[dir='rtl'] .editor-column {
     right: 343.014675052px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 343.014675052px;
     line-height: 377px; }
@@ -1850,7 +1850,7 @@ a.video_link {
   html[dir='rtl'] .editor-column {
     right: 409.433962264px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 409.433962264px;
     line-height: 450px; }
@@ -1874,7 +1874,7 @@ a.video_link {
   html[dir='rtl'] .editor-column {
     right: 468.57442348px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 468.57442348px;
     line-height: 515px; }

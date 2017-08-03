@@ -358,7 +358,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   html[dir='rtl'] .editor-column {
     right: 350px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 350px;
     line-height: 350px; }
@@ -385,7 +385,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   html[dir='rtl'] .editor-column {
     right: 300px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 300px;
     line-height: 300px; }
@@ -412,7 +412,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   html[dir='rtl'] .editor-column {
     right: 250px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 250px;
     line-height: 250px; }
@@ -439,7 +439,7 @@ html[dir='rtl'] div#visualizationResizeBar {
   html[dir='rtl'] .editor-column {
     right: 200px; }
   html[dir='rtl'] body.readonly .editor-column {
-    right: 0px; }
+    right: 0; }
   div#visualizationResizeBar {
     left: 200px;
     line-height: 200px; }

@@ -190,6 +190,7 @@ s:function(d,k,p){maze_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "finalLevel":function(d){return "Congratulations! You have solved the final puzzle."},
 "flowerEmptyError":function(d){return "The flower you're on has no more nectar."},
 "get":function(d){return "get"},
+"goal":function(d){return "goal"},
 "has":function(d){return "has"},
 "haslettuce":function(d){return "there is lettuce"},
 "hascorn":function(d){return "there is corn"},
