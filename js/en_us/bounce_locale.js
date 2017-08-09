@@ -277,6 +277,7 @@ s:function(d,k,p){bounce_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "setTeam":function(d){return "Set team "+bounce_locale.v(d,"team")},
 "setTeamRandom":function(d){return "Set team random"},
 "shareBounceTwitter":function(d){return "Check out the Bounce game I made. I wrote it myself with @codeorg"},
+"shareBounceTwitterDonor":function(d){return "Check out the Bounce game I made. (Thanks "+bounce_locale.v(d,"donor")+" for supporting @codeorg)"},
 "shareGame":function(d){return "Share your game:"},
 "turnLeft":function(d){return "turn left"},
 "turnRight":function(d){return "turn right"},

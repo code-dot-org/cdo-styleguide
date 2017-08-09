@@ -381,6 +381,7 @@ s:function(d,k,p){applab_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "repeatDo":function(d){return "do"},
 "repeatForeverTooltip":function(d){return "Execute the actions in this block repeatedly while the app is running."},
 "shareApplabTwitter":function(d){return "Check out the app I made. I wrote it myself with @codeorg"},
+"shareApplabTwitterDonor":function(d){return "Check out the app I made. (Thanks "+applab_locale.v(d,"donor")+" for supporting @codeorg)"},
 "shareGame":function(d){return "Share your app:"},
 "tryAgainText":function(d){return "Keep working"},
 "viewData":function(d){return "View Data"},

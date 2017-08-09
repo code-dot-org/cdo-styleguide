@@ -824,6 +824,7 @@ s:function(d,k,p){studio_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "setMapBlobs":function(d){return "set blobs map"},
 "setMapTooltip":function(d){return "Changes the map in the scene"},
 "shareStudioTwitter":function(d){return "Check out the story I made. I wrote it myself with @codeorg"},
+"shareStudioTwitterDonor":function(d){return "Check out the story I made. (Thanks "+studio_locale.v(d,"donor")+" for supporting @codeorg)"},
 "shareGame":function(d){return "Share your story:"},
 "showCoordinates":function(d){return "show coordinates"},
 "showCoordinatesTooltip":function(d){return "show the protagonist's coordinates on the screen"},
