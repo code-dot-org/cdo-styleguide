@@ -1072,17 +1072,6 @@ html[dir="RTL"] .prompt-icon-cell {
   margin-right: 10px;
   text-align: center; }
 
-#save-to-gallery-button {
-  background-color: #7665a0;
-  border: 1px solid #7665a0;
-  margin: 0px;
-  color: white;
-  font-size: 13px;
-  text-align: center; }
-  #save-to-gallery-button:disabled {
-    color: #7665a0;
-    background-color: lightgrey; }
-
 .hide {
   display: none; }
 
