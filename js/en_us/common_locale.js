@@ -229,6 +229,7 @@ s:function(d,k,p){common_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "censusInvalidEmail":function(d){return "Please enter a valid email address"},
 "censusOtherCourse":function(d){return "This school teaches other computing classes that do not include at least 20 hours of coding/computer programming. (For example, learning to use applications, computer literacy, web design, HTML/CSS, or other)"},
 "censusOtherDescribe":function(d){return "Other (please describe below)"},
+"censusOtherDescribeHere":function(d){return "Other (please describe):"},
 "censusPhysicalComputing":function(d){return "Physical computing / robotics"},
 "censusPledge":function(d){return "I pledge to expand computer science offerings at my school, and to engage a diverse group of students, to bring opportunity to all."},
 "censusRequired":function(d){return "You are missing one or more required fields."},

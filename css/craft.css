@@ -2214,6 +2214,10 @@ a.video_link {
     color: #f4d00b;
     line-height: 11px;
     font-size: 30px; }
+  #craft-popup-house-selection .modal-content {
+    margin-left: 0; }
+    html[dir=rtl] #craft-popup-house-selection .modal-content {
+      margin-right: 0; }
   @media screen and (max-height: 630px) {
     #craft-popup-house-selection {
       position: fixed;
