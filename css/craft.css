@@ -1402,6 +1402,10 @@ a.WireframeButtons_active, div.WireframeButtons_active {
   -ms-interpolation-mode: nearest-neighbor;
   /* IE8+           */ }
 
+.instructionsImage {
+  vertical-align: text-bottom;
+  height: 25px; }
+
 .arrow {
   user-drag: none;
   user-select: none;
@@ -1647,7 +1651,7 @@ body {
     color: white; }
 
 #codeApp {
-  top: 100px !important; }
+  top: 75px !important; }
   #codeApp.hide-source {
     top: 0 !important; }
   @media screen and (max-device-height: 900px) and (max-device-width: 500px) {
@@ -2565,7 +2569,7 @@ a.video_link {
     font-size: 22px;
     color: #e7e8ea; }
 
-.dash_modal button, .minecraft button {
+.dash_modal button:not(.no-mc), .minecraft button:not(.no-mc) {
   border-style: solid !important;
   border-width: 4px 5px 6px !important;
   image-rendering: optimizeSpeed;
@@ -2592,11 +2596,11 @@ a.video_link {
   color: #f1f1f1 !important;
   font-size: 26px;
   font-family: "Gotham 5r", sans-serif !important; }
-  .dash_modal button:hover, .minecraft button:hover {
+  .dash_modal button:not(.no-mc):hover, .minecraft button:not(.no-mc):hover {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none; }
-  .dash_modal button:active, .minecraft button:active {
+  .dash_modal button:not(.no-mc):active, .minecraft button:not(.no-mc):active {
     outline: none;
     border-image-slice: 2 3 4 3 fill;
     border-image-width: 10px 20px 20px 20px;
@@ -2604,7 +2608,7 @@ a.video_link {
     -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
     -o-border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 stretch !important;
     border-image: url("/blockly/media/craft/Sliced_Parts/MC_Button_Pressed.png") 2 3 4 3 fill stretch !important; }
-  .dash_modal button.mc-share-button, .minecraft button.mc-share-button {
+  .dash_modal button:not(.no-mc).mc-share-button, .minecraft button:not(.no-mc).mc-share-button {
     border-style: solid !important;
     border-width: 3px 3px 5px 5px !important;
     image-rendering: optimizeSpeed;
@@ -2631,15 +2635,15 @@ a.video_link {
     padding-bottom: 11px;
     padding-left: 10px;
     padding-right: 10px; }
-    .dash_modal button.mc-share-button > div, .minecraft button.mc-share-button > div {
+    .dash_modal button:not(.no-mc).mc-share-button > div, .minecraft button:not(.no-mc).mc-share-button > div {
       font-size: 24px;
       color: white !important;
       text-shadow: 2px 2px #5a5a5a !important; }
-    .dash_modal button.mc-share-button:hover, .minecraft button.mc-share-button:hover {
+    .dash_modal button:not(.no-mc).mc-share-button:hover, .minecraft button:not(.no-mc).mc-share-button:hover {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none; }
-    .dash_modal button.mc-share-button:active, .minecraft button.mc-share-button:active {
+    .dash_modal button:not(.no-mc).mc-share-button:active, .minecraft button:not(.no-mc).mc-share-button:active {
       outline: none;
       border-style: solid !important;
       border-width: 5px 5px 3px 3px !important;
@@ -2663,9 +2667,9 @@ a.video_link {
       -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/Run_Button_Down_Slice.png") 5 5 3 3 stretch !important;
       -o-border-image: url("/blockly/media/craft/Sliced_Parts/Run_Button_Down_Slice.png") 5 5 3 3 stretch !important;
       border-image: url("/blockly/media/craft/Sliced_Parts/Run_Button_Down_Slice.png") 5 5 3 3 fill stretch !important; }
-    .dash_modal button.mc-share-button > div, .minecraft button.mc-share-button > div {
+    .dash_modal button:not(.no-mc).mc-share-button > div, .minecraft button:not(.no-mc).mc-share-button > div {
       margin: 0; }
-  .dash_modal button#runButton, .minecraft button#runButton {
+  .dash_modal button:not(.no-mc)#runButton, .minecraft button:not(.no-mc)#runButton {
     min-width: 139px;
     padding-top: 6px;
     padding-bottom: 4px;
@@ -2691,15 +2695,15 @@ a.video_link {
     -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/Run_Button_Up_Slice.png") 3 3 5 5 stretch !important;
     -o-border-image: url("/blockly/media/craft/Sliced_Parts/Run_Button_Up_Slice.png") 3 3 5 5 stretch !important;
     border-image: url("/blockly/media/craft/Sliced_Parts/Run_Button_Up_Slice.png") 3 3 5 5 fill stretch !important; }
-    .dash_modal button#runButton > div, .minecraft button#runButton > div {
+    .dash_modal button:not(.no-mc)#runButton > div, .minecraft button:not(.no-mc)#runButton > div {
       font-size: 24px;
       color: white !important;
       text-shadow: 2px 2px #5a5a5a !important; }
-    .dash_modal button#runButton:hover, .minecraft button#runButton:hover {
+    .dash_modal button:not(.no-mc)#runButton:hover, .minecraft button:not(.no-mc)#runButton:hover {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none; }
-    .dash_modal button#runButton:active, .minecraft button#runButton:active {
+    .dash_modal button:not(.no-mc)#runButton:active, .minecraft button:not(.no-mc)#runButton:active {
       outline: none;
       border-style: solid !important;
       border-width: 5px 5px 3px 3px !important;
@@ -2723,11 +2727,11 @@ a.video_link {
       -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/Run_Button_Down_Slice.png") 5 5 3 3 stretch !important;
       -o-border-image: url("/blockly/media/craft/Sliced_Parts/Run_Button_Down_Slice.png") 5 5 3 3 stretch !important;
       border-image: url("/blockly/media/craft/Sliced_Parts/Run_Button_Down_Slice.png") 5 5 3 3 fill stretch !important; }
-    .dash_modal button#runButton > div, .minecraft button#runButton > div {
+    .dash_modal button:not(.no-mc)#runButton > div, .minecraft button:not(.no-mc)#runButton > div {
       margin-top: 4px;
       margin-left: 2px;
       margin-right: 18px; }
-    .dash_modal button#runButton .run26, .minecraft button#runButton .run26 {
+    .dash_modal button:not(.no-mc)#runButton .run26, .minecraft button:not(.no-mc)#runButton .run26 {
       -moz-transform: scale(2);
       -webkit-transform: scale(2);
       transform: scale(2);
@@ -2752,15 +2756,15 @@ a.video_link {
       /* CSS4 Proposed  */
       -ms-interpolation-mode: nearest-neighbor;
       /* IE8+           */ }
-  .dash_modal button#toggleButton, .minecraft button#toggleButton {
+  .dash_modal button:not(.no-mc)#toggleButton, .minecraft button:not(.no-mc)#toggleButton {
     min-width: 110px;
     padding-top: 6px;
     padding-bottom: 4px; }
-    .dash_modal button#toggleButton > div, .minecraft button#toggleButton > div {
+    .dash_modal button:not(.no-mc)#toggleButton > div, .minecraft button:not(.no-mc)#toggleButton > div {
       margin-top: 4px;
       margin-left: 2px;
       margin-right: 18px; }
-    .dash_modal button#toggleButton .toggle26, .minecraft button#toggleButton .toggle26 {
+    .dash_modal button:not(.no-mc)#toggleButton .toggle26, .minecraft button:not(.no-mc)#toggleButton .toggle26 {
       background-position: center !important;
       background-size: 18px 20px !important;
       width: 18px;
@@ -2782,11 +2786,11 @@ a.video_link {
       /* CSS4 Proposed  */
       -ms-interpolation-mode: nearest-neighbor;
       /* IE8+           */ }
-      .dash_modal button#toggleButton .toggle26.more-btn, .minecraft button#toggleButton .toggle26.more-btn {
+      .dash_modal button:not(.no-mc)#toggleButton .toggle26.more-btn, .minecraft button:not(.no-mc)#toggleButton .toggle26.more-btn {
         background: url("/blockly/media/craft/CDO_MC_More.png") no-repeat; }
-      .dash_modal button#toggleButton .toggle26.less-btn, .minecraft button#toggleButton .toggle26.less-btn {
+      .dash_modal button:not(.no-mc)#toggleButton .toggle26.less-btn, .minecraft button:not(.no-mc)#toggleButton .toggle26.less-btn {
         background: url("/blockly/media/craft/CDO_MC_Less.png") no-repeat; }
-  .dash_modal button#resetButton, .minecraft button#resetButton {
+  .dash_modal button:not(.no-mc)#resetButton, .minecraft button:not(.no-mc)#resetButton {
     min-width: 139px;
     padding-top: 6px;
     padding-bottom: 4px;
@@ -2812,14 +2816,14 @@ a.video_link {
     -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/Reset_Button_Up_Slice.png") 3 3 5 5 stretch !important;
     -o-border-image: url("/blockly/media/craft/Sliced_Parts/Reset_Button_Up_Slice.png") 3 3 5 5 stretch !important;
     border-image: url("/blockly/media/craft/Sliced_Parts/Reset_Button_Up_Slice.png") 3 3 5 5 fill stretch !important; }
-    .dash_modal button#resetButton.hideText, .minecraft button#resetButton.hideText {
+    .dash_modal button:not(.no-mc)#resetButton.hideText, .minecraft button:not(.no-mc)#resetButton.hideText {
       min-width: 0;
       width: 62px;
       height: 62px; }
-      .dash_modal button#resetButton.hideText img, .minecraft button#resetButton.hideText img {
+      .dash_modal button:not(.no-mc)#resetButton.hideText img, .minecraft button:not(.no-mc)#resetButton.hideText img {
         margin-left: 0;
         margin-top: -5px; }
-    .dash_modal button#resetButton > div, .minecraft button#resetButton > div {
+    .dash_modal button:not(.no-mc)#resetButton > div, .minecraft button:not(.no-mc)#resetButton > div {
       font-size: 24px;
       color: white !important;
       text-shadow: 2px 2px #5a5a5a !important;
@@ -2827,7 +2831,7 @@ a.video_link {
       padding-right: 0;
       margin-right: 2px;
       margin-top: 4px; }
-    .dash_modal button#resetButton .reset26, .minecraft button#resetButton .reset26 {
+    .dash_modal button:not(.no-mc)#resetButton .reset26, .minecraft button:not(.no-mc)#resetButton .reset26 {
       background: url("/blockly/media/craft/Sliced_Parts/MC_Reset_Arrow_Icon.png") no-repeat 0 0;
       width: 40px;
       height: 36px;
@@ -2851,11 +2855,11 @@ a.video_link {
       /* CSS4 Proposed  */
       -ms-interpolation-mode: nearest-neighbor;
       /* IE8+           */ }
-    .dash_modal button#resetButton:hover, .minecraft button#resetButton:hover {
+    .dash_modal button:not(.no-mc)#resetButton:hover, .minecraft button:not(.no-mc)#resetButton:hover {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none; }
-    .dash_modal button#resetButton:active, .minecraft button#resetButton:active {
+    .dash_modal button:not(.no-mc)#resetButton:active, .minecraft button:not(.no-mc)#resetButton:active {
       outline: none;
       border-style: solid !important;
       border-width: 5px 4px 3px 3px !important;
@@ -2879,7 +2883,7 @@ a.video_link {
       -webkit-border-image: url("/blockly/media/craft/Sliced_Parts/Reset_Button_Down_Slice.png") 5 4 3 3 stretch !important;
       -o-border-image: url("/blockly/media/craft/Sliced_Parts/Reset_Button_Down_Slice.png") 5 4 3 3 stretch !important;
       border-image: url("/blockly/media/craft/Sliced_Parts/Reset_Button_Down_Slice.png") 5 4 3 3 fill stretch !important; }
-  .dash_modal button#ok-button, .minecraft button#ok-button {
+  .dash_modal button:not(.no-mc)#ok-button, .minecraft button:not(.no-mc)#ok-button {
     background-color: inherit;
     border: inherit; }
 

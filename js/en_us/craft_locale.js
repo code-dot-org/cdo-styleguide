@@ -155,7 +155,10 @@ p:function(d,k,o,l,p){craft_locale.c(d,k);return d[k] in p?p[d[k]]:(k=craft_loca
 s:function(d,k,p){craft_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 (window.blockly = window.blockly || {}).craft_locale = {
 "absolute":function(d){return "absolute"},
+"agentGenericFailureMessage":function(d){return "Keep coding! Remember to use The Agent to help."},
+"agentTooFewBlocksFailureMessage":function(d){return "Try adding just one block at a time to get The Agent to the right spot."},
 "at":function(d){return "at"},
+"agentDiamondPathCongrats":function(d){return "Congratulations, you found the diamond path! You have collected "+craft_locale.p(d,"count",0,"en",{"one":"1 diamond","other":craft_locale.n(d,"count")+" diamonds"})+" so far!"},
 "blockActionAdd":function(d){return "add"},
 "blockActionAttack":function(d){return "attack"},
 "blockActionClone":function(d){return "clone blocks"},
@@ -386,6 +389,7 @@ s:function(d,k,p){craft_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "quantity":function(d){return "quantity"},
 "reinfFeedbackMsg":function(d){return "You can press \"Keep Playing\" to go back to playing your game."},
 "relative":function(d){return "relative"},
+"runAgent":function(d){return "Run Agent"},
 "score":function(d){return "Score"},
 "seconds":function(d){return "second(s)"},
 "selectChooseButton":function(d){return "Select"},
