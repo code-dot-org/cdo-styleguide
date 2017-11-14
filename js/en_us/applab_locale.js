@@ -376,7 +376,7 @@ s:function(d,k,p){applab_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "nextLevel":function(d){return "Congratulations! You have completed this puzzle."},
 "no":function(d){return "No"},
 "numBlocksNeeded":function(d){return "This puzzle can be solved with %1 blocks."},
-"reinfFeedbackMsg":function(d){return "You're finished! Click \"Continue\" to move on to the next level."},
+"reinfFeedbackMsg":function(d){return "Are you finished? With App Lab, you're in control - it's up to you to check your work and decide when you're done."},
 "repeatForever":function(d){return "repeat forever"},
 "repeatDo":function(d){return "do"},
 "repeatForeverTooltip":function(d){return "Execute the actions in this block repeatedly while the app is running."},

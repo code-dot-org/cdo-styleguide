@@ -2969,6 +2969,8 @@ a.video_link {
     line-height: 27px;
     font-size: 24px;
     color: #e7e8ea; }
+  .minecraft .dash_modal span.thumbnail-warning {
+    color: #e7e8ea; }
   .minecraft .dash_modal p.congrats {
     margin-left: 69px; }
   .minecraft .dash_modal .failure-feedback p.congrats {
