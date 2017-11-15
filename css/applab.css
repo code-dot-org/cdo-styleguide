@@ -224,13 +224,13 @@
   #divApplab .design-mode-hidden, #designModeViz .design-mode-hidden, .draggingParent .design-mode-hidden {
     visibility: hidden; }
 
-#designModeViz canvas, .draggingParent canvas {
+#divApplab.notRunning canvas:not(#turtleCanvas), #designModeViz canvas:not(#turtleCanvas), .draggingParent canvas:not(#turtleCanvas) {
   background-color: #eee; }
 
-#designModeViz .chart, .draggingParent .chart {
+#divApplab.notRunning .chart, #designModeViz .chart, .draggingParent .chart {
   background-color: #eee; }
 
-#designModeViz .design-mode-hidden, .draggingParent .design-mode-hidden {
+#divApplab.notRunning .design-mode-hidden, #designModeViz .design-mode-hidden, .draggingParent .design-mode-hidden {
   visibility: visible;
   opacity: 0.3; }
 
@@ -270,21 +270,21 @@
   #divApplab.appModern .screen, #designModeViz.appModern .screen, .draggingParent .screen {
     outline: 0; }
 
-#designModeViz.appModern img[data-canonical-image-url=''], #designModeViz.appModern canvas, #designModeViz.appModern .chart, .draggingParent img[data-canonical-image-url=''], .draggingParent canvas, .draggingParent .chart {
+#divApplab.notRunning img[data-canonical-image-url=''], #divApplab.notRunning canvas:not(#turtleCanvas), #divApplab.notRunning .chart, #designModeViz.appModern img[data-canonical-image-url=''], #designModeViz.appModern canvas:not(#turtleCanvas), #designModeViz.appModern .chart, .draggingParent img[data-canonical-image-url=''], .draggingParent canvas:not(#turtleCanvas), .draggingParent .chart {
   border: 5px solid #fff;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   outline: 1px solid #bdc3c7;
   outline-offset: -1px; }
 
-#designModeViz.appModern img[data-canonical-image-url=''], .draggingParent img[data-canonical-image-url=''] {
+#divApplab.notRunning img[data-canonical-image-url=''], #designModeViz.appModern img[data-canonical-image-url=''], .draggingParent img[data-canonical-image-url=''] {
   display: block;
-  background: #bdc3c7 url("/blockly/media/applab/placeholder_img.png") center center no-repeat; }
+  background: #bdc3c7 url("/blockly/media/applab/placeholder_img.png") center center no-repeat !important; }
 
-#designModeViz.appModern canvas, .draggingParent canvas {
+#divApplab.notRunning canvas:not(#turtleCanvas), #designModeViz.appModern canvas:not(#turtleCanvas), .draggingParent canvas:not(#turtleCanvas) {
   background: #bdc3c7 url("/blockly/media/applab/placeholder_canvas.png") center center no-repeat; }
 
-#designModeViz.appModern .chart, .draggingParent .chart {
+#divApplab.notRunning .chart, #designModeViz.appModern .chart, .draggingParent .chart {
   background: #bdc3c7 url("/blockly/media/applab/placeholder_chart.png") center center no-repeat; }
 
 div#visualization {
