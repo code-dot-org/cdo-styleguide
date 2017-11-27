@@ -199,7 +199,7 @@ s:function(d,k,p){tutorialExplorer_locale.c(d,k);return d[k] in p?p[d[k]]:p.othe
 "filterHeaderHideFilters":function(d){return "Apply"},
 "filterHeaderTutorialCountSingle":function(d){return "1 result"},
 "filterHeaderTutorialCountPlural":function(d){return tutorialExplorer_locale.v(d,"tutorial_count")+" results"},
-"roboticsButtonText":function(d){return "View robotics activities"},
+"roboticsButtonText":function(d){return "Robotics and Circuits"},
 "roboticsText":function(d){return "Got robots? Use these activities and make a tangible Hour of Code for students of any age!"},
 "tutorialSetNoTutorials":function(d){return "Your search returned no results.\nPlease try changing some filters to see more activities."},
 "tutorialDetailsTeacherNotes":function(d){return "Teacher notes"},
