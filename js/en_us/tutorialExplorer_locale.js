@@ -154,6 +154,7 @@ v:function(d,k){tutorialExplorer_locale.c(d,k);return d[k]},
 p:function(d,k,o,l,p){tutorialExplorer_locale.c(d,k);return d[k] in p?p[d[k]]:(k=tutorialExplorer_locale.lc[l](d[k]-o),k in p?p[k]:p.other)},
 s:function(d,k,p){tutorialExplorer_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 (window.blockly = window.blockly || {}).tutorialExplorer_locale = {
+"startButton":function(d){return "Start"},
 "filterOrgNames":function(d){return "Created by"},
 "filterOrgNamesAll":function(d){return "All"},
 "filterSortBy":function(d){return "Sort by"},
