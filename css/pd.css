@@ -7140,6 +7140,14 @@
   #workshop-container form.form-inline, #application-container form.form-inline, #application-header form.form-inline {
     display: inline-block;
     padding: 0 2px; }
+  #workshop-container .has-error .Select-control, #application-container .has-error .Select-control, #application-header .has-error .Select-control {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+    #workshop-container .has-error .Select-control:focus, #application-container .has-error .Select-control:focus, #application-header .has-error .Select-control:focus {
+      border-color: #843534;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
 
 div[role=dialog] div.modal-content {
   margin: 0 !important;
