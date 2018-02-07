@@ -218,4 +218,5 @@ s:function(d,k,p){gamelab_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "dropletBlock_x_description":function(d){return "X coordinate of sprite."},
 "dropletBlock_y_description":function(d){return "Y coordinate of sprite."},
 "reinfFeedbackMsg":function(d){return "You're finished! Click \"Continue\" to move on to the next level."},
-"shareGame":function(d){return "Share your game:"}};
+"shareGame":function(d){return "Share your game:"},
+"errorLoadingAnimation":function(d){return "It looks like we are having trouble loading your animation \""+gamelab_locale.v(d,"animationName")+"\". Make sure you have a good internet connection and try reloading the page. If this problem persists, it is possible that this animation is broken. In this case, you may need to continue by removing the animation."}};
