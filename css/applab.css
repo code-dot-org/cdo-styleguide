@@ -81,11 +81,13 @@
 .debug-watch {
   right: 0;
   width: 200px;
-  font-family: monospace;
-  font-size: 12px;
   overflow-y: scroll; }
   .debug-watch.no-commands {
     max-width: calc(100% - 130px); }
+
+.debug-watch *, .debug-watch input {
+  font-family: monospace;
+  font-size: 12px; }
 
 .debug-watch-item {
   margin: 0;
@@ -106,7 +108,7 @@
   .debug-console.no-watch {
     right: 0; }
 
-.debug-console * {
+.debug-console *, .debug-console input {
   font-family: monospace;
   font-size: 12px; }
 

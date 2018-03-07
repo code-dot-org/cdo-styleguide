@@ -374,6 +374,7 @@ s:function(d,k,p){studio_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "iceAge":function(d){return "Ice Age!"},
 "ifDroid":function(d){return "droid"},
 "ifDroidN":function(d){return "droid "+studio_locale.v(d,"spriteIndex")},
+"ifSprite":function(d){return "actor"},
 "ifSpriteN":function(d){return "actor "+studio_locale.v(d,"spriteIndex")},
 "incrementPlayerScore":function(d){return "score point"},
 "isSet":function(d){return "is set"},
