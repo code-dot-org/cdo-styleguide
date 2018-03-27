@@ -7148,6 +7148,8 @@
       border-color: #843534;
       -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
       box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
+  #workshop-container .Select .Select-menu-outer, #application-container .Select .Select-menu-outer, #application-header .Select .Select-menu-outer {
+    z-index: 3; }
 
 div[role=dialog] div.modal-content {
   margin: 0 !important;
