@@ -236,7 +236,6 @@ s:function(d,k,p){turtle_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "setCharacter":function(d){return "set character to "+turtle_locale.v(d,"character")},
 "setColour":function(d){return "set color"},
 "setPattern":function(d){return "set pattern"},
-"setStickerSize":function(d){return "Set sticker size"},
 "setWidth":function(d){return "set width"},
 "shareDrawing":function(d){return "Share your drawing:"},
 "showMe":function(d){return "Show me"},
@@ -250,4 +249,5 @@ s:function(d,k,p){turtle_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "turnTooltip":function(d){return "Turns the artist left or right by the specified number of degrees."},
 "turtleVisibilityTooltip":function(d){return "Makes the artist visible or invisible."},
 "widthTooltip":function(d){return "Changes the width of the pencil."},
+"withSize":function(d){return "with size"},
 "wrongColour":function(d){return "Your picture is the wrong color.  For this puzzle, it needs to be %1."}};

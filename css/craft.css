@@ -1298,58 +1298,64 @@ a.WireframeButtons_active, div.WireframeButtons_active {
   background: url("/blockly/media/common_images/phone_wireframe.png") center center no-repeat;
   background-size: 432px 757px; }
 
-.legacy-share-view #belowVisualization, .legacy-share-view .hide-source #belowVisualization {
-  display: none; }
+@media screen and (max-height: 780px) {
+  .legacy-share-view div#visualizationColumn.wireframeShare {
+    width: 402px !important;
+    height: 602px !important;
+    background-size: 402px 602px; }
+    .legacy-share-view div#visualizationColumn.wireframeShare div#phoneFrameScreen {
+      border-width: 1px;
+      border-color: gray;
+      top: 0;
+      left: 0; } }
 
-.legacy-share-view #visualizationColumn {
-  margin: 0 auto; }
-  .legacy-share-view #visualizationColumn #phoneFrameScreen {
-    overflow: hidden; }
-    .legacy-share-view #visualizationColumn #phoneFrameScreen #visualizationContainer {
-      display: inline-block; }
-      .legacy-share-view #visualizationColumn #phoneFrameScreen #visualizationContainer #visualization {
-        overflow: hidden; }
-
-.legacy-share-view #visualizationColumn.wireframeShare {
-  width: 432px !important;
-  height: 757px !important;
-  margin: 0 auto;
-  padding: 20px 0;
+.legacy-share-view {
   overflow: hidden; }
-  .legacy-share-view #visualizationColumn.wireframeShare #phoneFrameScreen {
-    position: relative;
-    top: 78px;
-    left: 16px;
-    border: solid thin #202b34;
-    background-color: #202b34;
-    width: 400px;
-    height: 600px; }
-
-.legacy-share-view #gameButtons {
-  width: auto;
-  padding: 1% 5%; }
-  .legacy-share-view #gameButtons #right-button-cell {
-    display: none;
-    /* don't show Finish button in share view */ }
-  .legacy-share-view #gameButtons #soft-buttons button {
-    margin: 5px 1px; }
-
-.legacy-share-view .small-footer-base {
-  left: 0;
-  right: 0;
-  width: auto !important; }
-
-.legacy-share-view #more-menu, .legacy-share-view #copyright-flyout {
-  border-top: solid thin #202b34;
-  left: 0;
-  right: 0;
-  width: auto !important; }
-
-.legacy-share-view .full_container {
-  padding: 0; }
-
-.legacy-share-view .admin {
-  display: none; }
+  .legacy-share-view #belowVisualization, .legacy-share-view .hide-source #belowVisualization {
+    display: none; }
+  .legacy-share-view #visualizationColumn {
+    margin: 0 auto; }
+    .legacy-share-view #visualizationColumn #phoneFrameScreen {
+      overflow: hidden; }
+      .legacy-share-view #visualizationColumn #phoneFrameScreen #visualizationContainer {
+        display: inline-block; }
+        .legacy-share-view #visualizationColumn #phoneFrameScreen #visualizationContainer #visualization {
+          overflow: hidden; }
+  .legacy-share-view #visualizationColumn.wireframeShare {
+    width: 432px !important;
+    height: 757px !important;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow: hidden; }
+    .legacy-share-view #visualizationColumn.wireframeShare #phoneFrameScreen {
+      position: relative;
+      top: 78px;
+      left: 16px;
+      border: solid thin #202b34;
+      background-color: #202b34;
+      width: 400px;
+      height: 600px; }
+  .legacy-share-view #gameButtons {
+    width: auto;
+    padding: 1% 5%; }
+    .legacy-share-view #gameButtons #right-button-cell {
+      display: none;
+      /* don't show Finish button in share view */ }
+    .legacy-share-view #gameButtons #soft-buttons button {
+      margin: 5px 1px; }
+  .legacy-share-view .small-footer-base {
+    left: 0;
+    right: 0;
+    width: auto !important; }
+  .legacy-share-view #more-menu, .legacy-share-view #copyright-flyout {
+    border-top: solid thin #202b34;
+    left: 0;
+    right: 0;
+    width: auto !important; }
+  .legacy-share-view .full_container {
+    padding: 0; }
+  .legacy-share-view .admin {
+    display: none; }
 
 .embedded_iframe #visualizationColumn.wireframeShare {
   padding: 0; }
