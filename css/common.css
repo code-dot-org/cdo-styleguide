@@ -187,22 +187,93 @@ button.arrow:disabled {
   #studio-dpad.studio-dpad-none {
     display: none; }
 
+#studio-dpad-rim {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border: 76px solid #FFFFFF;
+  border-radius: 76px;
+  box-shadow: 1px 1px 1px 0 #7F7F7F; }
+
+#studio-dpad-cone {
+  position: absolute;
+  margin: 2px;
+  width: 0px;
+  height: 0px;
+  border: 74px solid #9C9C9C;
+  border-radius: 74px; }
+  #studio-dpad-cone.left {
+    border-top-color: #FFD080;
+    transform: rotate(270deg); }
+    #studio-dpad-cone.left.down {
+      transform: rotate(225deg); }
+    #studio-dpad-cone.left.up {
+      transform: rotate(315deg); }
+  #studio-dpad-cone.right {
+    border-top-color: #FFD080;
+    transform: rotate(90deg); }
+    #studio-dpad-cone.right.down {
+      transform: rotate(135deg); }
+    #studio-dpad-cone.right.up {
+      transform: rotate(45deg); }
+  #studio-dpad-cone.up {
+    border-top-color: #FFD080;
+    transform: rotate(0deg); }
+  #studio-dpad-cone.down {
+    border-top-color: #FFD080;
+    transform: rotate(180deg); }
+
 #studio-dpad-button {
   display: inline;
   position: relative;
-  border-radius: 21px;
-  margin: 5px; }
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  margin: 36px 5px 5px 36px;
+  border: 1px solid #EFEFEF;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 1px 0 #7F7F7F; }
   #studio-dpad-button.active {
-    background: #F78183;
-    border: 1px solid #F78183; }
+    border: 1px solid #9F9F9F;
+    box-shadow: none; }
   #studio-dpad-button.left {
-    left: -5px; }
+    left: -17px; }
+    #studio-dpad-button.left.up {
+      left: -12px;
+      top: -12px; }
+    #studio-dpad-button.left.down {
+      left: -12px;
+      top: 12px; }
   #studio-dpad-button.right {
-    left: 5px; }
+    left: 17px; }
+    #studio-dpad-button.right.up {
+      left: 12px;
+      top: -12px; }
+    #studio-dpad-button.right.down {
+      left: 12px;
+      top: 12px; }
   #studio-dpad-button.up {
-    top: -5px; }
+    top: -17px; }
   #studio-dpad-button.down {
-    top: 5px; }
+    top: 17px; }
+
+#studio-space-button {
+  position: absolute;
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  right: 10px;
+  border-color: #666666;
+  background-color: #FFA000;
+  box-shadow: inset 1px 1px 0px 0 #FFD07F; }
+  #studio-space-button.active {
+    border-radius: 39px;
+    width: 78px;
+    height: 78px;
+    margin-right: 6px;
+    margin-top: 6px; }
+  #studio-space-button:focus {
+    outline: 0; }
 
 #soft-buttons {
   display: inline-block;
@@ -1311,6 +1382,8 @@ a.WireframeButtons_active, div.WireframeButtons_active {
 
 .legacy-share-view {
   overflow: hidden; }
+  .legacy-share-view.legacy-share-view-mobile {
+    position: fixed; }
   .legacy-share-view #belowVisualization, .legacy-share-view .hide-source #belowVisualization {
     display: none; }
   .legacy-share-view #visualizationColumn {

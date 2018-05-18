@@ -473,6 +473,7 @@ s:function(d,k,p){studio_locale.c(d,k);return d[k] in p?p[d[k]]:p.other}};
 "moveSpriteN":function(d){return "move actor "+studio_locale.v(d,"spriteIndex")},
 "moveDroid":function(d){return "move droid"},
 "moveDroidN":function(d){return "move droid "+studio_locale.v(d,"spriteIndex")},
+"to":function(d){return "to"},
 "toXY":function(d){return "to x,y"},
 "moveDown":function(d){return "move down"},
 "moveDownTooltip":function(d){return "Move an actor down."},
