@@ -553,3 +553,16 @@ table.checkboxes label {
   border-collapse: separate;
   table-layout: fixed;
   width: 0; }
+
+.block-editor-container {
+  display: flex; }
+  .block-editor-container .editor {
+    flex: 1;
+    padding: 5px; }
+  .block-editor-container .block-preview {
+    flex: 1;
+    padding: 5px; }
+    .block-editor-container .block-preview #blockly-container {
+      height: 300px; }
+    .block-editor-container .block-preview code {
+      padding: 3px; }
