@@ -353,7 +353,7 @@ html[dir='rtl'] .editor-column {
   color: white; }
 
 .ace_gutter-cell.ace_error, .droplet-gutter-line.droplet_error {
-  background-image: url("/blockly/media/common_images//gutterError.png");
+  background-image: url("/blockly/media/common_images/gutterError.png");
   background-size: 16px 16px;
   background-repeat: no-repeat; }
 
@@ -361,7 +361,7 @@ html[dir='rtl'] .editor-column {
   background-position: 2px center; }
 
 .ace_gutter-cell.ace_warning, .droplet-gutter-line.droplet_warning {
-  background-image: url("/blockly/media/common_images//gutterWarn.png");
+  background-image: url("/blockly/media/common_images/gutterWarn.png");
   background-size: 16px 16px;
   background-repeat: no-repeat; }
 
