@@ -489,6 +489,16 @@ div#visualizationResizeBar {
   left: 0px;
   z-index: -1; }
 
+#divApplab label, #divApplab input, #divApplab button, #divApplab select, #divApplab textarea {
+  font-size: 14px; }
+
+#divApplab select {
+  height: 30px;
+  width: 220px; }
+
+#divApplab button, #divApplab input, #divApplab select, #divApplab textarea {
+  vertical-align: middle; }
+
 #divApplab.running label {
   cursor: default; }
 
