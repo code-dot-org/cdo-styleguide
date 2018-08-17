@@ -585,13 +585,13 @@ table.checkboxes label {
   #grid td.hive {
     background-image: url("/blockly/media/skins/bee/honey.png"); }
   #grid td.flower-or-nothing {
-    background-image: url("/assets/editor/flower-or-nothing.png"); }
+    background-image: url("/levelbuilder/flower-or-nothing.png"); }
   #grid td.hive-or-nothing {
-    background-image: url("/assets/editor/hive-or-nothing.png"); }
+    background-image: url("/levelbuilder/hive-or-nothing.png"); }
   #grid td.flower-or-hive {
-    background-image: url("/assets/editor/hive-or-flower.png"); }
+    background-image: url("/levelbuilder/hive-or-flower.png"); }
   #grid td.flower-hive-or-nothing {
-    background-image: url("/assets/editor/flower-hive-or-nothing.png"); }
+    background-image: url("/levelbuilder/flower-hive-or-nothing.png"); }
   #grid td.playlab.none {
     background-color: #e7e8ea !important; }
   #grid td.playlab.goal {
@@ -638,21 +638,14 @@ table.checkboxes label {
   padding: 2%;
   padding-left: 0; }
   [data-toggle="collapse"]:after {
-    content: "";
+    content: "\25B2";
     display: inline-block;
     width: 14px;
     height: 14px;
     line-height: 14px;
-    vertical-align: text-top;
-    background-image: url("/assets/glyphicons-halflings.png");
-    background-repeat: no-repeat;
-    margin-top: 1px;
-    margin-left: 10px;
-    /* Icon when the collapsible content is shown */
-    background-position: -288px -120px; }
+    margin-left: 10px; }
   [data-toggle="collapse"].collapsed:after {
-    /* Icon when the collapsible content is hidden */
-    background-position: -313px -119px; }
+    content: "\25BC"; }
 
 .aligned-input-group {
   padding-top: 1%;
