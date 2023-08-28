@@ -1,0 +1,134 @@
+/*
+   If you are changing the location of these files,
+   see the readme in this directory for more detail on manual steps to take when uploading new files.
+ */
+.petition-block {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+.petition-block input.field,
+.petition-block select.field {
+  background-color: #e2e4e3;
+  color: #595959;
+  padding: 5px;
+  border-width: 1px;
+  margin: 0;
+}
+.petition-block input.field:focus,
+.petition-block select.field:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: 0 0 8px #66afe9;
+}
+.petition-block input.has-error,
+.petition-block select.has-error {
+  border-color: #a94442;
+}
+.petition-block input.has-error:focus,
+.petition-block select.has-error:focus {
+  box-shadow: 0 0 6px #ce8483;
+  border-color: #843534;
+}
+.petition-block input.grey_input {
+  width: 150px;
+}
+.petition-block span.grey_input {
+  width: 160px;
+}
+.petition-block select.dropdown {
+  width: 93px;
+}
+.petition-block span.dropdown {
+  width: 130px;
+}
+.petition-block .dropdown-label {
+  margin: 0 4px 0 0;
+  color: #5b6770;
+  width: 100px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.petition-block .help,
+.petition-block .help a,
+.petition-block .help a:hover {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 10px 0 0 0;
+  text-decoration: none;
+  color: #5b6770;
+}
+
+.petition-message {
+  margin: 0;
+  font-size: 21px;
+  line-height: 28px;
+  font-family: "Gotham 5r", sans-serif;
+  color: #5b6770;
+}
+
+.petition-sign-message {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 10px 0 2px 0;
+  font-family: "Gotham 4r", sans-serif;
+  color: #5b6770;
+}
+
+.petition-form {
+  font-size: 12px;
+  line-height: 18px;
+  color: #dcdcdc;
+  text-align: left;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 100%;
+  justify-content: space-around;
+}
+
+.petition-space {
+  flex: 1 100%;
+  height: 18px;
+  margin: 0 0 2px 0;
+  color: #ff8000;
+  font-family: "Gotham 7r", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.petition-button {
+  min-width: 100px;
+  margin: 0;
+  padding: 4px 12px;
+  height: 30px;
+  font-family: "Gotham 5r", sans-serif;
+}
+
+@media screen and (max-width: 969px) {
+  .petition-block {
+    width: auto;
+  }
+  .petition-block .help,
+.petition-block .help a {
+    margin: 0;
+  }
+  .petition-block .petition-button {
+    margin: 10px 0 0 0;
+  }
+  .petition-block .form-group {
+    margin: 10px 0 0 0;
+    width: 160px;
+  }
+
+  .petition-sign-message {
+    margin-bottom: 10px;
+  }
+
+  .petition-form {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}

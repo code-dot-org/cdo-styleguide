@@ -1,5 +1,6 @@
 #svgMaze {
-  border: solid 1px #DBDBDB; }
+  border: solid 1px #dbdbdb;
+}
 
 /* 'Look' icon */
 #look > path {
@@ -7,51 +8,64 @@
   fill: none;
   stroke-width: 10;
   stroke-linecap: round;
-  stroke-opacity: 0.7; }
+  stroke-opacity: 0.7;
+}
 
 /* Sprited icons. */
 .icon21 {
   height: 21px;
   width: 21px;
-  background-image: url("/blockly/media/maze/icons.png"); }
+  background-image: url("/blockly/media/maze/icons.png");
+}
 
 .code {
-  background-position: -21px 0px; }
+  background-position: -21px 0;
+}
 
 .link {
-  background-position: 0px 0px; }
+  background-position: 0 0;
+}
 
 .run {
-  background-position: 0px -21px;
-  margin-right: 3px; }
+  background-position: 0 -21px;
+  margin-right: 3px;
+}
 
 .stop {
   background-position: -21px -21px;
-  margin-right: 3px; }
+  margin-right: 3px;
+}
 
 #stepButton {
   display: inline-block;
-  vertical-align: top; }
-  #stepButton.hide {
-    display: none; }
+  vertical-align: top;
+}
+#stepButton.hide {
+  display: none;
+}
 
 .float-right {
-  float: right; }
-  html[dir="RTL"] .float-right {
-    float: left; }
+  float: right;
+}
+html[dir=RTL] .float-right {
+  float: left;
+}
 
 #spelling-table-wrapper {
   display: inline-block;
-  width: 100%; }
+  width: 100%;
+}
 
 .spellingTextCell {
   vertical-align: middle;
   text-align: right;
-  padding-right: 16px; }
+  padding-right: 16px;
+}
 
 .spellingButtonCell {
   vertical-align: middle;
-  margin-right: 0; }
+  margin-right: 0;
+}
 
 .spellingButton {
   color: #fff;
@@ -61,24 +75,29 @@
   margin-right: 0;
   border: 1px solid #00b050;
   cursor: default;
-  disabled: true;
-  text-align: center; }
+  text-align: center;
+}
 
 .spellingButton:hover {
-  box-shadow: none; }
+  box-shadow: none;
+}
 
 #searchWord {
   border: 1px solid #00b050;
   background-color: white;
-  color: black; }
+  color: black;
+}
 
 #currentWord {
-  background-color: #00b050; }
+  background-color: #00b050;
+}
 
 .search-letter {
   line-height: 120%;
-  cursor: default; }
+  cursor: default;
+}
 
 /* fix transform-origin for IE / RTL in maze levels */
-html[dir="RTL"] div#visualization.responsive > svg {
-  -ms-transform-origin: 0 0; }
+html[dir=RTL] div#visualization.responsive > svg {
+  -ms-transform-origin: 0 0;
+}

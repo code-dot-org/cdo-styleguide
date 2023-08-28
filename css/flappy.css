@@ -1,5 +1,10 @@
+/*
+   If you are changing the location of these files,
+   see the readme in this directory for more detail on manual steps to take when uploading new files.
+ */
 #svgFlappy {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* 'Look' icon */
 #look > path {
@@ -7,49 +12,61 @@
   fill: none;
   stroke-width: 10;
   stroke-linecap: round;
-  stroke-opacity: 0.7; }
+  stroke-opacity: 0.7;
+}
 
 /* Sprited icons. */
 .icon21 {
   height: 21px;
   width: 21px;
-  background-image: url("/blockly/media/flappy/icons.png"); }
+  background-image: url("/blockly/media/flappy/icons.png");
+}
 
 .code {
-  background-position: -21px 0px; }
+  background-position: -21px 0;
+}
 
 .link {
-  background-position: 0px 0px; }
+  background-position: 0 0;
+}
 
 .run {
-  background-position: 0px -21px;
-  margin-right: 3px; }
+  background-position: 0 -21px;
+  margin-right: 3px;
+}
 
 .stop {
   background-position: -21px -21px;
-  margin-right: 3px; }
+  margin-right: 3px;
+}
 
 .left-btn {
   background-position: -21px -42px;
-  margin-right: 3px; }
+  margin-right: 3px;
+}
 
 .right-btn {
-  background-position: 0px -21px;
-  margin-right: 3px; }
+  background-position: 0 -21px;
+  margin-right: 3px;
+}
 
 .up-btn {
-  background-position: 0px -63px;
-  margin-right: 3px; }
+  background-position: 0 -63px;
+  margin-right: 3px;
+}
 
 .down-btn {
-  background-position: 0px -42px;
-  margin-right: 3px; }
+  background-position: 0 -42px;
+  margin-right: 3px;
+}
 
 #right-button-cell {
   display: none;
-  vertical-align: top; }
-  #right-button-cell.right-button-cell-enabled {
-    display: inline-block; }
+  vertical-align: top;
+}
+#right-button-cell.right-button-cell-enabled {
+  display: inline-block;
+}
 
 .flappy-score {
   text-anchor: middle;
@@ -57,8 +74,10 @@
   font-family: "Gotham 7r", sans-serif;
   fill: white;
   stroke: black;
-  stroke-width: 2; }
+  stroke-width: 2;
+}
 
 /* fix transform-origin for IE / RTL in flappy levels */
-html[dir="RTL"] div#visualization.responsive > svg {
-  -ms-transform-origin: 0 0; }
+html[dir=RTL] div#visualization.responsive > svg {
+  -ms-transform-origin: 0 0;
+}

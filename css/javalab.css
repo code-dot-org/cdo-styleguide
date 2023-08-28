@@ -1,0 +1,157 @@
+#visualizationOverlay {
+  position: absolute;
+  top: 0;
+  left: auto;
+  overflow: hidden;
+  outline: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.container {
+  width: 95%;
+}
+
+.main {
+  padding: 0;
+}
+
+.cm-content,
+.cm-gutter {
+  min-height: 390px;
+}
+
+.cm-gutters {
+  margin: 1px;
+}
+
+.cm-scroller {
+  overflow: auto;
+}
+
+.cm-wrap {
+  height: 100%;
+}
+
+.codemirror-container .cm-editor.cm-focused {
+  outline: none;
+}
+
+#codeWorkspace {
+  border: none !important;
+}
+
+.nav {
+  margin-bottom: 0;
+}
+
+.nav-tabs {
+  border-bottom: 0;
+}
+
+.nav-tabs > li {
+  border: 0;
+  border-radius: 0;
+}
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+  margin-right: 0;
+  color: black;
+}
+
+.nav-tabs > li > a {
+  color: #5b6770;
+  border: 0;
+  border-radius: 0;
+  margin-right: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.darkmode .nav-tabs > .active > a,
+.darkmode .nav-tabs > .active > a:hover,
+.darkmode .nav-tabs > .active > a:focus {
+  border-width: 0;
+  background-color: rgb(40, 44, 52);
+  color: white;
+  margin-right: 0;
+}
+.darkmode ul > li > a {
+  color: #4d575f;
+  border: 0;
+  border-radius: 0;
+  margin-right: 0;
+}
+.darkmode .cm-textfield::placeholder {
+  color: #c6cacd;
+  opacity: 1;
+}
+
+/* Slider. */
+.sliderContainer {
+  float: left;
+}
+
+.sliderTrack {
+  stroke: #aaa;
+  stroke-width: 6px;
+  stroke-linecap: round;
+}
+
+.sliderKnob {
+  fill: #ddd;
+  stroke: #bbc;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+}
+
+.sliderKnob:hover {
+  fill: #eee;
+}
+
+.noBorder {
+  border: none;
+}
+.noBorder:active {
+  border: none !important;
+}
+
+div#visualizationResizeBar {
+  position: static;
+}
+
+#codeApp.pin_bottom {
+  left: 10px;
+  right: 10px;
+}
+
+html[dir=RTL] #visualization.responsive > * {
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.pane-header-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.pane-header-section-left {
+  justify-content: flex-start;
+}
+
+.pane-header-section-center {
+  justify-content: center;
+}
+
+.pane-header-section-right {
+  justify-content: flex-end;
+}

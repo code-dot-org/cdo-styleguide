@@ -1,0 +1,45 @@
+/*
+   If you are changing the location of these files,
+   see the readme in this directory for more detail on manual steps to take when uploading new files.
+ */
+.nav-bar {
+  margin-right: 5px;
+  min-width: 200px;
+  font-size: 14px;
+  font-family: "Gotham 7r", sans-serif;
+}
+.nav-bar .category {
+  padding-left: 10px;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.nav-bar .category .title {
+  padding: 16px 0;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.nav-bar .category .nav-link {
+  background-color: #fff;
+  padding: 8px;
+  border-bottom: 2px solid #e7e8ea;
+  display: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nav-bar .category.open .nav-link {
+  display: block;
+}
+.nav-bar .category .link {
+  color: #949ca2;
+}
+.nav-bar .category .active .link {
+  color: #59cad3;
+}
+.nav-bar .category .link:hover {
+  color: #80d6de;
+}
