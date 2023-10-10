@@ -1,3 +1,7 @@
+/*
+   If you are changing the location of these files,
+   see the readme in this directory for more detail on manual steps to take when uploading new files.
+ */
 #codeWorkspace {
   border: none !important;
 }
@@ -16,13 +20,15 @@ button:active {
 }
 
 #pondTextMarkdown strong {
+  font-family: "Metropolis", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #eb5757;
-  font-weight: normal;
-  font-family: "Gotham 4r", arial, sans-serif;
 }
 
 #pondTextMarkdown em {
-  color: #56c568;
+  font-family: "Metropolis", sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-family: "Gotham 4r", arial, sans-serif;
+  color: #56c568;
 }
