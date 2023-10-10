@@ -75,11 +75,9 @@
 }
 
 .bounce-score {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   text-anchor: middle;
   font-size: xx-large;
+  font-family: "Gotham 7r", sans-serif;
   fill: white;
   stroke: black;
   stroke-width: 2;

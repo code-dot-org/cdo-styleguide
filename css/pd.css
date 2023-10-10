@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/*
-   If you are changing the location of these files,
-   see the readme in this directory for more detail on manual steps to take when uploading new files.
- */
 #workshop-container,
 #application-container,
 #application-header,
@@ -18104,10 +18100,8 @@ fieldset[disabled] #enroll-form .btn-gray.focus {
 #application-container a:not(.btn),
 #application-header a:not(.btn),
 #enroll-form a:not(.btn) {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   color: #7665a0;
+  font-family: "Gotham 7r", sans-serif;
 }
 #workshop-container a:not(.btn):hover,
 #application-container a:not(.btn):hover,
@@ -25675,10 +25669,9 @@ form .form-required-field {
   margin-bottom: 15px;
 }
 .teacher-application-logged-out #regional-partner-mini-contact-popup-link-container {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   display: inline-block;
+  font-family: "Gotham 7r", sans-serif;
+  font-weight: normal;
   color: #0094ca;
   cursor: pointer;
 }
@@ -25714,11 +25707,10 @@ form .form-required-field {
 }
 
 .control-label {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   font-size: 13px;
   line-height: 18px;
+  font-weight: bold;
+  font-family: "Gotham 4r", sans-serif;
 }
 
 #application-container .form-group {

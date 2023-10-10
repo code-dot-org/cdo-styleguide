@@ -143,25 +143,22 @@ block to be on top of the toolbox. The toolbox has a z-index of 70.
 }
 
 body {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Gotham 4r", sans-serif, sans-serif;
+  font-weight: normal;
   background-color: #f2f2f2;
   font-weight: normal;
   margin-top: 0;
 }
 
 h1 {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: "Gotham 7r", sans-serif, sans-serif;
+  font-weight: normal;
   font-size: 140%;
 }
 
 h2 {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+  font-family: "Gotham 5r", sans-serif, sans-serif;
+  font-weight: normal;
 }
 
 a {
@@ -173,24 +170,18 @@ a:hover {
 }
 
 strong {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: "Gotham 7r", sans-serif, sans-serif;
+  font-weight: normal;
 }
 
 em {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
+  font-family: "Gotham 4i", sans-serif, sans-serif;
   font-style: normal;
-  font-style: italic;
 }
 
 strong em,
 em strong {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-style: italic;
+  font-family: "Gotham 7i", sans-serif;
 }
 
 .clear {
@@ -222,9 +213,8 @@ html[dir=rtl] #visualizationColumn {
 }
 
 div.droplet-palette-group-header {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Gotham 4r", sans-serif, sans-serif;
+  font-weight: normal;
   line-height: 24px;
 }
 
@@ -1081,13 +1071,12 @@ input[type=radio] {
 }
 
 .feedback {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   font-size: 30px;
   margin: 20px 0 20px 0;
   line-height: 28px;
   color: #7e5ba0;
+  font-family: "Gotham 7r", sans-serif;
+  font-weight: normal;
 }
 
 #show-code {
@@ -1184,17 +1173,14 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
 }
 
 .qtip.cdo-qtips.qtip-authored-hint .qtip-content {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Gotham 4r", sans-serif;
   padding: 10px 10px 0 10px;
   color: #5b6770;
 }
 .qtip.cdo-qtips.qtip-authored-hint .qtip-content h3 {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   margin-top: 0;
+  font-family: "Gotham 7r", sans-serif;
+  font-weight: normal;
   font-size: 18px;
   line-height: 20px;
 }
@@ -1264,9 +1250,6 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
 }
 
 .workspace-header-button {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 600;
-  font-style: normal;
   cursor: pointer;
   float: right;
   overflow: hidden;
@@ -1277,6 +1260,7 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
   margin-left: 0;
   height: 24px;
   border-radius: 4px;
+  font-family: "Gotham 5r", sans-serif;
 }
 .workspace-header-button:hover {
   background-color: #0094ca;
@@ -1436,9 +1420,7 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
   background-color: #ebe8f1;
 }
 #showVersionsModal .template-level-warning {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: "Gotham 7r", sans-serif;
   color: #c00;
   line-height: normal;
   margin-top: 10px;
@@ -1452,9 +1434,8 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
 .blocklyIconMark,
 .blocklyTooltipText,
 .goog-menuitem-content {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Gotham 4r", sans-serif, sans-serif;
+  font-weight: normal;
 }
 
 .blocklyRectangularDropdownMenu {
@@ -1479,10 +1460,8 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
 }
 
 .modal-content .show-code summary {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 600;
-  font-style: normal;
   color: #292F36;
+  font-family: "Gotham 5r", sans-serif;
 }
 .modal-content .show-code .generated-code-container {
   margin: 25px 10px 25px -80px;
@@ -1507,14 +1486,11 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
   margin-bottom: 10px;
 }
 .generated-code-container .generatedCodeMessage p.caption-text {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+  font-family: "Gotham 5r", sans-serif;
 }
 .generated-code-container .generatedCodeMessage p a {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Gotham 4r", sans-serif;
+  font-weight: normal;
   color: #9660BF;
   text-decoration: underline;
 }
@@ -1705,10 +1681,7 @@ html[dir=rtl] #sharing .social-buttons {
   margin-bottom: 0;
 }
 #sharing button.saved-to-gallery {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-style: italic;
+  font-family: "Gotham 4i", sans-serif;
 }
 #sharing #sharing-input-container {
   overflow: hidden;
@@ -1815,11 +1788,9 @@ body.readonly.embed-block #codeWorkspace .userHidden {
 .tooltip-code-link > a:link,
 .tooltip-code-link > a:active,
 .tooltip-code-link > a:visited {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 600;
-  font-style: normal;
   border-bottom: 3px solid #ffb81d;
   color: white;
+  font-family: "Gotham 5r", sans-serif;
 }
 
 .tooltip-choose-link {
@@ -1848,12 +1819,12 @@ body.readonly.embed-block #codeWorkspace .userHidden {
 }
 
 .droplet-block-tooltipster .tooltipster-content {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
+  font-family: "Gotham 4r", sans-serif;
   font-size: 12px;
   line-height: 16px;
   padding: 8px 10px;
   overflow: hidden;
+  font-weight: normal;
 }
 
 .droplet-hover-div {

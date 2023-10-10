@@ -1,7 +1,3 @@
-/*
-   If you are changing the location of these files,
-   see the readme in this directory for more detail on manual steps to take when uploading new files.
- */
 .module_assignments {
   display: flex;
 }
@@ -42,10 +38,8 @@
   margin-bottom: 20px;
 }
 .course_unit_sections .course_unit_section .course_unit_title a {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   color: #4d575f !important;
+  font-family: "Gotham 4r", sans-serif;
 }
 .course_unit_sections .course_unit_section .coming_soon {
   text-align: center;
@@ -56,10 +50,8 @@
   text-decoration: none;
 }
 .course_unit_sections .course_unit_section .module_assignment {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   border-radius: 5px;
+  font-family: "Gotham 4r", sans-serif;
   text-decoration: none;
   margin: 10px;
   padding: 5px;

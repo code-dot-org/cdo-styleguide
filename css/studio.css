@@ -92,10 +92,8 @@
 .studio-victory-text,
 .studio-reset-text,
 .studio-floating-score {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   text-anchor: middle;
+  font-family: "Gotham 7r", sans-serif;
   fill: white;
   stroke: #000;
   cursor: default;
@@ -114,11 +112,9 @@
 }
 
 .studio-ts-title {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   text-anchor: middle;
   font-size: xx-large;
+  font-family: "Gotham 7r", sans-serif;
   fill: white;
   stroke: black;
   stroke-width: 2;
@@ -126,11 +122,9 @@
 }
 
 .studio-ts-text {
-  font-family: "Metropolis", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   text-anchor: middle;
   font-size: 20px;
+  font-family: "Gotham 7r", sans-serif;
   fill: white;
   stroke: black;
   stroke-width: 1;
