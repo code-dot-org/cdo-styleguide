@@ -3,10 +3,12 @@
    see the readme in this directory for more detail on manual steps to take when uploading new files.
  */
 .nav-bar {
+  font-family: "Metropolis", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   margin-right: 5px;
   min-width: 200px;
   font-size: 14px;
-  font-family: "Gotham 7r", sans-serif;
 }
 .nav-bar .category {
   padding-left: 10px;
