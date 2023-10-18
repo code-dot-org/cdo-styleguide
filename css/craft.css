@@ -4051,9 +4051,9 @@ html[dir=rtl] .minecraft .dash_modal #sharing {
   fill: white !important;
 }
 .minecraft .dash_modal p {
-  line-height: 27px;
-  font-size: 24px;
-  color: #e7e8ea;
+  line-height: 27px !important;
+  font-size: 24px !important;
+  color: #e7e8ea !important;
 }
 .minecraft .dash_modal span.thumbnail-warning {
   color: #e7e8ea;
