@@ -4008,6 +4008,9 @@ html[dir=rtl] .minecraft .dash_modal .x-close {
 .minecraft .dash_modal .show-code summary {
   color: #c6cacd;
 }
+.minecraft .dash_modal .show-code summary:hover {
+  color: #4d575f;
+}
 .minecraft .dash_modal #show-code,
 .minecraft .dash_modal #feedbackButtons,
 .minecraft .dash_modal #puzzleRatingButtons,
