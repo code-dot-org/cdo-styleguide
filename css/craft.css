@@ -2023,24 +2023,6 @@ div.WireframeButtons_active {
   margin-left: -400px;
 }
 
-.modalFunctionEditorContainer svg {
-  position: absolute;
-  top: 50;
-  left: 0;
-  background: transparent !important;
-  pointer-events: none;
-}
-
-.modalFunctionEditorContainer svg .blocklyBlockCanvas,
-.modalFunctionEditorContainer .blocklyScrollbarVertical,
-.blocklyToolboxDiv {
-  pointer-events: visiblePainted;
-}
-
-.modalFunctionEditorContainer .injectionDiv {
-  pointer-events: none;
-}
-
 /*
    If you are changing the location of these files,
    see the readme in this directory for more detail on manual steps to take when uploading new files.
