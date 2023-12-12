@@ -880,8 +880,8 @@ html[dir=RTL] button.blocklyLaunch {
   margin-right: 0;
 }
 button.blocklyLaunch#resetButton {
-  border: 1px solid #9660BF;
-  background-color: #9660BF;
+  border: 1px solid #8C52BA;
+  background-color: #8C52BA;
 }
 button.blocklyLaunch#resetButton:hover {
   background-color: #6F488E;
@@ -1512,7 +1512,7 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
   font-family: "Metropolis", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #9660BF;
+  color: #8C52BA;
   text-decoration: underline;
 }
 .generated-code-container .generatedCodeMessage p a:hover {
