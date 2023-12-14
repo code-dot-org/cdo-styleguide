@@ -1,1 +1,1 @@
-(window.locales=window.locales||{}).standaloneVideo_locale={continue:function(n){return"Continue"}};
+(window.locales=window.locales||{}).standaloneVideo_locale={continue:function(e){return"Continue"},simpleModalVideoPlayer:function(e){return"Simple Modal Video Player"}};

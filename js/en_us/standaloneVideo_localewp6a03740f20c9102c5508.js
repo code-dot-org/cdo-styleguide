@@ -1,1 +1,0 @@
-(window.locales=window.locales||{}).standaloneVideo_locale={continue:function(n){return"Continue"}};
