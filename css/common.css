@@ -348,10 +348,6 @@ button.arrow > img {
   vertical-align: text-bottom;
 }
 
-button.arrow:focus {
-  outline-style: none;
-}
-
 button.arrow:disabled {
   border: 1px solid #D4D5D7;
   background-color: #D4D5D7;
