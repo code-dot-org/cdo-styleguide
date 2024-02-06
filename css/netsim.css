@@ -768,10 +768,10 @@
   text-align: center;
 }
 #netsim .netsim-metronome .pulse-dot {
-  fill: #7665a0;
+  fill: #8c52ba;
 }
 #netsim .netsim-metronome .progress-meter {
-  fill: #7665a0;
+  fill: #8c52ba;
 }
 #netsim .netsim-encoding-selector div.hidden-control {
   display: none;

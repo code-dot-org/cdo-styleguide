@@ -18107,13 +18107,13 @@ fieldset[disabled] #enroll-form .btn-gray.focus {
   font-family: "Metropolis", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #7665a0;
+  color: #8c52ba;
 }
 #workshop-container a:not(.btn):hover,
 #application-container a:not(.btn):hover,
 #application-header a:not(.btn):hover,
 #enroll-form a:not(.btn):hover {
-  color: #7665a0;
+  color: #8c52ba;
 }
 #workshop-container th,
 #application-container th,
@@ -25699,7 +25699,7 @@ form .form-required-field {
 }
 .workshop-attendance-recorded .checkmark {
   font-size: 160px;
-  color: #7665a0;
+  color: #8c52ba;
 }
 .workshop-attendance-recorded .paragraph {
   margin-bottom: 15px;
