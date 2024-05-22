@@ -1,3 +1,1 @@
-
-(window.locales = window.locales || {}).lab2_locale = {
-};
+(window.locales=window.locales||{}).lab2_locale={};

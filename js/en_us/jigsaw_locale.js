@@ -1,11 +1,1 @@
-
-(window.locales = window.locales || {}).jigsaw_locale = {
-  "continue": function(d) { return "Continue"; },
-  nextLevel: function(d) { return "Congratulations! You have completed this puzzle."; },
-  no: function(d) { return "No"; },
-  numBlocksNeeded: function(d) { return "This puzzle can be solved with %1 blocks."; },
-  reinfFeedbackMsg: function(d) { return "You can press the \"Try again\" button to go back to playing your game."; },
-  share: function(d) { return "Share"; },
-  shareGame: function(d) { return "Share your game:"; },
-  yes: function(d) { return "Yes"; }
-};
+(window.locales=window.locales||{}).jigsaw_locale={continue:function(n){return"Continue"},nextLevel:function(n){return"Congratulations! You have completed this puzzle."},no:function(n){return"No"},numBlocksNeeded:function(n){return"This puzzle can be solved with %1 blocks."},reinfFeedbackMsg:function(n){return'You can press the "Try again" button to go back to playing your game.'},share:function(n){return"Share"},shareGame:function(n){return"Share your game:"},yes:function(n){return"Yes"}};

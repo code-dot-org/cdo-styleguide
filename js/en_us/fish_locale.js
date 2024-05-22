@@ -1,3 +1,1 @@
-
-(window.locales = window.locales || {}).fish_locale = {
-};
+(window.locales=window.locales||{}).fish_locale={};
