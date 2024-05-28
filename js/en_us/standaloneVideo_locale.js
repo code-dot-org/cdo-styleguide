@@ -1,1 +1,5 @@
-(window.locales=window.locales||{}).standaloneVideo_locale={continue:function(e){return"Continue"},simpleModalVideoPlayer:function(e){return"Simple Modal Video Player"}};
+
+(window.locales = window.locales || {}).standaloneVideo_locale = {
+  "continue": function(d) { return "Continue"; },
+  simpleModalVideoPlayer: function(d) { return "Simple Modal Video Player"; }
+};
