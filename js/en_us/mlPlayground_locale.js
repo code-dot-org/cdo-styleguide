@@ -1,3 +1,1 @@
-
-(window.locales = window.locales || {}).mlPlayground_locale = {
-};
+(window.locales=window.locales||{}).mlPlayground_locale={};
