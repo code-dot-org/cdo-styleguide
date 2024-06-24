@@ -349,9 +349,9 @@ button.arrow > img {
 }
 
 button.arrow:disabled {
-  border: 1px solid #D4D5D7;
-  background-color: #D4D5D7;
-  color: #D4D5D7;
+  border: 1px solid #D1D4D8;
+  background-color: #D1D4D8;
+  color: #D1D4D8;
 }
 
 #soft-buttons {
@@ -880,8 +880,8 @@ button.blocklyLaunch#resetButton {
   background-color: #8C52BA;
 }
 button.blocklyLaunch#resetButton:hover {
-  background-color: #6F488E;
-  border-color: #6F488E;
+  background-color: #6C468A;
+  border-color: #6C468A;
   box-shadow: none;
 }
 button.blocklyLaunch.hideText {
@@ -1512,7 +1512,7 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
   text-decoration: underline;
 }
 .generated-code-container .generatedCodeMessage p a:hover {
-  color: #6F488E;
+  color: #6C468A;
 }
 .generated-code-container .generatedCode {
   font-size: 14px;
