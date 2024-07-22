@@ -143,7 +143,7 @@ block to be on top of the toolbox. The toolbox has a z-index of 70.
 }
 
 body {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: #f2f2f2;
@@ -152,14 +152,14 @@ body {
 }
 
 h1 {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 140%;
 }
 
 h2 {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -173,13 +173,13 @@ a:hover {
 }
 
 strong {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 em {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-style: italic;
@@ -187,7 +187,7 @@ em {
 
 strong em,
 em strong {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-style: italic;
@@ -219,7 +219,7 @@ em strong {
 }
 
 div.droplet-palette-group-header {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 24px;
@@ -1074,7 +1074,7 @@ input[type=radio] {
 }
 
 .feedback {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 30px;
@@ -1177,14 +1177,14 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
 }
 
 .qtip.cdo-qtips.qtip-authored-hint .qtip-content {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding: 10px 10px 0 10px;
   color: #5b6770;
 }
 .qtip.cdo-qtips.qtip-authored-hint .qtip-content h3 {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 700;
   font-style: normal;
   margin-top: 0;
@@ -1257,7 +1257,7 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
 }
 
 .workspace-header-button {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 600;
   font-style: normal;
   cursor: pointer;
@@ -1429,7 +1429,7 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
   background-color: #ebe8f1;
 }
 #showVersionsModal .template-level-warning {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #c00;
@@ -1445,7 +1445,7 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
 .blocklyIconMark,
 .blocklyTooltipText,
 .goog-menuitem-content {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -1472,7 +1472,7 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
 }
 
 .modal-content .show-code summary {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 600;
   font-style: normal;
   color: #292F36;
@@ -1500,12 +1500,12 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
   margin-bottom: 10px;
 }
 .generated-code-container .generatedCodeMessage p.caption-text {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 .generated-code-container .generatedCodeMessage p a {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #8C52BA;
@@ -1698,7 +1698,7 @@ html[dir=rtl] #sharing .social-buttons {
   margin-bottom: 0;
 }
 #sharing button.saved-to-gallery {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-style: italic;
@@ -1808,7 +1808,7 @@ body.readonly.embed-block #codeWorkspace .userHidden {
 .tooltip-code-link > a:link,
 .tooltip-code-link > a:active,
 .tooltip-code-link > a:visited {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 600;
   font-style: normal;
   border-bottom: 3px solid #ffb81d;
@@ -1841,7 +1841,7 @@ body.readonly.embed-block #codeWorkspace .userHidden {
 }
 
 .droplet-block-tooltipster .tooltipster-content {
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
