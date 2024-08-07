@@ -1,0 +1,1 @@
+(window.locales=window.locales||{}).lab2_locale={versionHistoryLoadFailure:function(o){return"Sorry, we couldn't load your version history. Please try again."},versionHistoryLoading:function(o){return"Loading version history..."},versionLoadFailure:function(o){return"Sorry, we couldn't load that version. Please try again."}};
