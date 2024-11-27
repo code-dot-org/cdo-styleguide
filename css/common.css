@@ -1480,10 +1480,10 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
   color: #292F36;
 }
 .modal-content .show-code .generated-code-container {
-  margin: 25px 10px 25px -80px;
+  margin: 25px 10px 25px 0;
 }
 html[dir=rtl] .modal-content .show-code .generated-code-container {
-  margin: 25px -80px 25px 10px;
+  margin: 25px 0 25px 10px;
 }
 .modal-content.no-modal-icon .show-code .generated-code-container {
   margin-left: 0;
