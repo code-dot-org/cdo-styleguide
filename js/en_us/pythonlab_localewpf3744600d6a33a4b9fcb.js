@@ -1,1 +1,0 @@
-(window.locales=window.locales||{}).pythonlab_locale={inputFailed:function(e){return"We're sorry, input is unavailable at this time. Input may not work in a private or incognito window. If you are in a standard browser window, please try refreshing the page. If the issue persists, contact support@code.org."}};
