@@ -13482,6 +13482,22 @@ fieldset[disabled] #application-header .btn-gray.focus {
   display: inline-block;
   padding: 0 2px;
 }
+#workshop-container .legacy-bs .newWorkshopButton.btn.btn-primary,
+#application-container .newWorkshopButton.btn.btn-primary,
+#application-header .newWorkshopButton.btn.btn-primary {
+  background-color: #8C52BA;
+}
+#workshop-container .legacy-bs .newWorkshopButton.btn.btn-primary + ul i,
+#application-container .newWorkshopButton.btn.btn-primary + ul i,
+#application-header .newWorkshopButton.btn.btn-primary + ul i {
+  margin-right: 1rem;
+  width: 0.5rem;
+}
+#workshop-container .legacy-bs .newWorkshopButton.btn.btn-primary + ul a,
+#application-container .newWorkshopButton.btn.btn-primary + ul a,
+#application-header .newWorkshopButton.btn.btn-primary + ul a {
+  background-image: none;
+}
 #workshop-container .legacy-bs .has-error .Select-control,
 #application-container .has-error .Select-control,
 #application-header .has-error .Select-control {
