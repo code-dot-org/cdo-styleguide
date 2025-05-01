@@ -10,12 +10,11 @@
   font-weight: 700;
   font-style: normal;
   margin-right: 5px;
-  min-width: 200px;
   font-size: 14px;
 }
 .nav-bar .category {
   padding-left: 10px;
-  width: 200px;
+  min-width: 200px;
   height: auto;
   display: flex;
   flex-direction: column;
