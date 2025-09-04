@@ -6,6 +6,12 @@
    If you are changing the location of these files,
    see the readme in this directory for more detail on manual steps to take when uploading new files.
  */
+#workshop-container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #workshop-container .legacy-bs,
 #application-container,
 #application-header {

@@ -1287,6 +1287,10 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
   font-size: 15px;
 }
 
+#settings-header {
+  display: none;
+}
+
 #versions-header {
   display: none;
 }
