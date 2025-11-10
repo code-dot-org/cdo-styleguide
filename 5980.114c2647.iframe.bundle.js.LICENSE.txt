@@ -4,6 +4,14 @@
 	http://jedwatson.github.io/classnames
 */
 
+/*!
+ * JavaScript Cookie v2.1.3
+ * https://github.com/js-cookie/js-cookie
+ *
+ * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+ * Released under the MIT license
+ */
+
 /** @license React v17.0.2
  * react-jsx-runtime.production.min.js
  *
