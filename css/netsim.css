@@ -1,3 +1,4 @@
+/* stylelint-disable import-notation */
 /*
    Font Awesome S3 Bucket URLs
    Current version: 6.6.0
@@ -141,14 +142,14 @@
   overflow-y: hidden;
 }
 #netsim h1 {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-semi-bold);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 600;
   font-style: normal;
 }
 #netsim p,
 #netsim label {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-regular);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 #netsim table {
@@ -160,15 +161,15 @@
   border-collapse: collapse;
 }
 #netsim table th {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-regular);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 400;
   font-style: normal;
   border: solid #5b6770 1px;
   font-size: 10pt;
 }
 #netsim table td {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-regular);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 400;
   font-style: normal;
   border: solid #c6cacd 1px;
   -moz-user-select: text;
@@ -205,8 +206,8 @@
   user-select: text;
 }
 #netsim .netsim-button {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-regular);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 400;
   font-style: normal;
   display: inline-block;
   color: #fff;
@@ -426,8 +427,8 @@
   padding: 0;
 }
 #netsim div.netsim-panel h1 {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-regular);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0.3em;
@@ -754,8 +755,8 @@
   color: #4d575f;
 }
 #netsim .netsim-tabs .ui-tabs-nav li a {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-semi-bold);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 600;
   font-style: normal;
   font-size: 8pt;
   padding: 0 1em;

@@ -1,3 +1,4 @@
+/* stylelint-disable import-notation */
 /*
    Font Awesome S3 Bucket URLs
    Current version: 6.6.0
@@ -64,8 +65,8 @@
 }
 
 .petition-message {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-semi-bold);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 600;
   font-style: normal;
   margin: 0;
   font-size: 21px;
@@ -74,8 +75,8 @@
 }
 
 .petition-sign-message {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-regular);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 20px;
@@ -96,8 +97,8 @@
 }
 
 .petition-space {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-bold);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 700;
   font-style: normal;
   flex: 1 100%;
   height: 18px;
@@ -108,8 +109,8 @@
 }
 
 .petition-button {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-semi-bold);
+  font-family: "Figtree", "Noto Sans", "Noto Sans Math", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", sans-serif;
+  font-weight: 600;
   font-style: normal;
   min-width: 100px;
   margin: 0;
