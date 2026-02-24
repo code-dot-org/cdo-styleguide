@@ -745,13 +745,13 @@ table.checkboxes label {
 }
 
 .aligned-input-group {
-  padding-top: 1%;
+  padding-top: 8px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .aligned-input-group label {
-  padding-left: 1%;
+  padding-left: 8px;
 }
 .aligned-input-group input:disabled ~ label {
   cursor: not-allowed;
