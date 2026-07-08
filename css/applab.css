@@ -67,7 +67,7 @@
 }
 
 #debug-commands-header {
-  width: 270px;
+  width: 271px;
   float: left;
   border-right: 1px solid gray;
 }
@@ -98,13 +98,13 @@
 
 .debug-commands {
   left: 0;
-  width: 270px;
+  width: 272px;
   text-align: center;
 }
 
 .debug-watch {
   right: 0;
-  width: 200px;
+  width: 202px;
   overflow-y: scroll;
 }
 .debug-watch.no-commands {
@@ -479,6 +479,7 @@ _:-ms-fullscreen select,
 div#visualization {
   height: 562.5px;
   width: 400px;
+  box-sizing: content-box;
 }
 
 div#visualization.with_padding {
@@ -714,7 +715,7 @@ div#visualizationResizeBar {
 #visualizationColumn.wireframeShare {
   max-width: none !important;
   width: 352px;
-  height: 612px;
+  height: 652px;
   margin: 0 auto;
   padding: 20px 0;
   background-size: initial;
@@ -1058,6 +1059,9 @@ div#visualizationResizeBar {
 }
 
 .theme-dropdown .Select-value {
+  height: 44px;
+}
+.theme-dropdown .Select-value .theme-dropdown-label {
   height: 44px;
 }
 .theme-dropdown .Select-value .theme-dropdown-label img {
