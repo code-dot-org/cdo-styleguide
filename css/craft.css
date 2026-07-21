@@ -1726,7 +1726,7 @@ html[dir=rtl] #craft-popup-error #close-popup {
   -moz-transform: scale(2);
   -webkit-transform: scale(2);
   transform: scale(2);
-  width: 6px;
+  width: 19px;
   height: 34px;
   margin: 16px -3px -18px 23px;
   padding-right: 13px;
@@ -1758,7 +1758,7 @@ html[dir=rtl] #craft-popup-error #close-popup {
 .minecraft button:not(.no-mc)#toggleButton > div {
   margin-top: 4px;
   margin-left: 2px;
-  margin-right: 18px;
+  margin-right: 4px;
 }
 .dash_modal button:not(.no-mc)#toggleButton .toggle26,
 .minecraft button:not(.no-mc)#toggleButton .toggle26 {
@@ -2043,6 +2043,10 @@ html[dir=rtl] .minecraft .dash_modal #sharing {
   display: none;
 }
 
+.qtip {
+  max-width: 340px;
+}
+
 .qtip-content {
   color: white;
 }
@@ -2230,7 +2234,7 @@ html[dir=rtl] .minecraft .dash_modal #sharing {
   -ms-interpolation-mode: nearest-neighbor;
   /* IE8+ */
   top: -411px;
-  height: 17px;
+  height: 25px;
   float: left;
   position: relative;
   left: -50%;

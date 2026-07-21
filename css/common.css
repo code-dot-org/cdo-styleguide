@@ -1149,13 +1149,13 @@ html[dir=rtl] #puzzleRatingButtons p {
 .prompt-icon-cell {
   vertical-align: top;
   text-align: center;
-  width: 50px;
+  width: 60px;
   padding-right: 10px;
   height: auto;
   /* authored hints */
 }
 .prompt-icon-cell.authored_hints {
-  width: 80px;
+  width: 90px;
 }
 .prompt-icon-cell.authored_hints #prompt-icon {
   padding-top: 20px;
@@ -1629,8 +1629,8 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
   color: #5b6770;
 }
 #sharing .feedback-image {
-  width: 180px;
-  height: 180px;
+  width: 186px;
+  height: 186px;
   margin: 0;
   float: left;
   border: #c6cacd;
@@ -1865,7 +1865,7 @@ body.readonly.embed-block #codeWorkspace .userHidden {
 }
 
 .WireframeButtons_containerLeft {
-  flex: 1 1 372px;
+  flex: 1 1 392px;
   overflow: hidden;
   padding-top: 20px;
   padding-right: 20px;
@@ -1877,7 +1877,7 @@ body.readonly.embed-block #codeWorkspace .userHidden {
 }
 
 .WireframeButtons_containerRight {
-  flex: 1 0 372px;
+  flex: 1 0 392px;
   overflow: hidden;
   padding-top: 20px;
   padding-right: 20px;
@@ -1886,7 +1886,7 @@ body.readonly.embed-block #codeWorkspace .userHidden {
 
 @media (max-width: 845px) {
   .WireframeButtons_containerRight {
-    flex: 1 1 372px;
+    flex: 1 1 392px;
   }
 
   .WireframeButtons_containerLeft {
@@ -1936,7 +1936,7 @@ div.WireframeButtons_active {
 @media screen and (max-height: 780px) {
   .legacy-share-view div#visualizationColumn.wireframeShare {
     width: 402px !important;
-    height: 602px !important;
+    height: 642px !important;
     background-size: 402px 602px;
   }
   .legacy-share-view div#visualizationColumn.wireframeShare div#phoneFrameScreen {
@@ -1970,7 +1970,7 @@ div.WireframeButtons_active {
 }
 .legacy-share-view #visualizationColumn.wireframeShare {
   width: 432px !important;
-  height: 757px !important;
+  height: 797px !important;
   margin: 0 auto;
   padding: 20px 0;
   overflow: hidden;
@@ -1981,8 +1981,8 @@ div.WireframeButtons_active {
   left: 16px;
   border: solid thin #202b34;
   background-color: #202b34;
-  width: 400px;
-  height: 600px;
+  width: 402px;
+  height: 602px;
 }
 .legacy-share-view #gameButtons {
   width: auto;
@@ -2018,7 +2018,6 @@ div.WireframeButtons_active {
   padding: 0;
 }
 
-#manageAssetsModal {
+#manageAssetsModal .modal-dialog {
   width: 800px;
-  margin-left: -400px;
 }

@@ -37,7 +37,7 @@
 }
 
 #debug-commands-header {
-  width: 270px;
+  width: 271px;
   float: left;
   border-right: 1px solid gray;
 }
@@ -68,13 +68,13 @@
 
 .debug-commands {
   left: 0;
-  width: 270px;
+  width: 272px;
   text-align: center;
 }
 
 .debug-watch {
   right: 0;
-  width: 200px;
+  width: 202px;
   overflow-y: scroll;
 }
 .debug-watch.no-commands {
