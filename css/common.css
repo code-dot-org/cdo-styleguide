@@ -1498,7 +1498,7 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
 .generated-code-container .generatedCodeMessage p {
   font-size: 14px;
   line-height: inherit;
-  color: #292F36;
+  color: var(--text-neutral-primary);
   margin-bottom: 10px;
 }
 .generated-code-container .generatedCodeMessage p.caption-text {
@@ -1506,21 +1506,26 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
   font-weight: var(--font-weight-semi-bold);
   font-style: normal;
 }
-.generated-code-container .generatedCodeMessage p a {
-  font-family: var(--font-family-main);
-  font-weight: var(--font-weight-regular);
-  font-style: normal;
-  color: #8C52BA;
-  text-decoration: underline;
-}
-.generated-code-container .generatedCodeMessage p a:hover {
-  color: #6C468A;
-}
 .generated-code-container .generatedCode {
   font-size: 14px;
   overflow: scroll;
-  max-height: 400px;
-  margin: 12px 0;
+  max-height: 340px;
+  margin: 0;
+  background-color: var(--background-neutral-tertiary);
+  color: var(--text-neutral-primary);
+  scrollbar-color: var(--background-neutral-quinary) var(--background-neutral-tertiary);
+}
+.generated-code-container .generatedCode::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: var(--background-neutral-tertiary);
+}
+.generated-code-container .generatedCode::-webkit-scrollbar-thumb {
+  background: var(--background-neutral-quinary);
+  border-radius: 10px;
+}
+.generated-code-container .generatedCode::-webkit-scrollbar-corner {
+  background: var(--background-neutral-tertiary);
 }
 
 .light-yellow-background {
