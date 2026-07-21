@@ -16,42 +16,6 @@
   cursor: ns-resize;
 }
 
-#debug-buttons {
-  display: inline;
-  white-space: normal;
-}
-
-.debugger_button {
-  border: 1px solid #0094ca;
-  background-color: #0094ca;
-  color: #fff;
-  margin-left: 0;
-  margin-right: 3px;
-  padding: 3px 6px;
-  font-size: 14px;
-  min-width: 120px;
-}
-.debugger_button:disabled {
-  cursor: not-allowed;
-}
-.debugger_button:disabled:active {
-  border: none !important;
-}
-
-#continueButton {
-  border-color: #ffa400;
-  background-color: #ffa400;
-}
-
-.debugger_button:focus {
-  outline-style: none;
-}
-
-.debugger_button > img {
-  float: left;
-  opacity: 1;
-}
-
 #debug-area {
   position: absolute;
   bottom: 0;
@@ -174,32 +138,6 @@
 
 .sliderKnob:hover {
   fill: #eee;
-}
-
-/* Sprited icons. */
-.pause-btn {
-  background-position: 0 -84px;
-  margin-right: 3px;
-}
-
-.continue-btn {
-  background-position: -21px -84px;
-  margin-right: 3px;
-}
-
-.step-in-btn {
-  background-position: 0 -105px;
-  margin-right: 3px;
-}
-
-.step-out-btn {
-  background-position: -21px -105px;
-  margin-right: 3px;
-}
-
-.step-over-btn {
-  background-position: 0 21px;
-  margin-right: 3px;
 }
 
 #visualizationOverlay {
