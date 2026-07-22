@@ -520,7 +520,7 @@ html[dir=rtl] #codeTextbox .droplet-palette-scroller {
   left: 400px;
   cursor: ew-resize;
   text-align: center;
-  color: #c6cacd;
+  color: var(--borders-neutral-strong);
   font-size: 24px;
   line-height: 400px;
 }
