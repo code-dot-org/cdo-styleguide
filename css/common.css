@@ -1428,7 +1428,7 @@ html[dir=RTL] .prompt-icon-cell.authored_hints #lightbulb {
   vertical-align: middle;
 }
 #showVersionsModal tr.highlight {
-  background-color: #ebe8f1;
+  background-color: var(--background-neutral-secondary);
 }
 #showVersionsModal .template-level-warning {
   font-family: var(--font-family-main);
