@@ -336,47 +336,6 @@ div.droplet-palette-group-header-selected.orange {
   min-height: 25px;
 }
 
-button.arrow {
-  border: 1px solid #ffa000;
-  background-color: #ffa000;
-  color: #fff;
-  margin: 5px 0;
-  margin-inline-end: 9px;
-  display: none;
-}
-
-button.arrow > img {
-  opacity: 1;
-  vertical-align: text-bottom;
-}
-
-button.arrow:disabled {
-  border: 1px solid #D1D4D8;
-  background-color: #D1D4D8;
-  color: #D1D4D8;
-}
-
-#soft-buttons {
-  display: inline-block;
-  vertical-align: top;
-  -webkit-touch-callout: none;
-}
-#soft-buttons.soft-buttons-compact {
-  margin: 0;
-}
-#soft-buttons.soft-buttons-compact button {
-  margin: 0;
-  margin-inline-end: 4px;
-}
-#soft-buttons :last-child {
-  margin-inline-end: 0;
-}
-@supports not (gap: 0 9px) {
-  #soft-buttons {
-    padding-inline-end: 9px;
-  }
-}
-
 .soft-buttons-1 {
   display: table-cell;
   vertical-align: top;
@@ -804,7 +763,6 @@ html[dir=RTL] #studio-dpad-container.responsive > * {
   }
 }
 /* Buttons */
-button,
 label.img-upload {
   margin: 5px;
   padding: 10px;
@@ -813,136 +771,6 @@ label.img-upload {
   font-size: large;
   background-color: #eee;
   color: #000;
-}
-
-button.launch {
-  border: 1px solid #ffa400;
-  background-color: #ffa400;
-  color: #fff;
-  font-size: large;
-  min-width: 96px;
-  margin-left: 0;
-  margin-right: 10px;
-  /* Can't use "text-align: start" due to IE. */
-  text-align: left;
-}
-
-button.launch[disabled] {
-  pointer-events: none;
-}
-
-html[dir=RTL] button.launch {
-  text-align: right;
-}
-
-button.launch > img {
-  opacity: 1;
-  vertical-align: text-bottom;
-}
-
-button.blocklyLaunch {
-  display: inline-block;
-  border: 1px solid #ffa400;
-  background-color: #ffa400;
-  padding: 7px 10px 7px 6px;
-  /* Can't use "text-align: start" due to IE. */
-  text-align: left;
-}
-button.blocklyLaunch.hide {
-  display: none;
-}
-@media screen and (min-width: 1051px) {
-  button.blocklyLaunch {
-    min-width: 111px;
-  }
-}
-button.blocklyLaunch img {
-  float: left;
-  margin-top: 0;
-  margin-left: 6px;
-}
-button.blocklyLaunch div {
-  text-align: left;
-  margin-top: 3px;
-  margin-right: 4px;
-  float: right;
-  padding: 0;
-  margin-left: 6px;
-}
-@media screen and (min-width: 1051px) {
-  button.blocklyLaunch div {
-    min-width: 45px;
-  }
-}
-html[dir=RTL] button.blocklyLaunch {
-  margin-right: 0;
-}
-button.blocklyLaunch#resetButton {
-  border: 1px solid #8C52BA;
-  background-color: #8C52BA;
-}
-button.blocklyLaunch#resetButton:hover {
-  background-color: #6C468A;
-  border-color: #6C468A;
-  box-shadow: none;
-}
-button.blocklyLaunch.hideText {
-  width: 42px;
-  height: 42px;
-  min-width: 0;
-  padding: 7px;
-}
-button.blocklyLaunch.hideText img {
-  margin-left: 2px;
-  margin-top: -2px;
-}
-
-button.share {
-  border: 1px solid #ffa000;
-  background-color: #ffa000;
-  color: #fff;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-button.share:focus {
-  outline-style: none;
-}
-
-button:hover > img {
-  opacity: 1;
-}
-
-button:hover {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-button.disabled,
-button[disabled=disabled],
-button:disabled {
-  border: 1px solid #c7c7c7;
-  background-color: #c7c7c7;
-  box-shadow: none;
-}
-button.disabled:hover,
-button[disabled=disabled]:hover,
-button:disabled:hover {
-  box-shadow: none;
-}
-
-button.disabled:hover > img {
-  opacity: 0.6;
-}
-
-button.disabled {
-  display: none;
-}
-
-button.notext {
-  font-size: 10%;
-}
-
-label.img-upload {
   display: inline-block;
   vertical-align: middle;
 }
@@ -952,11 +780,6 @@ input[type=radio] {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 1050px) {
-  #stepButton {
-    min-width: 0;
-  }
-}
 #learn h1 {
   margin: 20px 0 0 0;
 }
@@ -985,7 +808,7 @@ input[type=radio] {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 0 9px;
+  gap: 0.5rem;
 }
 
 #gameButtons:after {
@@ -1758,11 +1581,6 @@ html[dir=rtl] #sharing .social-buttons {
   background: url("/blockly/media/common_images/shared-sprites-26x26.png") 0px 26px;
 }
 
-#stepButton {
-  margin-right: 0;
-  text-align: center;
-}
-
 #share-fail-explanation {
   font-size: 20px;
 }
@@ -1991,9 +1809,6 @@ div.WireframeButtons_active {
 .legacy-share-view #gameButtons #right-button-cell {
   display: none;
   /* don't show Finish button in share view */
-}
-.legacy-share-view #gameButtons #soft-buttons button {
-  margin: 5px 1px;
 }
 .legacy-share-view .small-footer-base {
   left: 0;

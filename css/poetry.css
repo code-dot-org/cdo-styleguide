@@ -368,7 +368,3 @@
 #studio-space-button:focus {
   outline: 0;
 }
-
-button.arrow:disabled, button#pauseButton:disabled {
-  pointer-events: none;
-}

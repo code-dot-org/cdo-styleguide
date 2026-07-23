@@ -37,14 +37,6 @@
   margin-right: 3px;
 }
 
-#stepButton {
-  display: inline-block;
-  vertical-align: top;
-}
-#stepButton.hide {
-  display: none;
-}
-
 .float-right {
   float: right;
 }
