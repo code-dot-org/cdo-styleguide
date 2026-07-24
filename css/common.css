@@ -1351,6 +1351,21 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
   background: var(--background-neutral-tertiary);
 }
 
+#showCodeModal img {
+  background: transparent !important;
+}
+#showCodeModal [class*=modalContentSection] {
+  max-height: 500px !important;
+}
+#showCodeModal .generated-code-container {
+  min-width: 0;
+  max-width: 100%;
+}
+#showCodeModal .generatedCode {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .light-yellow-background {
   background-color: #fff7df;
 }
