@@ -69,6 +69,7 @@
 .debug-watch {
   right: 0;
   width: 202px;
+  overflow-x: hidden;
   overflow-y: scroll;
 }
 .debug-watch.no-commands {
@@ -84,8 +85,6 @@
 .debug-watch-item {
   margin: 0;
   line-height: 14px;
-  clear: both;
-  margin-bottom: 1px;
 }
 .debug-watch-item .watch-variable,
 .debug-watch-item .watch-separator {
