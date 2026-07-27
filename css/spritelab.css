@@ -59,7 +59,7 @@
 .debug-console,
 .debug-watch {
   display: block;
-  background-color: #fff;
+  background-color: var(--background-neutral-primary);
   border: 1px solid #ddd;
   position: absolute;
   top: 43px;
@@ -116,6 +116,10 @@
 .debug-console input {
   font-family: monospace;
   font-size: 12px;
+}
+
+.debug-console input {
+  background-color: inherit;
 }
 
 #slider-cell {
