@@ -116,11 +116,6 @@
   background-color: inherit;
 }
 
-#slider-cell {
-  float: left;
-  cursor: default;
-}
-
 /* Slider. */
 .sliderContainer {
   float: left;
