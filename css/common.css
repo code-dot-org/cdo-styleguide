@@ -1353,14 +1353,14 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
   clear: both;
   margin-top: 25px;
   font-size: 18px;
-  color: #5b6770;
+  color: var(--text-neutral-primary);
 }
 #sharing .feedback-image {
   width: 186px;
   height: 186px;
   margin: 0;
   float: left;
-  border: #c6cacd;
+  border: var(--borders-neutral-primary);
   border-style: solid;
 }
 html[dir=rtl] #sharing .feedback-image {
@@ -1393,7 +1393,7 @@ html[dir=rtl] #sharing div.sharing-content {
 #sharing .social-buttons a:visited {
   background-color: transparent;
   text-decoration: none;
-  color: white;
+  color: var(--text-neutral-white-fixed);
 }
 html[dir=rtl] #sharing .social-buttons {
   display: flex;
@@ -1402,16 +1402,16 @@ html[dir=rtl] #sharing .social-buttons {
   justify-content: flex-end;
 }
 #sharing button {
-  background-color: #8c52ba;
-  color: white;
+  background-color: var(--background-brand-purple-primary);
+  color: var(--text-neutral-white-fixed);
   font-size: 14px;
   min-width: 40px;
   text-align: center;
   margin: 2px 0;
 }
 #sharing button .disabled, #sharing button[disabled=disabled], #sharing button:disabled {
-  border: 1px solid #8c52ba;
-  background-color: #c6cacd;
+  border: 1px solid var(--borders-brand-purple-primary);
+  background-color: var(--background-neutral-disabled);
   box-shadow: none;
 }
 #sharing #send-to-phone {
@@ -1434,7 +1434,6 @@ html[dir=rtl] #sharing .social-buttons {
 #sharing button.saved-to-gallery {
   font-family: var(--font-family-main);
   font-weight: var(--font-weight-regular);
-  font-style: normal;
   font-style: italic;
 }
 #sharing #sharing-input-container {
@@ -1451,7 +1450,7 @@ html[dir=rtl] #sharing .social-buttons {
   box-sizing: border-box;
 }
 #sharing .sharing-dialog-copy-button-shared {
-  background-color: #a69bc1;
+  background-color: var(--background-brand-purple-hover);
 }
 #sharing #copy-button {
   max-width: 100px;
@@ -1470,7 +1469,7 @@ html[dir=rtl] #sharing .social-buttons {
 #sharing div#phone-charges {
   font-size: 10px;
   margin-top: 0;
-  color: #c00;
+  color: var(--text-error-primary);
 }
 
 .run26 {
