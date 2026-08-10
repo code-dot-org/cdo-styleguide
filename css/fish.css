@@ -4,6 +4,16 @@
    If you are changing the location of these files,
    see the readme in this directory for more detail on manual steps to take when uploading new files.
  */
+/* ml-activities' percentage padding assumes content-box. */
+#container-react,
+#container-react * {
+  box-sizing: content-box;
+}
+
+#container-react button {
+  box-sizing: border-box;
+}
+
 #codeWorkspace {
   border: none !important;
 }
