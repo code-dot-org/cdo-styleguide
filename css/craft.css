@@ -212,8 +212,8 @@ html[dir=rtl] #phaser-game {
   display: inline-block;
 }
 
-a.video_link {
-  color: #a6daed;
+.reference_area a.video_link {
+  color: var(--text-neutral-black-fixed);
 }
 
 #visualizationColumn.pin_bottom {
