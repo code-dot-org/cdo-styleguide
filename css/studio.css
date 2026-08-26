@@ -169,7 +169,7 @@
 .instructions-markdown .character-text {
   line-height: 27px;
   font-size: 24px;
-  color: #8c52ba;
+  color: var(--text-brand-purple-primary);
 }
 .instructions-markdown details.hoc2015 > summary {
   margin: 1em 0;
