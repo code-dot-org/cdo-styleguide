@@ -12504,3 +12504,751 @@ details summary:hover {
   background: #e7e8ea;
   cursor: pointer;
 }
+
+/*
+   Font Awesome S3 Bucket URLs
+   Current version: 6.6.0
+   If you are changing the location of these files,
+   see the readme in this directory for more detail on manual steps to take when uploading new files.
+ */
+.error-page body, .not-found-page body {
+  font-family: "Geist", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", "Noto Sans Math", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #696969;
+  margin: 0;
+}
+.error-page h1, .not-found-page h1 {
+  font-family: "Geist", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", "Noto Sans Math", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #8c52ba;
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  line-height: 1.2em;
+}
+.error-page button, .not-found-page button {
+  font-family: "Geist", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", "Noto Sans Math", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -webkit-writing-mode: horizontal-tb;
+  align-items: flex-start;
+  background-color: #ffa400;
+  border-color: #ffa400;
+  background-image: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  height: 34px;
+  letter-spacing: normal;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 30px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  text-align: center;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-spacing: 0;
+  writing-mode: lr-tb;
+}
+.error-page .error-image, .not-found-page .error-image {
+  margin-top: 50px;
+}
+.error-page .error-parent, .not-found-page .error-parent {
+  text-align: center;
+}
+.error-page .error-child, .not-found-page .error-child {
+  display: inline-block;
+  max-width: 300px;
+}
+
+.deprecated-course-page {
+  margin-bottom: 100px;
+}
+.deprecated-course-page .deprecated-course-child {
+  display: inline-block;
+  max-width: 500px;
+}
+.deprecated-course-page p {
+  font-family: "Geist", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", "Noto Sans Math", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #292F36;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.2em;
+}
+.deprecated-course-page a.design-system-btn {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#lti-unsupported-message-type.error-page .error-child {
+  max-width: 450px;
+}
+
+/*
+   Font Awesome S3 Bucket URLs
+   Current version: 6.6.0
+   If you are changing the location of these files,
+   see the readme in this directory for more detail on manual steps to take when uploading new files.
+ */
+.extra-links {
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  border: 2px solid #949ca2;
+  padding: 10px;
+  background: #c6cacd;
+  position: fixed;
+  bottom: 27px;
+  /* just above small footer */
+  left: 0;
+  opacity: 0.98;
+  color: #000;
+  /* don't take over the whole window */
+  max-height: 50%;
+  /* only display scrollbars when needed */
+  overflow: auto;
+  /* admin box appears in front of the rest of the level */
+  z-index: 1000;
+}
+.extra-links h4 {
+  font-size: 14px;
+  font-family: "Geist", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", "Noto Sans Math", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 0 5px 0;
+}
+
+/*
+   Font Awesome S3 Bucket URLs
+   Current version: 6.6.0
+   If you are changing the location of these files,
+   see the readme in this directory for more detail on manual steps to take when uploading new files.
+ */
+#terms-modal,
+#school-info-modal,
+#race-modal {
+  text-align: left;
+  top: -10px;
+}
+
+#terms-modal .modal-content,
+#school-info-modal .modal-content,
+#race-modal .modal-content,
+#student-information-modal .modal-content {
+  margin: 0 20px;
+  padding: 0 35px;
+}
+
+#terms-modal .modal-content p,
+#school-info-modal .modal-content p,
+#race-modal .modal-content p,
+#student-information-modal .modal-content p {
+  font-size: 12px;
+  color: #333;
+}
+
+#race-modal .modal-content .custom-h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.7em;
+}
+
+#race-modal .modal-content p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#terms-modal .left,
+#school-info-modal .left,
+#race-modal .left {
+  float: left;
+}
+
+#terms-modal .right {
+  float: right;
+}
+
+#school-info-modal .right,
+#race-modal .right {
+  float: right;
+  margin-top: 20px;
+}
+
+#school-info-modal .full-width {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#race-modal .full-width {
+  width: 100%;
+}
+
+#terms-modal .scroll-box {
+  height: 350px;
+  border: 1px solid #bbb;
+  padding: 20px;
+  resize: vertical;
+  overflow: auto;
+  overflow-y: scroll;
+}
+
+#terms-modal label.terms {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#terms-modal .terms-text {
+  overflow: hidden;
+}
+
+#race-modal .form-group {
+  margin-bottom: 0;
+}
+
+#terms-modal .terms-checkbox {
+  margin: 0 5px 0 0;
+  float: left;
+}
+
+#race-modal .race-checkbox {
+  margin: 0 5px 0 0;
+}
+
+#terms-modal .primary-button,
+#school-info-modal .primary-button,
+#race-modal .primary-button,
+#student-information-modal .primary-button {
+  background-color: #ffa400;
+  border: 1px solid #ffa400;
+  color: #fff;
+  border-radius: 4px;
+  height: 34px;
+  text-shadow: none;
+  box-shadow: none;
+  background-image: none;
+  margin-top: 10px;
+}
+
+#race-modal .primary-button,
+#student-information-modal .primary-button {
+  background-color: #8C52BA;
+  border-color: #8C52BA;
+  color: #FFFFFF;
+  font-family: "Geist", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", "Noto Sans Math", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#terms-modal .disabled-button {
+  background-color: #c6cacd;
+  border-color: #c6cacd;
+  color: #4d575f;
+}
+
+#race-modal .disabled-button {
+  color: #FFFFFF;
+  border-color: #D1D4D8;
+  background-color: #D1D4D8;
+  cursor: not-allowed;
+}
+
+#terms-modal .custom-h1,
+#race-modal .custom-h1 {
+  margin-top: 25px;
+}
+
+#race-modal h3 {
+  line-height: 24px;
+}
+
+#terms-modal .right-margin-5,
+#race-modal .right-margin-5 {
+  margin-right: 5px;
+}
+
+#race-modal .dismiss-link {
+  font-size: 14px;
+  font-family: "Geist", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", "Noto Sans Math", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+}
+
+#school-info-modal .disabled,
+#race-modal .disabled {
+  color: #949ca2;
+}
+
+#school-info-modal .selectize-control .selectize-input.disabled {
+  opacity: 1;
+  background-color: #eee;
+}
+
+@media (max-width: 600px) {
+  #terms-modal,
+#race-modal,
+#school-info-modal {
+    width: 400px;
+    left: 70%;
+  }
+
+  #terms-modal .scroll-box {
+    height: 200px;
+  }
+}
+#implicit-terms-modal {
+  width: 600px;
+  text-align: left;
+  top: 20px;
+  padding: 20px;
+}
+#implicit-terms-modal #implicit_accept_terms_message {
+  font-size: 14px;
+  color: #333;
+  margin-left: 0;
+}
+#implicit-terms-modal #close_btn_go_to_account {
+  font-family: "Geist", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", "Noto Sans Math", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #ffa400;
+  border: 1px solid #ffa400;
+  color: #fff;
+  margin: 25px 0 0 0;
+  padding: 10px 25px;
+}
+
+#student-information-modal {
+  max-height: none;
+}
+
+#student-information-modal select {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+#student-information-modal #edit_user .form-group {
+  margin-bottom: 10px;
+}
+
+#student-information-modal #user_gender_student_input {
+  width: 96%;
+}
+
+#student-information-modal #information_form_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#student-information-modal .modal-dialog {
+  width: 490px;
+}
+
+#student-information-modal .header-divider {
+  margin: 15px 0;
+  border-color: #c6cacd;
+}
+
+#student-information-modal .label-title {
+  font-weight: bold;
+}
+
+#student-information-modal .dismiss-button {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: #D1D4D8;
+  font-size: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+}
+#student-information-modal .dismiss-button:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#student-information-modal .dismiss-button:active {
+  border: none;
+}
+
+#student-information-modal #sign-out-btn {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  text-decoration: none;
+  line-height: 1.5rem;
+  height: auto;
+}
+
+#student-information-modal .required-message {
+  font-size: 12px;
+}
+
+li.level_name {
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.ani-gif-dropdown {
+  min-width: 450px;
+}
+
+.video-dropdown {
+  min-width: 450px;
+}
+
+.aspect-ratio iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.aspect-ratio {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  position: relative;
+  min-width: 280px;
+}
+
+.aspect-ratio::after {
+  padding-top: 120.25%;
+  display: block;
+  content: "";
+}
+
+[data-markdown] [style*="float: left"] {
+  float: inline-start !important;
+}
+[data-markdown] [style*="float: right"] {
+  float: inline-end !important;
+}
+[dir=rtl] [data-markdown] [style*="float: left"] {
+  float: right !important;
+}
+[dir=rtl] [data-markdown] [style*="float: right"] {
+  float: left !important;
+}
+
+body {
+  background-color: var(--background-neutral-primary, #fff);
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+p, ol, ul, td {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #e7e8ea;
+  padding: 10px;
+  font-size: 11px;
+}
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+#notice {
+  color: #008000;
+}
+
+.field_with_errors label {
+  color: #c00;
+  display: inline-block;
+}
+
+.field_with_errors input, .field_with_errors select {
+  background-color: #ff0;
+  border-color: #c00;
+}
+
+.field_with_errors_div {
+  background-color: #ff0;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid #c00;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 0 0 0 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+  padding: 5px 0;
+}
+
+/*
+   Font Awesome S3 Bucket URLs
+   Current version: 6.6.0
+   If you are changing the location of these files,
+   see the readme in this directory for more detail on manual steps to take when uploading new files.
+ */
+.teacher-panel {
+  position: fixed;
+  top: 85px;
+  bottom: 20px;
+  right: 0;
+  width: 205px;
+  transition: right 0.5s;
+  background: #d9eff7;
+  opacity: 0.9;
+  border: 5px solid #0094ca;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  /* Must appear in front of <Overlay/>, whose z-index is 1020. */
+  z-index: 1021;
+}
+.teacher-panel .hide-handle,
+.teacher-panel .show-handle {
+  cursor: pointer;
+  transition: right 0.5s;
+  position: absolute;
+  right: 200px;
+  top: 50%;
+  border-radius: 10px 0 0 10px;
+  color: #fff;
+  background: #0094ca;
+  height: 30px;
+  width: 25px;
+}
+.teacher-panel .hide-handle i,
+.teacher-panel .show-handle i {
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+.teacher-panel .hide-handle {
+  display: block;
+}
+.teacher-panel .show-handle {
+  display: none;
+}
+.teacher-panel h3 {
+  padding: 5px;
+  font-size: 18px;
+  font-family: "Geist", "Noto Sans", "Noto Sans Arabic", "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans Devanagari", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans JP", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans KR", "Noto Sans Myanmar", "Noto Sans Sinhala", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", "Noto Sans Thaana", "Noto Sans Math", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  background: #0094ca;
+  margin: 0;
+}
+.teacher-panel.hidden {
+  right: -195px;
+}
+.teacher-panel.hidden .hide-handle {
+  right: 200px;
+  display: none;
+}
+.teacher-panel.hidden .show-handle {
+  right: 200px;
+  display: block;
+}
+.teacher-panel select {
+  width: 190px;
+  display: block;
+  margin: 5px;
+}
+
+.sparkle {
+  position: absolute;
+  animation: loop 5s infinite linear;
+}
+
+.sparkle1 {
+  left: 251px;
+  top: 66px;
+  width: 20px;
+}
+
+.sparkle2 {
+  left: 281px;
+  top: 8px;
+  width: 30px;
+  animation-delay: 500ms;
+}
+
+.sparkle3 {
+  left: 286px;
+  top: 91px;
+  width: 25px;
+  animation-delay: 1000ms;
+}
+
+@keyframes loop {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    transform: rotate(200deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+.unplugged {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+.unplugged .video-section {
+  margin-top: 12px;
+}
+.unplugged .video-section .video-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.unplugged .pdf-button {
+  margin-right: 10px;
+}
+.unplugged .lesson-plan {
+  margin-top: 40px;
+}
+.unplugged .lesson-plan .pdf-button {
+  margin-right: 0;
+  margin-top: 5px;
+}
+.unplugged .coming-soon {
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.unplugged .video-download {
+  margin-bottom: 3px;
+}
+
+#linking-page-header {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#linking-page-description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#oauth-side {
+  flex-grow: 0;
+  margin-left: auto;
+}
+
+#oauth-side-restricted {
+  flex-grow: 0;
+  margin: auto;
+}
+
+button.oauth-sign-in.with-clever.restricted {
+  width: 270px;
+}
+
+#email-side {
+  margin-right: auto;
+}
+
+#signin-connect-button {
+  background: #8c52ba;
+  color: #fff;
+}
+
+#flash-messages {
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.call-to-action-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.go-back-link {
+  display: block;
+}
+
+.oauth-sign-in {
+  padding-right: 20px;
+}
+
+#sign-up-warning-banner.alert {
+  color: unset;
+  padding: 1rem 2rem;
+}
+#sign-up-warning-banner.alert p {
+  margin: 0;
+}
+#sign-up-warning-banner.alert p:not(:last-child) {
+  margin-bottom: 1rem;
+}
