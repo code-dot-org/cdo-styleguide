@@ -1,0 +1,66 @@
+.contract select {
+  color: #fff;
+  background-color: #949ca2;
+  margin-top: 10px;
+}
+
+#functionNameText {
+  margin-top: 10px;
+}
+
+.domainItem {
+  height: 36px;
+  color: #fff;
+  border-radius: 5px;
+  float: left;
+  margin-right: 5px;
+}
+
+#domainItemText {
+  margin-top: 10px;
+}
+
+.domainItem .domainItemText {
+  font-size: 16px;
+  padding: 10px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.contract .buttons {
+  margin-top: 8px;
+}
+
+#sectionTitle {
+  font-size: 20px;
+  margin-top: 11px;
+}
+
+#contractForm {
+  margin-bottom: 20px;
+}
+#contractForm .ui-selectmenu-button {
+  margin-top: 13px;
+  margin-bottom: -13px;
+}
+#contractForm .domain-add-button {
+  margin-left: 0;
+  margin-top: 13px;
+}
+#contractForm .domain-x-button {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.color-square-icon {
+  float: left;
+  width: 21px;
+  height: 19px;
+  margin-right: 7px;
+}
+
+.section-type-hint {
+  font-size: 12px;
+  color: #949ca2;
+  margin-top: 3px;
+}
