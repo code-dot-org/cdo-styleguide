@@ -924,6 +924,13 @@ html[dir=rtl] #puzzleRatingButtons p {
   padding: 0 5px;
   cursor: pointer;
   display: inline-block;
+  vertical-align: middle;
+  background: none;
+  border: none;
+  appearance: none;
+}
+#puzzleRatingButtons .puzzle-rating-btn:hover {
+  box-shadow: none;
 }
 #puzzleRatingButtons .puzzle-rating-btn#like:hover {
   fill: #333;
