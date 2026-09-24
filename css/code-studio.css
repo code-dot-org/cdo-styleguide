@@ -11979,6 +11979,9 @@ html[dir=rtl] .project_info .project_name_wrapper {
   padding-left: 5px;
   padding-right: 5px;
 }
+.project_info .project_name_wrapper.header_text {
+  overflow: visible;
+}
 .project_info .project_name_wrapper .header_text {
   float: left;
   clear: left;
