@@ -10845,6 +10845,11 @@ body {
   font-style: normal;
 }
 
+#main_content {
+  margin-right: var(--ta-drawer-width, 0px);
+  transition: margin-right var(--ta-drawer-transition, 0s);
+}
+
 body.pin_bottom {
   position: fixed;
   top: 0;
@@ -12215,7 +12220,7 @@ body.iframe_embed_app_and_code #codeApp {
   position: absolute;
   top: 60px;
   left: 10px;
-  right: 10px;
+  right: calc(10px + var(--ta-drawer-width, 0px));
   bottom: 10px;
 }
 #codeApp.pin_bottom.centered_embed {

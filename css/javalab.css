@@ -121,7 +121,7 @@ div#visualizationResizeBar {
 
 #codeApp.pin_bottom {
   left: 10px;
-  right: 10px;
+  right: calc(10px + var(--ta-drawer-width, 0px));
 }
 
 html[dir=RTL] #visualization.responsive > * {
