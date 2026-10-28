@@ -13983,22 +13983,15 @@ h5.dialog-title {
   font-size: 20px;
 }
 
-#ok-button {
+#ok-button:not(.MuiButton-root) {
   background-color: #ffa400;
   border: 1px solid #ffa400;
   color: #fff;
   min-width: 100px;
 }
 
-#again-button, #cancel-button {
+#cancel-button {
   background-color: #b9bf15;
-  color: #fff;
-  margin-left: 0;
-  margin-right: 10px;
-}
-
-#continue-button {
-  background-color: #ffa400;
   color: #fff;
   margin-left: 0;
   margin-right: 10px;
@@ -14181,27 +14174,6 @@ button {
   font-size: large;
   background-color: #e7e8ea;
   color: #000;
-}
-
-button.launch {
-  border: 1px solid #ffa400;
-  background-color: #ffa400;
-  color: #fff;
-  font-size: large;
-  min-width: 96px;
-  margin-left: 0;
-  margin-right: 10px;
-  /* Can't use "text-align: start" due to IE. */
-  text-align: left;
-}
-
-html[dir=RTL] button.launch {
-  text-align: right;
-}
-
-button.launch > img {
-  opacity: 1;
-  vertical-align: text-bottom;
 }
 
 button > img {

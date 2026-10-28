@@ -1318,25 +1318,6 @@ html[dir=rtl] .generated-code-container .generatedCodeMessage {
   height: 44px;
 }
 
-#again-button:not(.arrow-container) {
-  background-color: #b9bf15;
-  border: 1px solid #b9bf15;
-  color: white;
-  margin-left: 0;
-  margin-right: 10px;
-  text-align: center;
-}
-
-#continue-button:not(.arrow-container),
-#confirm-button:not(.arrow-container) {
-  background-color: #ffa400;
-  border: 1px solid #ffa400;
-  color: white;
-  margin-left: 0;
-  margin-right: 10px;
-  text-align: center;
-}
-
 .hide {
   display: none;
 }
