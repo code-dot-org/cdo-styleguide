@@ -12712,7 +12712,7 @@ html.nav-reskin .signin-legacy .primary-button:focus-visible,
 html.nav-reskin .signin-legacy .secondary-button:focus-visible,
 html.nav-reskin #change-password .primary-button:focus-visible,
 html.nav-reskin #change-password .secondary-button:focus-visible {
-  outline: 2px solid var(--borders-brand-teal-primary);
+  outline: 2px solid var(--border-focused-primary);
   outline-offset: 2px;
 }
 .signin-legacy .neutral-button,
@@ -15023,7 +15023,7 @@ a.design-system-btn:link:disabled, a.design-system-btn:visited:disabled, a.desig
   overflow: auto;
 }
 .cm-scroller:focus-visible {
-  outline: var(--borders-brand-teal-primary) solid 2px;
+  outline: var(--border-focused-primary) solid 2px;
   outline-offset: -2px;
   border-radius: 0.375rem;
 }
